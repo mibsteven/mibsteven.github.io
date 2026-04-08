@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support | Yu-Hsiang Chang</title>
+    <style>
+        :root {
+            color-scheme: light;
+            --bg: #f4efe8;
+            --surface: rgba(255, 252, 247, 0.9);
+            --text: #1f2520;
+            --muted: #5d685f;
+            --accent: #1f6b52;
+            --border: rgba(31, 37, 32, 0.12);
+        }
+
+        * { box-sizing: border-box; }
+
+        body {
+            margin: 0;
+            font-family: Georgia, "Times New Roman", serif;
+            color: var(--text);
+            background: radial-gradient(circle at top, rgba(31, 107, 82, 0.12), transparent 35%), linear-gradient(180deg, #f7f2ea 0%, var(--bg) 100%);
+            line-height: 1.7;
+        }
+
+        .container { max-width: 820px; margin: 0 auto; padding: 32px 20px 64px; }
+        nav { margin-bottom: 24px; }
+        nav a { color: var(--accent); text-decoration: none; margin-right: 16px; font-weight: 600; }
+        .card { background: var(--surface); border: 1px solid var(--border); border-radius: 20px; padding: 28px; }
+        p, li { color: var(--muted); }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="privacy.html">Privacy</a>
+            <a href="terms.html">Terms</a>
+        </nav>
+
+        <main class="card">
+            <h1>Support</h1>
+            <p>If you need help with an app published by Yu-Hsiang Chang, please send a message with the app name, device model, OS version, and a short description of the issue.</p>
+
+            <h2>Supported Apps</h2>
+            <ul>
+                <li><a href="apps/english-savior.html">英語救星</a></li>
+                <li><a href="apps/taipei-veggie-price.html">台北菜價</a></li>
+                <li><a href="apps/shiji.html">師記</a></li>
+                <li><a href="apps/melody-journal.html">Melody Journal</a></li>
+            </ul>
+
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:mibsteven.chang@gmail.com">mibsteven.chang@gmail.com</a></p>
+
+            <h2>Recommended Details</h2>
+            <ul>
+                <li>App name and version</li>
+                <li>iPhone, iPad, or Apple Vision Pro model</li>
+                <li>iOS, iPadOS, or visionOS version</li>
+                <li>Steps to reproduce the issue</li>
+                <li>Screenshots if relevant</li>
+            </ul>
+
+            <h2>How To Add A New App Later</h2>
+            <ul>
+                <li>Create a new page in the `apps/` folder</li>
+                <li>Add a new card on the homepage linking to that page</li>
+                <li>Add the app to this support list</li>
+                <li>Only create a separate privacy page if the new app has different data practices</li>
+            </ul>
+        </main>
+    </div>
+</body>
+</html>
