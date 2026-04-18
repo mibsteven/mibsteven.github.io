@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sticker Vault | Yu-Hsiang Chang</title>
+    <style>
+        :root {
+            color-scheme: light;
+            --bg: #f4efe8;
+            --surface: rgba(255, 252, 247, 0.9);
+            --text: #1f2520;
+            --muted: #5d685f;
+            --accent: #1f6b52;
+            --border: rgba(31, 37, 32, 0.12);
+        }
+        * { box-sizing: border-box; }
+        body {
+            margin: 0;
+            font-family: Georgia, "Times New Roman", serif;
+            color: var(--text);
+            background: radial-gradient(circle at top, rgba(31, 107, 82, 0.12), transparent 35%), linear-gradient(180deg, #f7f2ea 0%, var(--bg) 100%);
+            line-height: 1.7;
+        }
+        .container { max-width: 820px; margin: 0 auto; padding: 32px 20px 64px; }
+        nav { margin-bottom: 24px; }
+        nav a { color: var(--accent); text-decoration: none; margin-right: 16px; font-weight: 600; }
+        .card { background: var(--surface); border: 1px solid var(--border); border-radius: 20px; padding: 28px; }
+        .platform { display: inline-block; margin-bottom: 12px; padding: 6px 10px; border-radius: 999px; background: rgba(31, 107, 82, 0.08); color: var(--accent); font-size: 0.88rem; }
+        .actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 18px; }
+        .button { display: inline-block; padding: 12px 18px; border-radius: 999px; text-decoration: none; border: 1px solid var(--border); }
+        p, li { color: var(--muted); }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <a href="../index.html">Home</a>
+            <a href="../support.html">Support</a>
+            <a href="sticker-vault-privacy.html">Privacy</a>
+            <a href="sticker-vault-terms.html">Terms</a>
+        </nav>
+        <main class="card">
+            <span class="platform">iOS</span>
+            <h1>Sticker Vault</h1>
+            <p>Turn your photos into your personal sticker collection instantly. Sticker Vault helps iPhone users create, organize, and send custom stickers directly inside iMessage without digging through a cluttered photo library.</p>
+
+            <h2>Key Features</h2>
+            <ul>
+                <li>Instant background removal using on-device intelligence to isolate subjects from your photos in a single tap</li>
+                <li>Smart tagging and organization so your stickers stay sorted by categories like Family, Work, Memes, or Inside Jokes</li>
+                <li>Native iMessage integration that lets you find and send stickers directly from the iMessage app drawer</li>
+                <li>Quality-focused processing that automatically resizes and compresses stickers for iMessage while preserving visual clarity</li>
+                <li>Privacy-first design with local processing and no cloud storage of your images</li>
+            </ul>
+
+            <h2>How It Works</h2>
+            <ol>
+                <li>Import photos from your library.</li>
+                <li>Process each image with automatic background removal and sticker optimization.</li>
+                <li>Organize your stickers with custom tags for faster access.</li>
+                <li>Open iMessage and send the right sticker with a single tap.</li>
+            </ol>
+
+            <h2>Why Sticker Vault</h2>
+            <p>Sticker Vault is built for users who want a fast, native-style sticker workflow without clutter, social layers, or unnecessary subscriptions. It focuses on doing one job well: keeping your personal sticker collection ready whenever a conversation needs it.</p>
+
+            <div class="actions">
+                <a class="button" href="sticker-vault-privacy.html">Privacy Policy</a>
+                <a class="button" href="sticker-vault-terms.html">Terms of Use</a>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
