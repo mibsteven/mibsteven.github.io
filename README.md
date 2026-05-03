@@ -48,6 +48,7 @@ Then the site URL will look like:
 
 ## Current Notes
 
+- 向量財管 / VectraFin has an app page describing its local-first personal finance model.
 - 英語救星, 師記, and Melody Journal do not collect personal data.
 - 台北菜價 uses Google advertising services.
 - 注音故事 has an app page and is available on the App Store.
