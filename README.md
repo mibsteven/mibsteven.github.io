@@ -53,4 +53,5 @@ Then the site URL will look like:
 - 師記 and Melody Journal do not collect personal data.
 - 台北菜價 uses Google advertising services.
 - 注音故事 has an app page and is available on the App Store.
+- Notelyra has an app page and is available on the App Store.
 - Shared legal pages are acceptable as long as app behavior remains mostly consistent.
