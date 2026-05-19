@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DioramaTownBuilder | Yu-Hsiang Chang</title>
+    <meta name="description" content="DioramaTownBuilder is a procedural street-scene generator for creating repeatable, adjustable, exportable 3D town dioramas on macOS and visionOS.">
+    <link rel="stylesheet" href="../assets/site.css">
+</head>
+<body>
+    <div class="site-shell" data-title-zh="DioramaTownBuilder | Yu-Hsiang Chang" data-title-en="DioramaTownBuilder | Yu-Hsiang Chang">
+        <header class="site-header">
+            <a class="brand" href="../index.html" aria-label="Yu-Hsiang Chang home">
+                <span class="brand-name">Yu-Hsiang Chang</span>
+                <span class="brand-role" data-i18n="brandRole">獨立 App 開發者</span>
+            </a>
+            <div class="nav-area">
+                <nav class="nav" aria-label="Primary navigation">
+                    <a href="../index.html#apps" data-i18n="navApps">作品</a>
+                    <a href="../support.html" data-i18n="navSupport">支援</a>
+                    <a href="../privacy.html" data-i18n="navPrivacy">隱私權</a>
+                    <a href="../terms.html" data-i18n="navTerms">條款</a>
+                </nav>
+                <div class="lang-toggle" aria-label="Language selector">
+                    <button type="button" data-lang="zh" aria-pressed="true">繁中</button>
+                    <button type="button" data-lang="en" aria-pressed="false">EN</button>
+                </div>
+            </div>
+        </header>
+        <main class="content-wrap">
+            <section class="panel content-card" data-lang-panel="zh">
+                <span class="eyebrow">macOS / visionOS</span>
+                <h1 class="page-title">DioramaTownBuilder</h1>
+                <p>DioramaTownBuilder 是一款為 Apple 平台設計的程序化街景生成工具，用來快速建立可重複、可調整、可匯出的立體小鎮場景。</p>
+                <p>它的目標不是取代完整 3D 建模流程，而是讓創作者、開發者與空間內容設計者能在短時間內產生大量合理但帶有隨機性的街道、房屋與小型城鎮外觀，作為 App、遊戲、原型設計或 spatial experience 的場景素材起點。</p>
+
+                <h2>可預測的隨機街景</h2>
+                <p>使用者可以透過 seed 與一組直覺參數控制場景規模、道路數量、道路寬度、房屋密度、樓高範圍、建築分布、材質風格與細節層級。相同參數與 seed 會產生相同結果，方便反覆調整、保存與重建。</p>
+
+                <h2>macOS 與 visionOS</h2>
+                <p>macOS 版本作為主要生成與匯出工作區，適合調整參數、檢視診斷資訊、建立 package 與輸出 OpenUSD / USDZ。visionOS 版本則提供快速匯入與空間預覽，讓使用者能在 Apple Vision Pro 上以獨立空間物件方式查看生成結果，並直接移動、縮放與旋轉場景。</p>
+
+                <h2>主要功能</h2>
+                <ul>
+                    <li>程序化生成街道、建築、門窗、屋頂、人行道與街道物件</li>
+                    <li>支援 seed，可重複生成相同場景</li>
+                    <li>可調整場景尺寸、道路配置、房屋密度、樓高、分布離散程度與材質風格</li>
+                    <li>macOS 3D 預覽支援旋轉、縮放與俯瞰檢視</li>
+                    <li>visionOS 支援空間預覽與手勢操作</li>
+                    <li>支援 App 專屬 package、OpenUSD 與 USDZ 匯出</li>
+                    <li>支援 package 匯入與 share extension 工作流程</li>
+                    <li>內建效能與生成摘要資訊，方便依裝置能力調整細節</li>
+                </ul>
+
+                <h2>設計理念</h2>
+                <p>DioramaTownBuilder 的核心價值是「快速、合理、不可預測」。它使用簡化的統計分布與 heatmap 概念，讓建築傾向靠近道路與交通便利區域，同時仍保留低機率的離散分布，使場景看起來不像單純貼齊道路的規則排列。</p>
+                <p>這讓生成結果能在城市街區與鄉村聚落之間取得平衡：有秩序，但不僵硬；可控，但不死板。</p>
+
+                <h2>適合用途</h2>
+                <ul>
+                    <li>visionOS / macOS App 場景原型</li>
+                    <li>遊戲或互動體驗的低多邊形街景素材</li>
+                    <li>空間介面與 diorama-style 場景測試</li>
+                    <li>OpenUSD / USDZ workflow 的快速資產草稿</li>
+                    <li>教學、展示、概念設計與創作實驗</li>
+                </ul>
+
+                <h2>Diorama 系列基礎</h2>
+                <p>DioramaTownBuilder 也是未來 Diorama 系列工具的基礎之一。其核心生成與匯出能力已整理為可重用的 DioramaTownCore，讓後續工具能在相同的資料結構與 OpenUSD workflow 上繼續擴展。</p>
+
+                <div class="actions">
+                    <a class="button primary" href="../privacy.html">隱私權政策</a>
+                    <a class="button" href="../terms.html">使用條款</a>
+                    <a class="button" href="../support.html">支援</a>
+                </div>
+            </section>
+            <section class="panel content-card" data-lang-panel="en">
+                <span class="eyebrow">macOS / visionOS</span>
+                <h1 class="page-title">DioramaTownBuilder</h1>
+                <p>DioramaTownBuilder is a procedural street-scene generator for Apple platforms, designed to quickly create repeatable, adjustable, exportable 3D town dioramas.</p>
+                <p>It is not meant to replace a full 3D modeling workflow. Instead, it helps creators, developers, and spatial content designers produce many plausible but randomized streets, houses, and small-town scenes as starting points for apps, games, prototypes, and spatial experiences.</p>
+
+                <h2>Predictable Randomness</h2>
+                <p>Users can control scene scale, road count, road width, building density, height range, building distribution, material style, and detail level through a seed and a set of direct parameters. The same parameters and seed produce the same result, making scenes easy to adjust, save, and rebuild.</p>
+
+                <h2>macOS and visionOS</h2>
+                <p>The macOS app is the main generation and export workspace for adjusting parameters, reviewing diagnostics, creating packages, and exporting OpenUSD or USDZ. The visionOS app provides fast import and spatial preview, letting users inspect generated scenes as independent spatial objects on Apple Vision Pro, then move, scale, and rotate them directly.</p>
+
+                <h2>Key Features</h2>
+                <ul>
+                    <li>Procedural generation of streets, buildings, doors, windows, roofs, sidewalks, and street objects</li>
+                    <li>Seed support for repeatable scene generation</li>
+                    <li>Adjustable scene size, road layout, building density, height range, distribution looseness, and material style</li>
+                    <li>macOS 3D preview with rotation, zoom, and top-down review</li>
+                    <li>visionOS spatial preview and gesture interaction</li>
+                    <li>Export support for app packages, OpenUSD, and USDZ</li>
+                    <li>Package import and share extension workflows</li>
+                    <li>Built-in performance and generation summaries for tuning detail by device capability</li>
+                </ul>
+
+                <h2>Design Philosophy</h2>
+                <p>The core value of DioramaTownBuilder is speed, plausibility, and unpredictability. It uses simplified statistical distribution and heatmap concepts so buildings tend to appear near roads and accessible areas, while still allowing low-probability scattered placement.</p>
+                <p>This helps generated scenes balance city blocks and rural settlements: ordered but not rigid, controllable but not lifeless.</p>
+
+                <h2>Useful For</h2>
+                <ul>
+                    <li>visionOS and macOS scene prototypes</li>
+                    <li>Low-poly street-scene assets for games or interactive experiences</li>
+                    <li>Spatial interface and diorama-style scene testing</li>
+                    <li>Fast asset drafts for OpenUSD and USDZ workflows</li>
+                    <li>Teaching, demos, concept design, and creative experiments</li>
+                </ul>
+
+                <h2>Foundation for Diorama Tools</h2>
+                <p>DioramaTownBuilder is also one foundation for future tools in the Diorama series. Its core generation and export capability has been organized as reusable DioramaTownCore, allowing later tools to build on the same data structures and OpenUSD workflow.</p>
+
+                <div class="actions">
+                    <a class="button primary" href="../privacy.html">Privacy Policy</a>
+                    <a class="button" href="../terms.html">Terms of Use</a>
+                    <a class="button" href="../support.html">Support</a>
+                </div>
+            </section>
+        </main>
+        <footer class="site-footer">
+            <p data-i18n="footerText">本站採用首頁加各 App 詳細頁的結構，未來新增作品時能保持清楚、穩定且容易維護。</p>
+            <div class="legal-links">
+                <a href="../privacy.html" data-i18n="privacyPolicy">隱私權政策</a>
+                <a href="../terms.html" data-i18n="termsUse">使用條款</a>
+                <a href="../support.html" data-i18n="support">支援</a>
+                <a href="../app-ads.txt">app-ads.txt</a>
+            </div>
+        </footer>
+    </div>
+    <script src="../assets/site.js"></script>
+</body>
+</html>
