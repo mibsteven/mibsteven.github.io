@@ -55,3 +55,4 @@ Then the site URL will look like:
 - 注音故事 has an app page and is available on the App Store.
 - Notelyra has an app page and is available on the App Store.
 - Shared legal pages are acceptable as long as app behavior remains mostly consistent.
+- Taiwan Animals has an app page for its iOS, iPadOS, and visionOS nature learning experience.
