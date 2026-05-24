@@ -241,8 +241,10 @@ h1 {
     border-radius: 18px;
     box-shadow: 0 16px 30px rgba(35, 38, 40, 0.16);
 }
-.benefits { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 18px; }
-.benefits span {
+.benefits,
+.category-tags { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 18px; }
+.benefits span,
+.category-tags span {
     padding: 6px 9px;
     border: 1px solid rgba(22, 23, 23, 0.1);
     border-radius: 8px;
@@ -250,6 +252,20 @@ h1 {
     font-size: 0.82rem;
     background: rgba(255, 255, 255, 0.7);
 }
+
+.product-lines { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 14px; }
+.line-card { min-height: 265px; padding: 24px; }
+.line-kicker {
+    display: block;
+    margin-bottom: 12px;
+    color: var(--copper-dark);
+    font-size: 0.78rem;
+    font-weight: 780;
+    letter-spacing: 0;
+    text-transform: uppercase;
+}
+.line-card h3 { margin: 0 0 12px; font-size: 1.25rem; }
+.line-card p { margin: 0; color: var(--muted); line-height: 1.65; }
 
 .apps { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 14px; }
 .app-card { display: flex; min-height: 250px; padding: 22px; flex-direction: column; }
@@ -382,6 +398,7 @@ h1 {
     .proof-grid,
     .journey-grid,
     .audience-grid { grid-template-columns: 1fr; }
+    .product-lines { grid-template-columns: 1fr 1fr; }
     .featured-grid { grid-template-columns: 1fr 1fr; }
     .cta-band { align-items: flex-start; flex-direction: column; }
     h1 { font-size: 3rem; }
@@ -392,8 +409,9 @@ h1 {
     .site-shell { width: min(100% - 28px, 1120px); padding-top: 16px; }
     .nav { width: 100%; }
     .nav a { flex: 1 1 calc(50% - 6px); text-align: center; }
-    .hero-copy, .hero-side, .app-card, .featured-card, .content-card { padding: 22px; }
+    .hero-copy, .hero-side, .app-card, .featured-card, .content-card, .line-card { padding: 22px; }
     .featured-grid { grid-template-columns: 1fr; }
+    .product-lines { grid-template-columns: 1fr; }
     h1, .page-title { font-size: 2.35rem; }
     .metric-grid { grid-template-columns: 1fr; }
 }
