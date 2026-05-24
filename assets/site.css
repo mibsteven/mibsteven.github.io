@@ -246,6 +246,12 @@ h1 {
     font-weight: 760;
 }
 
+.audience-routes { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 14px; }
+.audience-route { display: flex; min-height: 355px; padding: 24px; flex-direction: column; }
+.audience-route h3 { margin: 0 0 12px; font-size: 1.25rem; }
+.audience-route p { margin: 0; color: var(--muted); line-height: 1.65; }
+.audience-route .app-links { padding-top: 18px; }
+
 .featured-grid { display: grid; grid-template-columns: minmax(0, 1.18fr) repeat(3, minmax(0, 0.94fr)); gap: 14px; }
 .featured-card { display: flex; min-height: 315px; padding: 24px; flex-direction: column; }
 .featured-card.spotlight {
@@ -422,6 +428,7 @@ h1 {
     .journey-grid,
     .audience-grid { grid-template-columns: 1fr; }
     .product-lines { grid-template-columns: 1fr 1fr; }
+    .audience-routes,
     .updates-grid,
     .featured-grid { grid-template-columns: 1fr 1fr; }
     .cta-band { align-items: flex-start; flex-direction: column; }
@@ -433,7 +440,8 @@ h1 {
     .site-shell { width: min(100% - 28px, 1120px); padding-top: 16px; }
     .nav { width: 100%; }
     .nav a { flex: 1 1 calc(50% - 6px); text-align: center; }
-    .hero-copy, .hero-side, .app-card, .featured-card, .content-card, .line-card, .update-card { padding: 22px; }
+    .hero-copy, .hero-side, .app-card, .featured-card, .content-card, .line-card, .update-card, .audience-route { padding: 22px; }
+    .audience-routes,
     .updates-grid,
     .featured-grid { grid-template-columns: 1fr; }
     .product-lines { grid-template-columns: 1fr; }
