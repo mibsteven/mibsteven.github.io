@@ -1,23 +1,23 @@
 (function () {
     const dictionary = {
         zh: {
-            brandRole: "獨立 App 開發者",
+            brandRole: "為學習、創作與空間體驗打造的 Apple App",
             navApps: "作品",
             navSupport: "支援",
             navPrivacy: "隱私權",
             navTerms: "條款",
-            footerText: "本站採用首頁加各 App 詳細頁的結構，未來新增作品時能保持清楚、穩定且容易維護。",
+            footerText: "Apps by Yu-Hsiang Chang 為 iPhone、iPad、Mac 與 Apple Vision Pro 打造學習、創作、個人工具與空間體驗 App。",
             privacyPolicy: "隱私權政策",
             termsUse: "使用條款",
             support: "支援"
         },
         en: {
-            brandRole: "Independent App Developer",
+            brandRole: "Thoughtful Apple apps for learning, creativity, and spatial experiences",
             navApps: "Apps",
             navSupport: "Support",
             navPrivacy: "Privacy",
             navTerms: "Terms",
-            footerText: "This site uses a homepage-plus-app-pages structure so future apps can be added cleanly and maintained with minimal edits.",
+            footerText: "Apps by Yu-Hsiang Chang creates Apple apps for learning, creativity, personal tools, and spatial experiences across iPhone, iPad, Mac, and Apple Vision Pro.",
             privacyPolicy: "Privacy Policy",
             termsUse: "Terms of Use",
             support: "Support"
