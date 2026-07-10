@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MansionGenerator | Apps by Yu-Hsiang Chang</title>
+    <meta name="description" content="MansionGenerator is a parametric 3D mansion design tool for generating repeatable concepts, inspecting room plans and routes, and exporting spatial assets on iOS, macOS, and visionOS.">
+    <link rel="canonical" href="https://mibsteven.github.io/apps/mansion-generator.html">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Apps by Yu-Hsiang Chang">
+    <meta property="og:title" content="MansionGenerator | Apps by Yu-Hsiang Chang">
+    <meta property="og:description" content="Generate repeatable 3D mansion concepts, inspect room plans and routes, and carry the design into spatial preview and export workflows.">
+    <meta property="og:url" content="https://mibsteven.github.io/apps/mansion-generator.html">
+    <meta property="og:image" content="https://mibsteven.github.io/assets/social-preview.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="MansionGenerator | Apps by Yu-Hsiang Chang">
+    <meta name="twitter:description" content="A parametric 3D mansion design, inspection, and export tool for Apple platforms.">
+    <meta name="twitter:image" content="https://mibsteven.github.io/assets/social-preview.png">
+    <link rel="stylesheet" href="../assets/site.css?v=20260524-6">
+</head>
+<body>
+    <div class="site-shell" data-title-zh="MansionGenerator | Apps by Yu-Hsiang Chang" data-title-en="MansionGenerator | Apps by Yu-Hsiang Chang">
+        <header class="site-header">
+            <a class="brand" href="../index.html" aria-label="Apps by Yu-Hsiang Chang home">
+                <span class="brand-name">Apps by Yu-Hsiang Chang</span>
+                <span class="brand-role" data-i18n="brandRole">為學習、創作與空間體驗打造的 Apple App</span>
+            </a>
+            <div class="nav-area">
+                <nav class="nav" aria-label="Primary navigation">
+                    <a href="../index.html#apps" data-i18n="navApps">作品</a>
+                    <a href="../support.html" data-i18n="navSupport">支援</a>
+                    <a href="../privacy.html" data-i18n="navPrivacy">隱私權</a>
+                    <a href="../terms.html" data-i18n="navTerms">條款</a>
+                </nav>
+                <div class="lang-toggle" aria-label="Language selector">
+                    <button type="button" data-lang="zh" aria-pressed="true">繁中</button>
+                    <button type="button" data-lang="en" aria-pressed="false">EN</button>
+                </div>
+            </div>
+        </header>
+        <main class="content-wrap">
+            <section class="panel content-card landing-card" data-lang-panel="zh">
+                <div class="app-hero">
+                    <div class="app-hero-copy">
+                        <img class="app-icon" src="../assets/apps/mansion-generator-icon.png" alt="MansionGenerator app icon">
+                        <span class="eyebrow">iPhone / iPad / Mac / Apple Vision Pro · 開發中</span>
+                        <h1 class="page-title">從一組條件，生成一座能繼續檢查與走進去看的豪宅。</h1>
+                        <p class="lead">MansionGenerator 把基地、面積、樓層、廳房衛、風格與 seed 轉成可重現的 3D 豪宅方案，並把平面圖、室內動線、保存比較與資產輸出放進同一個工作流程。</p>
+                        <div class="actions">
+                            <a class="button primary" href="#workflow">了解生成流程</a>
+                            <a class="button" href="../support.html">取得支援</a>
+                        </div>
+                    </div>
+                    <div class="hero-media">
+                        <div class="mini-card">
+                            <span class="line-kicker">Parametric Workflow</span>
+                            <h2>基地 → 量體 → 房間 → 動線 → 資產</h2>
+                            <p>先定義設計條件，再生成可重現的方案。需要修改時，可以回到參數、保存版本或局部套用，而不是從頭重做。</p>
+                            <div class="category-tags">
+                                <span>Seeded Generation</span>
+                                <span>2D Plan</span>
+                                <span>3D Inspection</span>
+                                <span>Immersive Tour</span>
+                                <span>OpenUSD / USDZ</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="quick-points">
+                    <div class="mini-card"><strong>可重現的設計</strong><span>相同參數與 seed 會回到同一個方案，適合比較、微調與保存。</span></div>
+                    <div class="mini-card"><strong>不只看外觀</strong><span>用分層 3D、2D 平面圖與室內路徑檢查房間配置、連通與導覽品質。</span></div>
+                    <div class="mini-card"><strong>從螢幕走進空間</strong><span>在 Mac 整理與輸出，並於 Apple Vision Pro 以模型或真實尺寸檢視方案。</span></div>
+                </div>
+
+                <h2 id="workflow">先描述需求，再讓方案成形</h2>
+                <p>設計從基地寬深、室內面積、庭園比例與樓層開始，再加入車庫數量、廳房衛需求、建築風格、平面形狀、屋頂、入口、採光與隱私比例。MansionGenerator 會先檢查條件是否合理，必要時依可用面積調整房間配置，再生成建築量體、室內空間與連通關係。</p>
+                <p>每次生成都有 seed。保留同一組 seed 與參數，就能再次得到相同設計；改動其中一項，則能觀察基地、房間或外觀如何跟著變化。</p>
+
+                <h2>同時檢查平面、立體與動線</h2>
+                <p>3D 預覽可以分別顯示屋頂、外牆、室內牆、樓板、天花、走廊、家具、照明、門窗與房間標籤，讓外觀與內部結構不必混在一起看。2D 平面圖則能依樓層檢視房間、走廊、牆線、門窗與連通資訊。</p>
+                <p>選定起點後，App 會沿著房間、走廊與樓梯建立室內路徑。品質提示會協助找出房間配置、面積使用與導覽動線中值得回頭調整的地方。</p>
+
+                <div class="journey-grid">
+                    <div class="mini-card"><strong>1. Generate</strong><p>用基地、空間需求、建築語彙與 seed 生成設計。</p></div>
+                    <div class="mini-card"><strong>2. Inspect</strong><p>切換 3D 圖層、查看 2D 平面，並檢查房間與樓層間的路徑。</p></div>
+                    <div class="mini-card"><strong>3. Continue</strong><p>保存方案、比較差異、局部套用參數，或輸出到下一個 3D 工作流程。</p></div>
+                </div>
+
+                <h2>保存、比較與局部套用</h2>
+                <p>喜歡的方案可以保存名稱與註記，依更新時間、名稱、面積或 seed 排序，也能以列表或平面縮圖瀏覽。比較模式會列出保存版本與目前設計的差異；需要延伸舊方案時，可以只套用基地、建築或廳房衛設定，也可以完整還原。</p>
+
+                <h2>Apple 平台各自做擅長的事</h2>
+                <div class="audience-grid">
+                    <div class="mini-card"><strong>iPhone / iPad</strong><span>快速設定條件、生成方案並查看可操作的 3D 預覽。</span></div>
+                    <div class="mini-card"><strong>Mac</strong><span>用較大的工作區檢查房間、平面與品質摘要，管理保存方案並完成檔案輸出。</span></div>
+                    <div class="mini-card"><strong>Apple Vision Pro</strong><span>以可操作的模型檢視整體量體，或用真實尺寸進入室內路徑與空間關係。</span></div>
+                    <div class="mini-card"><strong>3D 工作流程</strong><span>輸出 App 專屬 package、SVG 平面圖、OpenUSD 與 USDZ，延伸到其他空間內容工具。</span></div>
+                </div>
+
+                <h2>適合概念設計與空間原型</h2>
+                <p>MansionGenerator 適合快速探索建築量體、房間組合、室內動線、空間介面與 3D 場景原型。生成結果是創作與概念視覺化素材，不是建築、結構、消防、法規或施工圖說；進入任何專業用途前，仍需要由合格專業人員檢查。</p>
+
+                <div class="cta-band">
+                    <p>MansionGenerator 目前仍在開發中。產品頁會隨跨平台工作流程與發布進度持續更新。</p>
+                    <a class="button primary" href="../index.html#apps">回到全部 App</a>
+                </div>
+            </section>
+
+            <section class="panel content-card landing-card" data-lang-panel="en">
+                <div class="app-hero">
+                    <div class="app-hero-copy">
+                        <img class="app-icon" src="../assets/apps/mansion-generator-icon.png" alt="MansionGenerator app icon">
+                        <span class="eyebrow">iPhone / iPad / Mac / Apple Vision Pro · In development</span>
+                        <h1 class="page-title">Turn a set of constraints into a mansion you can inspect and step inside.</h1>
+                        <p class="lead">MansionGenerator turns a site, area, floors, room program, style, and seed into a repeatable 3D mansion concept, then keeps plan inspection, interior routes, saved comparisons, and asset export in one workflow.</p>
+                        <div class="actions">
+                            <a class="button primary" href="#workflow-en">Explore the workflow</a>
+                            <a class="button" href="../support.html">Get Support</a>
+                        </div>
+                    </div>
+                    <div class="hero-media">
+                        <div class="mini-card">
+                            <span class="line-kicker">Parametric Workflow</span>
+                            <h2>Site → Massing → Rooms → Routes → Assets</h2>
+                            <p>Define the design conditions first, then generate a repeatable result. When the concept changes, return to its parameters, saved versions, or partial presets instead of starting over.</p>
+                            <div class="category-tags">
+                                <span>Seeded Generation</span>
+                                <span>2D Plan</span>
+                                <span>3D Inspection</span>
+                                <span>Immersive Tour</span>
+                                <span>OpenUSD / USDZ</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="quick-points">
+                    <div class="mini-card"><strong>Repeatable concepts</strong><span>The same parameters and seed return to the same design for comparison, refinement, and saving.</span></div>
+                    <div class="mini-card"><strong>Inspect more than the facade</strong><span>Use layered 3D, 2D plans, and interior routing to review rooms, connections, and navigation quality.</span></div>
+                    <div class="mini-card"><strong>Move from screen to space</strong><span>Organize and export on Mac, then review the concept as a model or at full scale on Apple Vision Pro.</span></div>
+                </div>
+
+                <h2 id="workflow-en">Describe the requirements, then shape the concept</h2>
+                <p>A design begins with site width and depth, indoor area, garden ratio, and floor count. It can then include garage capacity, living rooms, bedrooms, bathrooms, architectural style, footprint, roof, entrance, glazing, and privacy. MansionGenerator checks the constraints, adjusts the room program when usable area requires it, and generates the building mass, interior spaces, and their connections.</p>
+                <p>Every generation includes a seed. Keep the same seed and parameters to rebuild the same design, or change one condition to see how the site, rooms, and exterior respond.</p>
+
+                <h2>Inspect plans, volumes, and routes together</h2>
+                <p>The 3D preview can independently show roofs, exterior and interior walls, floors, ceilings, corridors, furniture, lighting, doors, windows, and room labels, making the interior structure easier to read. The 2D plan can review rooms, corridors, walls, openings, and connections one floor at a time.</p>
+                <p>After choosing a starting point, the app builds an interior route through rooms, corridors, and stairs. Quality guidance highlights room layout, area use, and navigation issues that may be worth adjusting.</p>
+
+                <div class="journey-grid">
+                    <div class="mini-card"><strong>1. Generate</strong><p>Use site dimensions, room needs, architectural language, and a seed to create a design.</p></div>
+                    <div class="mini-card"><strong>2. Inspect</strong><p>Toggle 3D layers, read the 2D plan, and review routes between rooms and floors.</p></div>
+                    <div class="mini-card"><strong>3. Continue</strong><p>Save versions, compare differences, apply part of an earlier design, or export into another 3D workflow.</p></div>
+                </div>
+
+                <h2>Save, compare, and apply selected parts</h2>
+                <p>Useful designs can be saved with names and notes, sorted by update time, name, area, or seed, and browsed as a list or plan thumbnails. Comparison mode shows differences between a saved version and the current design. When extending an earlier concept, users can apply only its site, building, or room-program settings, or restore the full design.</p>
+
+                <h2>Let each Apple platform do what it does best</h2>
+                <div class="audience-grid">
+                    <div class="mini-card"><strong>iPhone / iPad</strong><span>Set conditions, generate concepts, and review an interactive 3D preview.</span></div>
+                    <div class="mini-card"><strong>Mac</strong><span>Use a larger workspace to inspect rooms, plans, and quality summaries, manage saved designs, and export files.</span></div>
+                    <div class="mini-card"><strong>Apple Vision Pro</strong><span>Manipulate the complete model as a diorama or enter a full-scale view of interior routes and spatial relationships.</span></div>
+                    <div class="mini-card"><strong>3D workflows</strong><span>Export an app-specific package, SVG plans, OpenUSD, and USDZ for use in other spatial content tools.</span></div>
+                </div>
+
+                <h2>For concept design and spatial prototyping</h2>
+                <p>MansionGenerator is intended for exploring building massing, room combinations, interior routes, spatial interfaces, and 3D scene prototypes. Generated results are creative and concept-visualization materials, not architectural, structural, fire-safety, code-compliance, or construction documents. Qualified professionals must review any professional use.</p>
+
+                <div class="cta-band">
+                    <p>MansionGenerator is currently in development. This page will continue to reflect the cross-platform workflow and release progress.</p>
+                    <a class="button primary" href="../index.html#apps">Back to All Apps</a>
+                </div>
+            </section>
+        </main>
+        <footer class="site-footer">
+            <p data-i18n="footerText">Apps by Yu-Hsiang Chang 為 iPhone、iPad、Mac 與 Apple Vision Pro 打造學習、創作、個人工具與空間體驗 App。</p>
+            <div class="legal-links">
+                <a href="../privacy.html" data-i18n="privacyPolicy">隱私權政策</a>
+                <a href="../terms.html" data-i18n="termsUse">使用條款</a>
+                <a href="../support.html" data-i18n="support">支援</a>
+                <a href="../app-ads.txt">app-ads.txt</a>
+                <a href="https://www.facebook.com/profile.php?id=61590182079285">Facebook</a>
+            </div>
+        </footer>
+    </div>
+    <script src="../assets/site.js?v=20260524-3"></script>
+</body>
+</html>
