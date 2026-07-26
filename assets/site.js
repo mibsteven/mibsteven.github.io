@@ -14,13 +14,6 @@
         nav.insertBefore(updatesLink, supportLink);
     });
 
-    const homepageMain = document.querySelector("main");
-    const featuredSection = homepageMain && homepageMain.querySelector("#featured");
-    const audiencesSection = homepageMain && homepageMain.querySelector("#audiences");
-    if (featuredSection && audiencesSection) {
-        homepageMain.insertBefore(featuredSection, audiencesSection);
-    }
-
     const dictionary = {
         zh: {
             brandRole: "為學習、創作與空間體驗打造的 Apple App",
