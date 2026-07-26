@@ -1,8 +1,31 @@
 (function () {
+    document.querySelectorAll(".nav").forEach((nav) => {
+        if (nav.querySelector('[data-i18n="navUpdates"]')) {
+            return;
+        }
+
+        const appsLink = nav.querySelector('[data-i18n="navApps"]');
+        const supportLink = nav.querySelector('[data-i18n="navSupport"]');
+        const prefix = appsLink && appsLink.getAttribute("href").startsWith("../") ? "../" : "";
+        const updatesLink = document.createElement("a");
+        updatesLink.href = `${prefix}updates.html`;
+        updatesLink.dataset.i18n = "navUpdates";
+        updatesLink.textContent = "動態";
+        nav.insertBefore(updatesLink, supportLink);
+    });
+
+    const homepageMain = document.querySelector("main");
+    const featuredSection = homepageMain && homepageMain.querySelector("#featured");
+    const audiencesSection = homepageMain && homepageMain.querySelector("#audiences");
+    if (featuredSection && audiencesSection) {
+        homepageMain.insertBefore(featuredSection, audiencesSection);
+    }
+
     const dictionary = {
         zh: {
             brandRole: "為學習、創作與空間體驗打造的 Apple App",
             navApps: "作品",
+            navUpdates: "動態",
             navSupport: "支援",
             navPrivacy: "隱私權",
             navTerms: "條款",
@@ -14,6 +37,7 @@
         en: {
             brandRole: "Thoughtful Apple apps for learning, creativity, and spatial experiences",
             navApps: "Apps",
+            navUpdates: "Updates",
             navSupport: "Support",
             navPrivacy: "Privacy",
             navTerms: "Terms",
@@ -51,6 +75,20 @@
 
     buttons.forEach((button) => {
         button.addEventListener("click", () => setLanguage(button.dataset.lang));
+    });
+
+    document.querySelectorAll("[data-app-toggle]").forEach((button) => {
+        const lang = button.closest("[data-lang-panel]").dataset.langPanel;
+        const list = document.querySelector(`[data-app-list][data-lang-panel="${lang}"]`);
+        if (!list) {
+            return;
+        }
+
+        button.addEventListener("click", () => {
+            const expanded = list.classList.toggle("is-collapsed") === false;
+            button.setAttribute("aria-expanded", String(expanded));
+            button.textContent = expanded ? button.dataset.collapseLabel : button.dataset.expandLabel;
+        });
     });
 
     const savedLanguage = localStorage.getItem("preferredLanguage");

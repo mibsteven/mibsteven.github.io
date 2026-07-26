@@ -8,6 +8,7 @@ This site hosts:
 
 - A lightweight portfolio / app showcase
 - Individual pages for each app
+- A chronological updates archive
 - Support information
 - Privacy Policy
 - Terms of Use
@@ -16,6 +17,7 @@ This site hosts:
 ## Structure
 
 - `index.html`: Main landing page
+- `updates.html`: App launches, major updates, development notes, and milestones
 - `apps/`: One page per app
 - `privacy.html`: Shared privacy policy
 - `terms.html`: Shared terms of use
@@ -28,6 +30,14 @@ This site hosts:
 2. Add a new card in `index.html` linking to that app page.
 3. Add the app to `support.html`.
 4. If the app has different privacy behavior, create a dedicated privacy page or update `privacy.html`.
+
+## Add A New Update
+
+1. Add the full entry to `updates.html` in reverse chronological order.
+2. Use a semantic `<time datetime="YYYY-MM-DD">` date.
+3. Choose one category: new app, update, development, or milestone.
+4. Keep only the three most recent or most meaningful entries in the homepage preview.
+5. When several entries cover the same app in a short period, keep the newest result on the homepage and preserve the earlier story in the archive.
 
 ## Deploy With GitHub Pages
 
