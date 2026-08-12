@@ -41,24 +41,24 @@ archive_sections = updates.scan(/<section class="updates-archive"[^>]*>.*?<\/sec
 assert(archive_sections.length == 2, "updates archive must have Traditional Chinese and English sections")
 archive_sections.each do |archive|
   dates = archive.scan(/<time datetime="(\d{4}-\d{2}-\d{2})">/).flatten
-  assert(dates.length == 14, "each language archive must contain fourteen dated entries")
+  assert(dates.length == 15, "each language archive must contain fifteen dated entries")
   assert(dates == dates.sort.reverse, "archive entries must be reverse chronological")
 end
 
-assert(index.scan(/class="panel app-card"/).length == 52, "homepage must retain 26 apps per language")
+assert(index.scan(/class="panel app-card"/).length == 54, "homepage must retain 27 apps per language")
 assert(index.scan(/class="apps is-collapsed"/).length == 2, "both app lists must start collapsed")
 assert(index.scan(/data-app-toggle/).length == 2, "both languages need an app-list toggle")
 assert(css.include?(".apps.is-collapsed > .app-card:nth-child(n + 9)"), "collapsed app lists must show eight cards")
 assert(javascript.include?('document.querySelectorAll("[data-app-toggle]")'), "app-list toggle behavior is missing")
 
 app_icons = index.scan(/<img class="app-icon[^>]*>/)
-assert(app_icons.length == 62, "homepage app icon count changed unexpectedly")
+assert(app_icons.length == 64, "homepage app icon count changed unexpectedly")
 assert(app_icons.all? { |tag| tag.include?('loading="lazy"') && tag.include?('width="68"') && tag.include?('height="68"') }, "homepage app icons must be lazy-loaded with fixed dimensions")
 assert(app_icons.all? { |tag| tag.include?('src="assets/apps/thumbs/') }, "homepage must use optimized icon thumbnails")
 
 thumbnail_files = ROOT.join("assets/apps/thumbs").children.select(&:file?)
 thumbnail_bytes = thumbnail_files.sum(&:size)
-assert(thumbnail_files.length == 26, "expected 26 optimized app thumbnails")
+assert(thumbnail_files.length == 27, "expected 27 optimized app thumbnails")
 assert(thumbnail_bytes < 4 * 1024 * 1024, "optimized thumbnails exceed the 4 MB budget")
 
 assert(css.include?("@media (max-width: 560px)"), "mobile breakpoint is missing")
