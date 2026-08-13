@@ -41,7 +41,7 @@ archive_sections = updates.scan(/<section class="updates-archive"[^>]*>.*?<\/sec
 assert(archive_sections.length == 2, "updates archive must have Traditional Chinese and English sections")
 archive_sections.each do |archive|
   dates = archive.scan(/<time datetime="(\d{4}-\d{2}-\d{2})">/).flatten
-  assert(dates.length == 16, "each language archive must contain sixteen dated entries")
+  assert(dates.length == 17, "each language archive must contain seventeen dated entries")
   assert(dates == dates.sort.reverse, "archive entries must be reverse chronological")
 end
 
