@@ -557,6 +557,14 @@ h1 {
     object-position: top;
     border-radius: 6px;
 }
+.product-shot video {
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    border-radius: 6px;
+    background: #05070b;
+}
 .product-shot figcaption {
     margin-top: 10px;
     color: var(--muted);

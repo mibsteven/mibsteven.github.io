@@ -61,6 +61,14 @@ thumbnail_bytes = thumbnail_files.sum(&:size)
 assert(thumbnail_files.length == 28, "expected 28 optimized app thumbnails")
 assert(thumbnail_bytes < 4 * 1024 * 1024, "optimized thumbnails exceed the 4 MB budget")
 
+realm_atlas = read("apps/realm-atlas.html")
+assert(realm_atlas.scan(/<video\b/).length == 2, "RealmAtlas must include one gameplay video per language")
+assert(realm_atlas.scan(%r{src="\.\./assets/videos/realm-atlas-gameplay\.mp4"}).length == 2, "RealmAtlas gameplay source is missing")
+assert(realm_atlas.scan(%r{poster="\.\./assets/screenshots/realm-atlas-gameplay-poster\.jpg"}).length == 2, "RealmAtlas gameplay poster is missing")
+gameplay_video = ROOT.join("assets/videos/realm-atlas-gameplay.mp4")
+assert(gameplay_video.exist?, "RealmAtlas gameplay video file is missing")
+assert(gameplay_video.size < 6 * 1024 * 1024, "RealmAtlas gameplay video exceeds the 6 MB budget")
+
 assert(css.include?("@media (max-width: 560px)"), "mobile breakpoint is missing")
 assert(css.include?("grid-template-columns: repeat(3, minmax(0, 1fr))"), "mobile primary navigation must use three columns")
 assert(css.include?('.nav a[data-i18n="navPrivacy"]'), "legal navigation links must be removed from the primary navigation")
@@ -82,4 +90,4 @@ html_files.each do |html_file|
 end
 assert(missing_targets.empty?, "missing internal targets:\n#{missing_targets.join("\n")}")
 
-puts "PASS: homepage hierarchy, updates archive, app disclosure, navigation, image budget, responsive rules, and #{html_files.length} HTML files verified."
+puts "PASS: homepage hierarchy, updates archive, app disclosure, navigation, media budgets, responsive rules, and #{html_files.length} HTML files verified."

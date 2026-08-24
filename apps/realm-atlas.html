@@ -4,19 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RealmAtlas | Apps by Yu-Hsiang Chang</title>
-    <meta name="description" content="RealmAtlas 是為 Apple Vision Pro 打造的回合制奇幻空間戰略遊戲：指揮八個王國、管理八十座城市，在立體沙盤上移動軍隊、探索世界並觀看可重播的戰鬥。visionOS 1.0 已在 App Store 上架。">
+    <meta name="description" content="RealmAtlas 是為 Apple Vision Pro 打造的回合制奇幻空間戰略遊戲：在 160 × 112 的種子世界指揮八個王國與八十座城市，管理路線、英雄、城防與生產，並在立體沙盤觀看可重播戰鬥。">
     <link rel="canonical" href="https://mibsteven.github.io/apps/realm-atlas.html">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Apps by Yu-Hsiang Chang">
     <meta property="og:title" content="RealmAtlas">
-    <meta property="og:description" content="Command eight realms across a strategic map and a movable spatial diorama on Apple Vision Pro.">
+    <meta property="og:description" content="Command a seeded 160 × 112 world, then watch routes, heroes, sieges, and ranged combat unfold on a spatial tabletop.">
     <meta property="og:url" content="https://mibsteven.github.io/apps/realm-atlas.html">
-    <meta property="og:image" content="https://mibsteven.github.io/assets/screenshots/realm-atlas-strategy.jpg">
+    <meta property="og:image" content="https://mibsteven.github.io/assets/screenshots/realm-atlas-spatial-realm.jpg">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="RealmAtlas">
-    <meta name="twitter:description" content="A turn-based fantasy strategy game built around an eighty-city campaign, spatial tabletop command, and replayable battles.">
-    <meta name="twitter:image" content="https://mibsteven.github.io/assets/screenshots/realm-atlas-strategy.jpg">
-    <link rel="stylesheet" href="../assets/site.css?v=20260727-1">
+    <meta name="twitter:description" content="A turn-based fantasy strategy game with an eighty-city campaign, inspectable routes, heroes and relics, spatial battles, AI exhibition, and SharePlay.">
+    <meta name="twitter:image" content="https://mibsteven.github.io/assets/screenshots/realm-atlas-spatial-realm.jpg">
+    <link rel="stylesheet" href="../assets/site.css?v=20260824-1">
 </head>
 <body>
     <div class="site-shell" data-title-zh="RealmAtlas | Apps by Yu-Hsiang Chang" data-title-en="RealmAtlas | Apps by Yu-Hsiang Chang">
@@ -44,10 +44,11 @@
                     <div class="app-hero-copy">
                         <img class="app-icon" width="68" height="68" src="../assets/apps/realm-atlas-icon.png" alt="RealmAtlas app icon">
                         <span class="eyebrow">Apple Vision Pro · visionOS 1.0 已上架</span>
-                        <h1 class="page-title">把八國爭霸擺上眼前的沙盤，讓每一步命令都看得見。</h1>
-                        <p class="lead">RealmAtlas 是一款原創回合制奇幻策略遊戲。你會在八十座城市的世界裡生產軍隊、指揮英雄、探索遺跡、經營王國，並在 Apple Vision Pro 的立體沙盤上看見戰局推進。</p>
+                        <h1 class="page-title">從世界地圖下令，再看軍隊走上眼前的戰爭沙盤。</h1>
+                        <p class="lead">RealmAtlas 把大型回合制戰略分成三個連續層次：在完整地圖判斷八國局勢、在立體沙盤追蹤區域行軍，再進入戰鬥舞台看每一次決鬥如何發生。</p>
                         <div class="actions">
                             <a class="button primary" href="https://apps.apple.com/us/app/realmatlas/id6803876537">App Store</a>
+                            <a class="button" href="#gameplay">觀看 Gameplay</a>
                             <a class="button" href="#campaign">了解戰役</a>
                             <a class="button" href="#battle">查看戰鬥</a>
                             <a class="button" href="#multiplayer">多人遊戲</a>
@@ -55,47 +56,71 @@
                         </div>
                     </div>
                     <div class="hero-media">
-                        <img src="../assets/screenshots/realm-atlas-strategy.jpg" alt="RealmAtlas 在 Apple Vision Pro 顯示戰略地圖、行軍路線與立體區域沙盤">
+                        <img src="../assets/screenshots/realm-atlas-spatial-realm.jpg" alt="RealmAtlas 在 Apple Vision Pro 的視窗與立體沙盤同步顯示八國戰略地圖與目前區域">
                     </div>
                 </div>
 
                 <div class="quick-points">
-                    <div class="mini-card"><strong>八國、八十座城市</strong><span>每張地圖以 seed 決定地形、城市文化、兵種與探索內容，讓同一個世界可以被保存與重現。</span></div>
-                    <div class="mini-card"><strong>地圖與沙盤同步</strong><span>完整戰略地圖負責全局判斷，Mixed Immersive Space 則把目前區域變成可移動的立體微縮戰場。</span></div>
-                    <div class="mini-card"><strong>透明而可重播的戰鬥</strong><span>每次交戰先鎖定結果與逐輪紀錄，再用兵種模型、空間音效與戰後報告把同一場戰鬥完整呈現。</span></div>
+                    <div class="mini-card"><strong>160 × 112 的種子世界</strong><span>八個王國、八十座城市、十五種兵種與四十二處探索地點，都依同一個 seed 形成可保存、可重現的長期戰役。</span></div>
+                    <div class="mini-card"><strong>與系統環境共存的沙盤</strong><span>Mixed Immersive Space 讓戰略視窗與可移動的 3D 區域並存，也能保留使用者選擇的 visionOS Environment。</span></div>
+                    <div class="mini-card"><strong>能回頭讀懂的戰鬥</strong><span>結果、擲骰與逐輪紀錄先被鎖定，再由近戰、弓箭、魔法、飛行支援、城防與空間音效呈現。</span></div>
                 </div>
 
-                <h2 id="campaign">從第一座城開始，安排一場能長期推進的戰役</h2>
-                <p>新戰役可以設定零到八個真人王國、先手勢力、地圖 seed，以及一般 D10 或激烈 D12 戰鬥。沒有人類玩家時，可以觀看八個 AI 王國自行競逐；Knight、Baron、Lord 與 Warlord 四種 AI 會以不同的擴張、集結、探索與外交判斷推進回合。</p>
+                <h2 id="gameplay">22 秒實機 gameplay：從八 AI 觀戰走進戰鬥</h2>
+                <p>這段實機錄影位於第 24 回合的 AI 展示戰役。完整地圖會指出目前行動的王國、目標與逐格行軍；前方沙盤同步移動軍隊，遭遇守軍後再切換成有控制面板、兵種模型與逐次決鬥的戰鬥舞台。錄影背景使用 visionOS 的 Jupiter Environment；RealmAtlas 以共存的 Mixed Immersive Space 留住系統環境，同時用自己的光源維持地形與單位辨識度。</p>
                 <figure class="product-shot">
-                    <img loading="lazy" src="../assets/screenshots/realm-atlas-new-campaign.jpg" alt="RealmAtlas 新戰役畫面列出八個王國與真人或電腦控制選項">
-                    <figcaption>每個王國都有自己的地理性格與兵種傾向；玩家可以自由安排真人與電腦勢力。</figcaption>
+                    <video controls playsinline preload="metadata" poster="../assets/screenshots/realm-atlas-gameplay-poster.jpg" aria-label="RealmAtlas 在 Apple Vision Pro 上的八 AI 戰役觀戰與立體戰鬥 gameplay">
+                        <source src="../assets/videos/realm-atlas-gameplay.mp4" type="video/mp4">
+                        你的瀏覽器無法播放影片。你可以<a href="../assets/videos/realm-atlas-gameplay.mp4">下載 RealmAtlas gameplay</a>。
+                    </video>
+                    <figcaption>實機畫面依序展示 AI 行軍、地圖與區域沙盤同步，以及進入鎖定結果的立體戰鬥。</figcaption>
                 </figure>
 
-                <h2>管理生產、英雄、路線與國力，而不是只看一張地圖</h2>
-                <p>城市有自己的兵種、生產時間、價格與品質；軍隊要考慮地形移動、補給成本、海運容量與戰鬥順序。英雄能招募特殊盟友、探索四十二處遺跡與神殿、取得神器或祝福。帝國報告、戰役紀事、勝勢評估與軍議戰地手冊會把重要規則和事件留在同一個空間介面裡。</p>
+                <h2 id="campaign">從親自指揮到八 AI 展示，都使用同一套戰役規則</h2>
+                <p>新戰役可以設定零到八個真人王國、先手勢力、地圖 seed，以及一般 D10 或激烈 D12 戰鬥。斥候、隊長、軍師與霸主四種 AI 會以不同程度處理擴張、集結、探索、供應與敵對關係。選擇零位真人即可觀看八國自行競逐；任何時候按下停止觀戰，遊戲會完成目前安全步驟，再讓你接管一個或多個仍存活的王國。</p>
                 <figure class="product-shot">
-                    <img loading="lazy" src="../assets/screenshots/realm-atlas-chronicle.jpg" alt="RealmAtlas 戰役紀事依戰鬥、王國、生產、探索與建築分類顯示事件">
-                    <figcaption>戰役紀事會保存最近 240 筆具語意的事件，並依玩家可見範圍保護私人情報。</figcaption>
+                    <img loading="lazy" src="../assets/screenshots/realm-atlas-ai-exhibition.jpg" alt="RealmAtlas 新戰役設定顯示八個 AI 王國與霸主指揮等級">
+                    <figcaption>展示戰役不需要建立簡化規則；八個電腦王國會真的生產、移動、探索、交戰與經營國力。</figcaption>
                 </figure>
 
-                <h2 id="battle">先看懂交戰條件，再觀看同一份結果如何發生</h2>
-                <p>出兵前會先顯示雙方順序、地形與群體修正；確認後，遊戲鎖定逐次決鬥與每輪擲骰紀錄。戰鬥沙盤只負責呈現這份既定紀錄，暫停、逐拍、重播或跳到結果都不會重新擲骰。戰後報告則整理存活、損失、修正來源與完整決鬥明細。</p>
+                <h2>每一道命令都有路線、成本與可追蹤的後果</h2>
+                <p>完整地圖標出目前 16 × 12 的立體區域。選定目的地後，路線面板會分開顯示本回合能走的路段、總移動成本與預估抵達回合；步兵、騎兵、飛行與海運會用不同動作和空間聲音逐格推進。城市佔四格、可容納三十二名守軍，並有在地生產、跨城補給、收入與維持費。部隊還能提升城防、建立文化風格不同的塔樓，或把城市與塔永久夷為廢墟。</p>
                 <figure class="product-shot">
-                    <img loading="lazy" src="../assets/screenshots/realm-atlas-battle.jpg" alt="RealmAtlas 攻城戰戰後報告顯示存活、損失、修正與逐次決鬥紀錄">
-                    <figcaption>可重播的視覺表演與不可變的戰鬥紀錄分開處理，讓玩家能回頭理解每個結果。</figcaption>
+                    <img loading="lazy" src="../assets/screenshots/realm-atlas-force-route.jpg" alt="RealmAtlas 戰略地圖顯示軍隊編成、多回合路線、總成本與預估抵達時間">
+                    <figcaption>長距離路線用來規劃，不會讓部隊越過本回合的實際移動限制。</figcaption>
                 </figure>
+
+                <h2>英雄不是加成圖示，而是會帶來變數的獨立隊伍</h2>
+                <p>英雄會以不知道同行者的密封條件提出招募；付出金幣後，才會揭露他是單獨加入，或帶著龍、惡魔、巫師等特殊盟友。世界裡有四十二處遺跡、神殿、圖書館與賢者地點，以及十四件原創神器。守護者戰鬥、祝福、情報與寶物都會改變後續選擇；英雄敗亡時，攜帶的神器也可能留在戰場等待回收。</p>
+                <figure class="product-shot">
+                    <img loading="lazy" src="../assets/screenshots/realm-atlas-hero-recruitment.jpg" alt="RealmAtlas 英雄加入後揭露龍、惡魔與巫師三名特殊盟友">
+                    <figcaption>價格與同行者分開決定，因此昂貴英雄可能獨自出現，便宜邀請也可能帶來意外強援。</figcaption>
+                </figure>
+
+                <h2 id="battle">先鎖定戰鬥紀錄，再讓空間演出把它說清楚</h2>
+                <p>出兵前會顯示雙方戰鬥順序、地形、城防與群體修正；確認後，遊戲一次鎖定逐次決鬥、每輪擲骰、命中與傷亡。戰鬥沙盤只負責呈現這份既定紀錄：十五種兵種、英雄、守軍與城堡會依近戰、弓箭、魔法、火焰與飛行方式演出。你可以暫停、逐拍、重播或直接跳到結果，任何操作都不會重新擲骰。</p>
+                <figure class="product-shot">
+                    <img loading="lazy" src="../assets/screenshots/realm-atlas-tabletop-battle.jpg" alt="RealmAtlas 攻城戰在 Apple Vision Pro 的立體沙盤顯示雙方軍隊與城防建築">
+                    <figcaption>戰略視窗退到背景後，控制面板與戰鬥沙盤會留在清楚、可觀看的位置。</figcaption>
+                </figure>
+                <figure class="product-shot">
+                    <img loading="lazy" src="../assets/screenshots/realm-atlas-ranged-battle.jpg" alt="RealmAtlas 弓箭手與守軍在攻城戰沙盤上進行有投射物的遠程決鬥">
+                    <figcaption>遠程投射、飛行支援與空間音效是既定戰報的視覺化，不是另一套隱藏判定。</figcaption>
+                </figure>
+
+                <h2>複雜規則留在需要時才打開的地方</h2>
+                <p>重新設計的軍議戰地手冊以圖像章節整理操作、英雄、敵對關係、八國、十五種兵種、地形與築城規則；城市、部隊、英雄和戰前面板的說明按鈕會直接帶到相關條目。帝國報告能回到指定軍隊或城市，戰役紀事保存最近 240 筆生產、探索、外交、築城與戰鬥事件，勝勢評估則清楚標示為相對戰略估計，不偽裝成勝率。</p>
 
                 <h2 id="multiplayer">自己推演、同機傳遞，或透過 SharePlay 共享戰役</h2>
                 <div class="audience-grid">
-                    <div class="mini-card"><strong>單人與觀戰</strong><span>親自指揮一個或多個王國，也能從八 AI 展覽戰役中途接管仍存活的勢力。</span></div>
+                    <div class="mini-card"><strong>單人與 AI 觀戰</strong><span>親自指揮一個或多個王國，也能從八 AI 展示戰役中途接管仍存活的勢力。</span></div>
                     <div class="mini-card"><strong>同機傳遞</strong><span>每位真人回合開始前以不透明交接畫面遮住地圖、選擇與空間沙盤，再交給指定玩家揭露。</span></div>
-                    <div class="mini-card"><strong>Spatial SharePlay</strong><span>最多五位參與者可選擇王國或旁觀；未被認領的王國繼續由 AI 控制。</span></div>
+                    <div class="mini-card"><strong>Spatial SharePlay</strong><span>最多五位 Spatial Persona 可擔任玩家或觀察者；主持人離線時自動轉移，離席王國由霸主 AI 接手。</span></div>
                     <div class="mini-card"><strong>三個本機戰役槽位</strong><span>每個槽位都保留主要存檔與驗證過的復原備份，並在安全命令邊界自動存檔。</span></div>
                 </div>
                 <figure class="product-shot">
-                    <img loading="lazy" src="../assets/screenshots/realm-atlas-pass-and-play.jpg" alt="RealmAtlas 同機多人遊戲以 Pass the Headset 畫面保護下一位玩家的回合">
-                    <figcaption>本機 pass-and-play 會先隱藏戰場資訊；SharePlay 則透過 Apple Group Activities 同步大廳與戰役狀態。</figcaption>
+                    <img loading="lazy" src="../assets/screenshots/realm-atlas-shareplay.jpg" alt="RealmAtlas 主選單提供繼續戰役、新戰役、讀取存檔與 SharePlay 多人遊戲入口">
+                    <figcaption>主選單把本機戰役、三個存檔槽位、戰地手冊與即時 SharePlay 都整理在同一個起點。</figcaption>
                 </figure>
 
                 <h2>隱私與執行邊界</h2>
@@ -118,10 +143,11 @@
                     <div class="app-hero-copy">
                         <img class="app-icon" width="68" height="68" src="../assets/apps/realm-atlas-icon.png" alt="RealmAtlas app icon">
                         <span class="eyebrow">Apple Vision Pro · visionOS 1.0 now available</span>
-                        <h1 class="page-title">Place the struggle of eight realms on a tabletop—and see every order unfold.</h1>
-                        <p class="lead">RealmAtlas is an original turn-based fantasy strategy game. Produce armies, command heroes, explore ruins, and govern a realm across eighty cities, with the campaign taking shape as a spatial diorama on Apple Vision Pro.</p>
+                        <h1 class="page-title">Issue orders on the world map, then watch armies enter the war table in front of you.</h1>
+                        <p class="lead">RealmAtlas presents large-scale turn-based strategy in three continuous layers: judge eight realms on the complete map, follow regional movement on a spatial diorama, and enter the battle stage to see each duel resolve.</p>
                         <div class="actions">
                             <a class="button primary" href="https://apps.apple.com/us/app/realmatlas/id6803876537">App Store</a>
+                            <a class="button" href="#gameplay-en">Watch Gameplay</a>
                             <a class="button" href="#campaign-en">Explore the Campaign</a>
                             <a class="button" href="#battle-en">See Battles</a>
                             <a class="button" href="#multiplayer-en">Multiplayer</a>
@@ -129,47 +155,71 @@
                         </div>
                     </div>
                     <div class="hero-media">
-                        <img src="../assets/screenshots/realm-atlas-strategy.jpg" alt="RealmAtlas strategic map, movement route, and regional spatial diorama on Apple Vision Pro">
+                        <img src="../assets/screenshots/realm-atlas-spatial-realm.jpg" alt="RealmAtlas strategic window and spatial tabletop showing the eight-realm map and current region on Apple Vision Pro">
                     </div>
                 </div>
 
                 <div class="quick-points">
-                    <div class="mini-card"><strong>Eight realms, eighty cities</strong><span>Each map seed determines terrain, city cultures, production, and exploration content so a campaign can be saved and reproduced.</span></div>
-                    <div class="mini-card"><strong>Map and tabletop together</strong><span>The complete map supports strategic judgment while a Mixed Immersive Space turns the current region into a movable 3D diorama.</span></div>
-                    <div class="mini-card"><strong>Transparent, replayable battles</strong><span>Each engagement locks its outcome and round log first, then presents that same record through units, spatial audio, and an after-action report.</span></div>
+                    <div class="mini-card"><strong>A seeded 160 × 112 world</strong><span>Eight realms, eighty cities, fifteen unit kinds, and forty-two exploration sites form a long campaign that can be saved and reproduced from one seed.</span></div>
+                    <div class="mini-card"><strong>A tabletop that coexists with your Environment</strong><span>The Mixed Immersive Space keeps the strategic window and movable 3D region together while preserving the visionOS Environment you choose.</span></div>
+                    <div class="mini-card"><strong>Battles you can inspect afterward</strong><span>Results, rolls, and round records lock first, then melee, arrows, magic, flying support, fortifications, and spatial audio present what happened.</span></div>
                 </div>
 
-                <h2 id="campaign-en">Start with one capital and shape a campaign built to last</h2>
-                <p>A new campaign can assign zero to eight human realms, the first acting faction, a map seed, and Normal D10 or Intense D12 combat. With no human realm, the eight AIs can play an exhibition by themselves. Knight, Baron, Lord, and Warlord profiles make different choices about expansion, consolidation, exploration, and diplomacy.</p>
+                <h2 id="gameplay-en">22 seconds of live gameplay: from eight-AI observation into battle</h2>
+                <p>This device recording begins during round 24 of an AI exhibition. The complete map identifies the acting realm, target, and cell-by-cell route; the tabletop moves the same formation in front of the player, then changes into a battle stage with its own controls, unit models, and sequential duels. The footage uses the visionOS Jupiter Environment. RealmAtlas coexists with that system Environment while its authored lighting keeps terrain and units legible.</p>
                 <figure class="product-shot">
-                    <img loading="lazy" src="../assets/screenshots/realm-atlas-new-campaign.jpg" alt="RealmAtlas new campaign setup listing eight realms and human or computer control">
-                    <figcaption>Each realm has a distinct geographic and military identity, while players decide which factions belong to people or the computer.</figcaption>
+                    <video controls playsinline preload="metadata" poster="../assets/screenshots/realm-atlas-gameplay-poster.jpg" aria-label="RealmAtlas eight-AI campaign observation and spatial battle gameplay on Apple Vision Pro">
+                        <source src="../assets/videos/realm-atlas-gameplay.mp4" type="video/mp4">
+                        Your browser cannot play this video. You can <a href="../assets/videos/realm-atlas-gameplay.mp4">download the RealmAtlas gameplay clip</a>.
+                    </video>
+                    <figcaption>Live gameplay showing AI movement, synchronized map and regional tabletop, and the transition into a locked spatial battle.</figcaption>
                 </figure>
 
-                <h2>Manage production, heroes, routes, and statecraft—not just pieces on a map</h2>
-                <p>Cities have local units, build times, prices, and quality profiles. Armies account for terrain, upkeep, naval capacity, and fight order. Heroes recruit unusual allies, explore forty-two ruins and temples, and discover artifacts or blessings. Empire reports, a campaign chronicle, victory outlook, and War Council Field Guide keep rules and history inside the same spatial interface.</p>
+                <h2 id="campaign-en">Human command and eight-AI exhibition use the same campaign rules</h2>
+                <p>A new campaign can assign zero to eight human realms, the first acting realm, a map seed, and Normal D10 or Intense D12 combat. Scout, Captain, Strategist, and Sovereign AI levels apply increasing judgment to expansion, consolidation, exploration, supply, and rivalry. Select zero humans to let all eight realms compete. Stop observing at any time and the game finishes its current safe step before letting you take over one or several surviving realms.</p>
                 <figure class="product-shot">
-                    <img loading="lazy" src="../assets/screenshots/realm-atlas-chronicle.jpg" alt="RealmAtlas campaign chronicle filtering battle, realm, production, exploration, and building events">
-                    <figcaption>The chronicle retains the latest 240 semantic events while respecting which information each local player is allowed to see.</figcaption>
+                    <img loading="lazy" src="../assets/screenshots/realm-atlas-ai-exhibition.jpg" alt="RealmAtlas new campaign setup showing eight AI realms at Sovereign command level">
+                    <figcaption>Exhibition does not use simplified rules: all eight computer realms produce, move, explore, fight, and manage their economies.</figcaption>
                 </figure>
 
-                <h2 id="battle-en">Understand the conditions first, then watch one immutable result unfold</h2>
-                <p>Before an attack, RealmAtlas shows both fight orders, terrain, and group modifiers. Confirmation locks the sequential duels and every die roll. The battle diorama presents that record without changing it: pause, advance one beat, replay, or skip to the result without rerolling. The after-action report preserves survivors, losses, modifier sources, and duel details.</p>
+                <h2>Every order has a route, cost, and traceable consequence</h2>
+                <p>The complete map outlines the current 16 × 12 spatial region. After a destination is selected, the route panel separates this turn's legal segment from the complete plan and shows total movement cost and estimated arrival round. Infantry, mounted, flying, and naval groups advance cell by cell with distinct movement and spatial cues. A four-cell city can hold thirty-two defenders and manages local production, supply routes, income, and upkeep. Forces can raise city defense, build culture-specific towers, or permanently raze cities and towers.</p>
                 <figure class="product-shot">
-                    <img loading="lazy" src="../assets/screenshots/realm-atlas-battle.jpg" alt="RealmAtlas siege after-action report with survivors, losses, modifiers, and duel records">
-                    <figcaption>Replayable presentation is separated from the immutable combat record, making each outcome possible to inspect afterward.</figcaption>
+                    <img loading="lazy" src="../assets/screenshots/realm-atlas-force-route.jpg" alt="RealmAtlas strategic map showing army composition, a multi-turn route, total cost, and estimated arrival">
+                    <figcaption>A long route is planning information; it never lets a formation exceed its legal movement for the current turn.</figcaption>
                 </figure>
+
+                <h2>Heroes are independent parties that bring uncertainty into the campaign</h2>
+                <p>Heroes arrive through sealed offers that do not reveal their companions before payment. Only after accepting does the player learn whether the hero came alone or brought special allies such as a Dragon, Devil, or Wizard. The world includes forty-two ruins, temples, libraries, and sages plus fourteen original artifacts. Guardian battles, blessings, intelligence, and relics shape later choices, and a defeated hero can leave carried artifacts behind for someone else to recover.</p>
+                <figure class="product-shot">
+                    <img loading="lazy" src="../assets/screenshots/realm-atlas-hero-recruitment.jpg" alt="RealmAtlas hero recruitment reveal showing Dragon, Devil, and Wizard special allies">
+                    <figcaption>Price and companions are determined independently, so an expensive hero may arrive alone while a modest offer can reveal unexpected support.</figcaption>
+                </figure>
+
+                <h2 id="battle-en">Lock the combat record first, then let spatial presentation explain it</h2>
+                <p>The prebattle view shows both fight orders, terrain, fortifications, and group modifiers. Confirmation locks every sequential duel, roll, hit, and casualty at once. The battle tabletop then presents that record through fifteen unit kinds, heroes, defenders, and keeps using melee contact, arrows, magic, fire, and aerial movement. Pause, advance one beat, replay, or skip to the result—none of those controls rerolls the battle.</p>
+                <figure class="product-shot">
+                    <img loading="lazy" src="../assets/screenshots/realm-atlas-tabletop-battle.jpg" alt="RealmAtlas siege battle showing both armies and fortifications on a spatial tabletop">
+                    <figcaption>The strategy window recedes while the battle controls and tabletop remain positioned for unobstructed viewing.</figcaption>
+                </figure>
+                <figure class="product-shot">
+                    <img loading="lazy" src="../assets/screenshots/realm-atlas-ranged-battle.jpg" alt="RealmAtlas archer and city defender performing a ranged duel with a visible projectile">
+                    <figcaption>Projectiles, aerial support, and spatial audio visualize the locked transcript instead of creating a second hidden result.</figcaption>
+                </figure>
+
+                <h2>Complex rules stay available without crowding every decision</h2>
+                <p>The redesigned War Council Field Guide uses visual chapters for controls, heroes, rivalry, the eight realms, fifteen unit kinds, terrain, and fortifications. Help buttons in city, force, hero, and prebattle views open the exact related entry. The Empire Report returns directly to a selected army or city. The War Chronicle retains the latest 240 production, exploration, diplomacy, structure, and battle events. Victory Outlook is explicitly labeled as a relative strategic estimate—not disguised as win probability.</p>
 
                 <h2 id="multiplayer-en">Play alone, pass one headset, or share a campaign through SharePlay</h2>
                 <div class="audience-grid">
-                    <div class="mini-card"><strong>Solo and exhibition</strong><span>Command one or several realms, or take over surviving factions from an eight-AI exhibition without resetting the campaign.</span></div>
+                    <div class="mini-card"><strong>Solo and AI observation</strong><span>Command one or several realms, or take over surviving factions from an eight-AI exhibition without resetting the campaign.</span></div>
                     <div class="mini-card"><strong>Pass-and-play</strong><span>An opaque handoff screen hides the map, selections, and spatial diorama until the named local player reveals their turn.</span></div>
-                    <div class="mini-card"><strong>Spatial SharePlay</strong><span>Up to five participants can claim realms or observe, while unclaimed realms remain under AI control.</span></div>
+                    <div class="mini-card"><strong>Spatial SharePlay</strong><span>Up to five Spatial Persona participants can play or observe. Hosting transfers automatically, and Sovereign AI takes over when a player leaves.</span></div>
                     <div class="mini-card"><strong>Three local campaign slots</strong><span>Each slot maintains a primary save and validated recovery backup, with autosaves committed at safe command boundaries.</span></div>
                 </div>
                 <figure class="product-shot">
-                    <img loading="lazy" src="../assets/screenshots/realm-atlas-pass-and-play.jpg" alt="RealmAtlas pass-the-headset screen protecting the next local player's turn">
-                    <figcaption>Local pass-and-play protects hidden information; SharePlay uses Apple Group Activities to exchange lobby and campaign state.</figcaption>
+                    <img loading="lazy" src="../assets/screenshots/realm-atlas-shareplay.jpg" alt="RealmAtlas main menu with Continue Campaign, New Campaign, Load Campaign, and SharePlay Multiplayer">
+                    <figcaption>The main menu brings local campaigns, three save slots, the Field Guide, and live SharePlay to one starting point.</figcaption>
                 </figure>
 
                 <h2>Privacy and runtime boundaries</h2>
