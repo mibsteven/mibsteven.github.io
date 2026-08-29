@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spatial Electronics Lab | Apps by Yu-Hsiang Chang</title>
+    <meta name="description" content="Spatial Electronics Lab 是開發中的 Apple Vision Pro 電子學習 App，讓初學者在混合實境工作台完成接線、程式與故障診斷。">
+    <link rel="canonical" href="https://mibsteven.github.io/apps/spatial-electronics-lab.html">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Apps by Yu-Hsiang Chang">
+    <meta property="og:title" content="Spatial Electronics Lab">
+    <meta property="og:description" content="Build, program, and troubleshoot beginner electronics projects on a mixed-reality workbench for Apple Vision Pro.">
+    <meta property="og:url" content="https://mibsteven.github.io/apps/spatial-electronics-lab.html">
+    <meta property="og:image" content="https://mibsteven.github.io/assets/apps/spatial-electronics-lab-icon.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Spatial Electronics Lab">
+    <meta name="twitter:description" content="A local-first spatial electronics course and workbench for Apple Vision Pro.">
+    <meta name="twitter:image" content="https://mibsteven.github.io/assets/apps/spatial-electronics-lab-icon.png">
+    <link rel="stylesheet" href="../assets/site.css?v=20260727-1">
+</head>
+<body>
+    <div class="site-shell" data-title-zh="Spatial Electronics Lab | Apps by Yu-Hsiang Chang" data-title-en="Spatial Electronics Lab | Apps by Yu-Hsiang Chang">
+        <header class="site-header">
+            <a class="brand" href="../index.html" aria-label="Apps by Yu-Hsiang Chang home">
+                <span class="brand-name">Apps by Yu-Hsiang Chang</span>
+                <span class="brand-role" data-i18n="brandRole">為學習、創作與空間體驗打造的 Apple App</span>
+            </a>
+            <div class="nav-area">
+                <nav class="nav" aria-label="Primary navigation">
+                    <a href="../index.html#apps" data-i18n="navApps">作品</a>
+                    <a href="../updates.html" data-i18n="navUpdates">動態</a>
+                    <a href="../support.html" data-i18n="navSupport">支援</a>
+                </nav>
+                <div class="lang-toggle" aria-label="Language selector">
+                    <button type="button" data-lang="zh" aria-pressed="true">繁中</button>
+                    <button type="button" data-lang="en" aria-pressed="false">EN</button>
+                </div>
+            </div>
+        </header>
+
+        <main class="content-wrap">
+            <section class="panel content-card landing-card" data-lang-panel="zh">
+                <div class="app-hero">
+                    <div class="app-hero-copy">
+                        <img class="app-icon" width="68" height="68" src="../assets/apps/spatial-electronics-lab-icon.png" alt="Spatial Electronics Lab app icon">
+                        <span class="eyebrow">Apple Vision Pro · 開發中</span>
+                        <h1 class="page-title">不必先買零件，也能親手理解一條電路為什麼會亮、會壞，或沒有反應。</h1>
+                        <p class="lead">Spatial Electronics Lab 把電腦、相容開發板、麵包板與電子元件放到混合實境工作台，讓初學者從接線、量測、程式到故障診斷，完成一條可以反覆練習的學習路徑。</p>
+                        <div class="actions">
+                            <a class="button primary" href="#course-path">查看課程路徑</a>
+                            <a class="button" href="#workbench">認識空間工作台</a>
+                            <a class="button" href="../updates.html#spatial-electronics-lab-development-zh">查看開發紀錄</a>
+                        </div>
+                    </div>
+                    <div class="hero-media phone">
+                        <img src="../assets/apps/spatial-electronics-lab-icon.png" alt="Spatial Electronics Lab 圖示中的相容開發板、麵包板、電阻與發光二極體">
+                    </div>
+                </div>
+
+                <div class="quick-points">
+                    <div class="mini-card"><strong>先看示範，再自己完成</strong><span>每個主題包含雙語語音示範、逐步練習、即時檢查與不提供提示的獨立測驗。</span></div>
+                    <div class="mini-card"><strong>接線與程式共享同一套狀態</strong><span>移動導線、按下按鈕、改變光線或上傳程式後，電路會立即重新計算。</span></div>
+                    <div class="mini-card"><strong>可以安全地犯錯</strong><span>短路、極性反接、浮接輸入、過電流與錯誤腳位不只顯示答案，也會留下可觀察的結果。</span></div>
+                </div>
+
+                <h2 id="course-path">從第一顆 LED，一路走到感測與 PWM</h2>
+                <p>目前的課程把後一堂建立在前一堂已完成的電路上。學習者不只是照著圖重做，而是保留接線、量測與程式結果，再把它改造成下一個專案。</p>
+                <div class="journey-grid">
+                    <div class="mini-card"><strong>1 · 安全點亮 LED</strong><span>認識麵包板內部連通、LED 極性、330 Ω 電阻與完整串聯路徑。</span></div>
+                    <div class="mini-card"><strong>2 · 程式控制閃爍</strong><span>把 LED 移到數位腳位，經由虛擬 USB 上傳固定節奏的開關程式。</span></div>
+                    <div class="mini-card"><strong>3 · 讀取按鈕</strong><span>加入四腳按鈕與共用接地，理解 INPUT_PULLUP 與 active-low 輸入。</span></div>
+                    <div class="mini-card"><strong>4-1 · 量測環境光</strong><span>用光敏電阻建立分壓器，觀察明暗讀值並留下自己的門檻證據。</span></div>
+                    <div class="mini-card"><strong>4-2 · 完成自動夜燈</strong><span>沿用實際量測區間寫入判斷，再以三次明暗循環驗證自動控制。</span></div>
+                    <div class="mini-card"><strong>5 · 用 PWM 平滑調光</strong><span>把感測值映射到亮度範圍，讓 LED 不只在亮與滅之間切換。</span></div>
+                </div>
+
+                <h2 id="workbench">可以放大、移動與直接接線的混合實境工作台</h2>
+                <p>元件、麵包板組合、工具箱與整座工作台都能在空間中移動與縮放。接線模式會以空心端點標記和獨立觸控區協助選取：先點一個端點，再點另一個端點，就能建立導線；需要修改時，也可以聚焦單一零件或導線，暫時降低周圍物件的干擾。</p>
+                <p>元件庫已包含虛擬電腦、相容開發板、麵包板、導線、電阻、LED、按鈕、光敏電阻、熱敏電阻與伺服馬達。課程目前使用其中一部分，其餘元件則為後續實驗與自由練習保留。</p>
+
+                <h2>Code Studio 把草稿、上傳程式與即時訊號分開</h2>
+                <p>程式課與自由練習可以從虛擬電腦開啟 Code Studio。編輯中的草稿不會直接改變開發板；只有通過安全分析並經由虛擬 USB 上傳後，新的程式才會開始執行。畫面同時提供診斷、序列輸出、類比讀值與 PWM 訊號，方便把程式行為與工作台上的實際結果對照。</p>
+                <p>App 本身不連接外部 AI 服務。需要協助時，可以分享一段針對目前課程整理好的提示詞，再將外部工具產生的內容透過系統貼上功能帶回；貼入內容會先移除說明文字與 Markdown 外框，再由受限制的 Arduino-style 教學語法分析器檢查，不執行任意原生程式碼。</p>
+
+                <h2>錯誤不是跳出的紅字，而是電路的一部分</h2>
+                <p>模擬器會依實際端點關係、麵包板連通、元件值、已上傳程式與實體控制重新計算。它能區分 LED 過電流、電源短路、極性反接、輸入浮接或飽和、按鈕接錯、非 PWM 輸出、程式與接線不一致，以及草稿已修改但尚未上傳等狀況。</p>
+                <p>例如破壞性的 LED 過電流會閃光、播放位置警告音，並把燒焦狀態保存到本機專案；修正原因之後仍要主動更換零件或復原，送出課程答案不會自動把它修好。</p>
+
+                <h2>每位學習者保留自己的進度</h2>
+                <p>啟動後可以建立不同學習者名稱，分開保存課程完成狀態、測驗嘗試、未完成電路、零件位置與工作台配置，也能在確認後刪除單一學習者及其練習資料。繁體中文與英文介面、課程內容和示範旁白都已納入目前版本。</p>
+
+                <h2>開發狀態與隱私邊界</h2>
+                <p>Spatial Electronics Lab 目前仍在開發與 Apple Vision Pro 實機驗收階段，尚未在 App Store 上架。核心課程、電路模擬、Code Studio、雙語內容與學習進度均在裝置端運作；目前沒有啟用雲端同步，也不需要開發者營運的帳號或 AI 伺服器。</p>
+
+                <div class="cta-band">
+                    <p>目前正在準備 Apple Vision Pro 實機的手勢、可讀性、位置音效、放大操作與多導線效能驗收。新的實機畫面與上架資訊完成後，會繼續更新這一頁。</p>
+                    <div class="actions">
+                        <a class="button primary" href="../updates.html#spatial-electronics-lab-development-zh">查看最新進度</a>
+                        <a class="button" href="../support.html">聯絡支援</a>
+                        <a class="button" href="../privacy.html">隱私權政策</a>
+                        <a class="button" href="../terms.html">使用條款</a>
+                        <a class="button" href="../index.html#apps">回到全部 App</a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="panel content-card landing-card" data-lang-panel="en">
+                <div class="app-hero">
+                    <div class="app-hero-copy">
+                        <img class="app-icon" width="68" height="68" src="../assets/apps/spatial-electronics-lab-icon.png" alt="Spatial Electronics Lab app icon">
+                        <span class="eyebrow">Apple Vision Pro · In development</span>
+                        <h1 class="page-title">Learn why a circuit lights, fails, or stays silent—before buying physical parts.</h1>
+                        <p class="lead">Spatial Electronics Lab places a virtual computer, compatible development board, breadboard, and electronic components on a mixed-reality workbench, guiding beginners from wiring and measurement to programming and fault diagnosis.</p>
+                        <div class="actions">
+                            <a class="button primary" href="#course-path-en">Explore the Course Path</a>
+                            <a class="button" href="#workbench-en">Meet the Spatial Workbench</a>
+                            <a class="button" href="../updates.html#spatial-electronics-lab-development-en">Read the Development Note</a>
+                        </div>
+                    </div>
+                    <div class="hero-media phone">
+                        <img src="../assets/apps/spatial-electronics-lab-icon.png" alt="Compatible development board, breadboard, resistor, and lit LED from the Spatial Electronics Lab icon">
+                    </div>
+                </div>
+
+                <div class="quick-points">
+                    <div class="mini-card"><strong>Watch, build, then work independently</strong><span>Each topic combines bilingual narrated demonstrations, guided practice, live checks, and an assessment without hints.</span></div>
+                    <div class="mini-card"><strong>Wiring and code share one state</strong><span>Move a wire, press a button, change the light, or upload a sketch and the electrical result updates immediately.</span></div>
+                    <div class="mini-card"><strong>Failure is safe but meaningful</strong><span>Shorts, reversed polarity, floating inputs, overcurrent, and incorrect pins create observable consequences instead of revealing only an answer.</span></div>
+                </div>
+
+                <h2 id="course-path-en">From a first LED to sensing and PWM</h2>
+                <p>The current course carries completed circuits into the next lesson. Learners do not rebuild from a picture every time; they preserve wiring, measurements, and uploaded programs, then reshape that evidence into the next project.</p>
+                <div class="journey-grid">
+                    <div class="mini-card"><strong>1 · Light an LED safely</strong><span>Learn breadboard connectivity, LED polarity, a 330 Ω resistor, and a complete series path.</span></div>
+                    <div class="mini-card"><strong>2 · Program an LED blink</strong><span>Move control to a digital pin and upload a timed output sketch through the virtual USB link.</span></div>
+                    <div class="mini-card"><strong>3 · Read a push button</strong><span>Add a four-pin button and shared ground while learning INPUT_PULLUP and active-low input.</span></div>
+                    <div class="mini-card"><strong>4-1 · Measure ambient light</strong><span>Build a photoresistor divider, observe bright and dark readings, and preserve a measured threshold.</span></div>
+                    <div class="mini-card"><strong>4-2 · Program a night light</strong><span>Use that real measurement range in code, then verify three complete light-and-dark cycles.</span></div>
+                    <div class="mini-card"><strong>5 · Fade with PWM</strong><span>Map sensor input into a brightness range so the LED moves beyond a binary on or off.</span></div>
+                </div>
+
+                <h2 id="workbench-en">A mixed-reality workbench that can move, scale, and wire directly</h2>
+                <p>Individual parts, breadboard assemblies, the toolbox, and the complete workbench can be moved and magnified in space. Wiring Mode uses hollow terminal markers and dedicated touch targets: select one terminal, then another, to create a wire. Focus mode can isolate a part or a wire and reduce spatial-input interference from nearby objects.</p>
+                <p>The catalog already defines a virtual computer, compatible development board, breadboard, wire, resistor, LED, button, photoresistor, thermistor, and servo. Current lessons use a focused subset while the remaining parts support future projects and open practice.</p>
+
+                <h2>Code Studio keeps drafts, uploaded programs, and live signals distinct</h2>
+                <p>Programming lessons and the open playground can launch Code Studio from the virtual computer. Editing a draft never changes the running board by itself. A new program begins only after safe analysis and an explicit upload through the virtual USB connection. Diagnostics, serial output, analog readings, and PWM telemetry help connect code to the physical result on the workbench.</p>
+                <p>The app does not contact an external AI service. When help is useful, learners can share a course-specific prompt, then return externally produced code through the system paste control. Imported text is stripped of surrounding prose and Markdown before a constrained Arduino-style teaching analyzer checks it. Arbitrary native code is never executed.</p>
+
+                <h2>Faults remain part of the circuit instead of becoming a red answer label</h2>
+                <p>The simulator recalculates from actual terminal relationships, breadboard connectivity, component values, uploaded firmware, and physical controls. It distinguishes LED overcurrent, supply shorts, reversed polarity, floating or saturated inputs, miswired buttons, non-PWM outputs, code-and-wiring mismatches, and edited-but-not-uploaded firmware.</p>
+                <p>A destructive LED overcurrent, for example, flashes once, plays a positional warning, and persists the charred part in local project data. Correcting the cause does not silently repair the component; the learner must replace it or use Undo.</p>
+
+                <h2>Separate progress for each learner</h2>
+                <p>Named learner profiles keep course completion, assessment attempts, unfinished circuits, component transforms, and workbench placement separate. A learner and all associated practice data can be deleted after confirmation. Traditional Chinese and English interfaces, course content, and synchronized demonstration narration are included in the current build.</p>
+
+                <h2>Development status and privacy boundary</h2>
+                <p>Spatial Electronics Lab remains in development and Apple Vision Pro hardware validation; it is not yet available on the App Store. Core lessons, circuit simulation, Code Studio, bilingual content, and learner progress run on device. Cloud sync is currently disabled, and the experience does not require a developer-operated account or AI server.</p>
+
+                <div class="cta-band">
+                    <p>Current work focuses on Apple Vision Pro hardware checks for hand interaction, readability, positional audio, extreme magnification, and multi-wire performance. This page will gain current device imagery and release information as those milestones are completed.</p>
+                    <div class="actions">
+                        <a class="button primary" href="../updates.html#spatial-electronics-lab-development-en">Read the Latest Note</a>
+                        <a class="button" href="../support.html">Contact Support</a>
+                        <a class="button" href="../privacy.html">Privacy Policy</a>
+                        <a class="button" href="../terms.html">Terms of Use</a>
+                        <a class="button" href="../index.html#apps">Back to All Apps</a>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="site-footer">
+            <p data-i18n="footerText">Apps by Yu-Hsiang Chang 為 iPhone、iPad、Mac 與 Apple Vision Pro 打造學習、創作、個人工具與空間體驗 App。</p>
+            <div class="legal-links">
+                <a href="../privacy.html" data-i18n="privacyPolicy">隱私權政策</a>
+                <a href="../terms.html" data-i18n="termsUse">使用條款</a>
+                <a href="../support.html" data-i18n="support">支援</a>
+                <a href="../app-ads.txt">app-ads.txt</a>
+                <a href="https://www.facebook.com/profile.php?id=61590182079285">Facebook</a>
+            </div>
+        </footer>
+    </div>
+    <script src="../assets/site.js?v=20260727-1"></script>
+</body>
+</html>

@@ -41,25 +41,30 @@ archive_sections = updates.scan(/<section class="updates-archive"[^>]*>.*?<\/sec
 assert(archive_sections.length == 2, "updates archive must have Traditional Chinese and English sections")
 archive_sections.each do |archive|
   dates = archive.scan(/<time datetime="(\d{4}-\d{2}-\d{2})">/).flatten
-  assert(dates.length == 19, "each language archive must contain nineteen dated entries")
+  assert(dates.length == 20, "each language archive must contain twenty dated entries")
   assert(dates == dates.sort.reverse, "archive entries must be reverse chronological")
 end
 
-assert(index.scan(/class="panel app-card"/).length == 56, "homepage must retain 28 apps per language")
+assert(index.scan(/class="panel app-card"/).length == 58, "homepage must retain 29 apps per language")
 assert(index.scan(/class="apps is-collapsed"/).length == 2, "both app lists must start collapsed")
 assert(index.scan(/data-app-toggle/).length == 2, "both languages need an app-list toggle")
 assert(css.include?(".apps.is-collapsed > .app-card:nth-child(n + 9)"), "collapsed app lists must show eight cards")
 assert(javascript.include?('document.querySelectorAll("[data-app-toggle]")'), "app-list toggle behavior is missing")
 
 app_icons = index.scan(/<img class="app-icon[^>]*>/)
-assert(app_icons.length == 66, "homepage app icon count changed unexpectedly")
+assert(app_icons.length == 68, "homepage app icon count changed unexpectedly")
 assert(app_icons.all? { |tag| tag.include?('loading="lazy"') && tag.include?('width="68"') && tag.include?('height="68"') }, "homepage app icons must be lazy-loaded with fixed dimensions")
 assert(app_icons.all? { |tag| tag.include?('src="assets/apps/thumbs/') }, "homepage must use optimized icon thumbnails")
 
 thumbnail_files = ROOT.join("assets/apps/thumbs").children.select(&:file?)
 thumbnail_bytes = thumbnail_files.sum(&:size)
-assert(thumbnail_files.length == 28, "expected 28 optimized app thumbnails")
+assert(thumbnail_files.length == 29, "expected 29 optimized app thumbnails")
 assert(thumbnail_bytes < 4 * 1024 * 1024, "optimized thumbnails exceed the 4 MB budget")
+
+spatial_electronics_lab = read("apps/spatial-electronics-lab.html")
+assert(spatial_electronics_lab.include?("Apple Vision Pro · 開發中"), "Spatial Electronics Lab development status is missing")
+assert(spatial_electronics_lab.include?("Code Studio"), "Spatial Electronics Lab Code Studio description is missing")
+assert(spatial_electronics_lab.include?("../privacy.html") && spatial_electronics_lab.include?("../terms.html"), "Spatial Electronics Lab legal links are missing")
 
 realm_atlas = read("apps/realm-atlas.html")
 assert(realm_atlas.scan(/<video\b/).length == 2, "RealmAtlas must include one gameplay video per language")
