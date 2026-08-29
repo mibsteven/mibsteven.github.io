@@ -22,6 +22,7 @@ end
 
 index = read("index.html")
 updates = read("updates.html")
+privacy = read("privacy.html")
 css = read("assets/site.css")
 javascript = read("assets/site.js")
 
@@ -65,6 +66,10 @@ spatial_electronics_lab = read("apps/spatial-electronics-lab.html")
 assert(spatial_electronics_lab.include?("Apple Vision Pro · 開發中"), "Spatial Electronics Lab development status is missing")
 assert(spatial_electronics_lab.include?("Code Studio"), "Spatial Electronics Lab Code Studio description is missing")
 assert(spatial_electronics_lab.include?("../privacy.html") && spatial_electronics_lab.include?("../terms.html"), "Spatial Electronics Lab legal links are missing")
+
+assert(privacy.include?("最後更新：2026 年 8 月 30 日") && privacy.include?("Last updated: August 30, 2026"), "privacy policy date is not current in both languages")
+assert(privacy.scan(/<h2>Spatial Electronics Lab<\/h2>/).length == 2, "privacy policy must include Spatial Electronics Lab in both languages")
+assert(privacy.include?("Universal Clipboard") && privacy.include?("Cloud sync is currently disabled"), "Spatial Electronics Lab clipboard or cloud-sync privacy boundary is missing")
 
 realm_atlas = read("apps/realm-atlas.html")
 assert(realm_atlas.scan(/<video\b/).length == 2, "RealmAtlas must include one gameplay video per language")
