@@ -49,8 +49,11 @@ end
 assert(index.scan(/class="panel app-card"/).length == 58, "homepage must retain 29 apps per language")
 assert(index.scan(/class="apps is-collapsed"/).length == 2, "both app lists must start collapsed")
 assert(index.scan(/data-app-toggle/).length == 2, "both languages need an app-list toggle")
+assert(index.scan(/data-expand-template="[^"]*\{count\}[^"]*"/).length == 2, "app-list toggles must use a dynamic count template")
+assert(!index.match?(/(?:顯示全部|Show all) \d+/), "app-list toggle count must not be hard-coded")
 assert(css.include?(".apps.is-collapsed > .app-card:nth-child(n + 9)"), "collapsed app lists must show eight cards")
 assert(javascript.include?('document.querySelectorAll("[data-app-toggle]")'), "app-list toggle behavior is missing")
+assert(javascript.include?('list.querySelectorAll(":scope > .app-card").length'), "app-list toggle must derive its count from rendered app cards")
 
 app_icons = index.scan(/<img class="app-icon[^>]*>/)
 assert(app_icons.length == 68, "homepage app icon count changed unexpectedly")

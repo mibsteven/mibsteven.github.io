@@ -77,10 +77,14 @@
             return;
         }
 
+        const appCount = list.querySelectorAll(":scope > .app-card").length;
+        const expandLabel = button.dataset.expandTemplate.replace("{count}", String(appCount));
+        button.textContent = expandLabel;
+
         button.addEventListener("click", () => {
             const expanded = list.classList.toggle("is-collapsed") === false;
             button.setAttribute("aria-expanded", String(expanded));
-            button.textContent = expanded ? button.dataset.collapseLabel : button.dataset.expandLabel;
+            button.textContent = expanded ? button.dataset.collapseLabel : expandLabel;
         });
     });
 
