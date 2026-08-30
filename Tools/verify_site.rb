@@ -54,6 +54,7 @@ assert(!index.match?(/(?:顯示全部|Show all) \d+/), "app-list toggle count mu
 assert(css.include?(".apps.is-collapsed > .app-card:nth-child(n + 9)"), "collapsed app lists must show eight cards")
 assert(javascript.include?('document.querySelectorAll("[data-app-toggle]")'), "app-list toggle behavior is missing")
 assert(javascript.include?('list.querySelectorAll(":scope > .app-card").length'), "app-list toggle must derive its count from rendered app cards")
+assert(index.include?('src="assets/site.js?v=20260831-1"'), "homepage must cache-bust the dynamic app-count script")
 
 app_icons = index.scan(/<img class="app-icon[^>]*>/)
 assert(app_icons.length == 68, "homepage app icon count changed unexpectedly")
