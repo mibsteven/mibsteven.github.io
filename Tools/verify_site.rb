@@ -42,7 +42,7 @@ archive_sections = updates.scan(/<section class="updates-archive"[^>]*>.*?<\/sec
 assert(archive_sections.length == 2, "updates archive must have Traditional Chinese and English sections")
 archive_sections.each do |archive|
   dates = archive.scan(/<time datetime="(\d{4}-\d{2}-\d{2})">/).flatten
-  assert(dates.length == 20, "each language archive must contain twenty dated entries")
+  assert(dates.length == 21, "each language archive must contain twenty-one dated entries")
   assert(dates == dates.sort.reverse, "archive entries must be reverse chronological")
 end
 
@@ -63,13 +63,27 @@ assert(thumbnail_files.length == 29, "expected 29 optimized app thumbnails")
 assert(thumbnail_bytes < 4 * 1024 * 1024, "optimized thumbnails exceed the 4 MB budget")
 
 spatial_electronics_lab = read("apps/spatial-electronics-lab.html")
-assert(spatial_electronics_lab.include?("Apple Vision Pro · 開發中"), "Spatial Electronics Lab development status is missing")
+assert(spatial_electronics_lab.include?("Apple Vision Pro · visionOS 1.0 已上架"), "Spatial Electronics Lab launch status is missing")
+assert(spatial_electronics_lab.include?("https://apps.apple.com/us/app/spatial-electronics-lab/id6806496662"), "Spatial Electronics Lab App Store link is missing")
 assert(spatial_electronics_lab.include?("Code Studio"), "Spatial Electronics Lab Code Studio description is missing")
+assert(spatial_electronics_lab.include?("Foundation Course Pack") && spatial_electronics_lab.include?("前兩課免費"), "Spatial Electronics Lab course-access explanation is missing")
+assert(spatial_electronics_lab.scan(%r{src="\.\./assets/screenshots/spatial-electronics-lab-[^"]+\.jpg"}).length == 14, "Spatial Electronics Lab must include seven localized release screenshots per language")
 assert(spatial_electronics_lab.include?("../privacy.html") && spatial_electronics_lab.include?("../terms.html"), "Spatial Electronics Lab legal links are missing")
 
-assert(privacy.include?("最後更新：2026 年 8 月 30 日") && privacy.include?("Last updated: August 30, 2026"), "privacy policy date is not current in both languages")
+spatial_screenshots = ROOT.glob("assets/screenshots/spatial-electronics-lab-*.jpg")
+assert(spatial_screenshots.length == 14, "expected fourteen localized Spatial Electronics Lab screenshots")
+assert(spatial_screenshots.all? { |path| path.size < 500 * 1024 }, "a Spatial Electronics Lab screenshot exceeds the 500 KB budget")
+assert(spatial_screenshots.sum(&:size) < 4 * 1024 * 1024, "Spatial Electronics Lab screenshots exceed the 4 MB total budget")
+
+assert(privacy.include?("最後更新：2026 年 8 月 31 日") && privacy.include?("Last updated: August 31, 2026"), "privacy policy date is not current in both languages")
 assert(privacy.scan(/<h2>Spatial Electronics Lab<\/h2>/).length == 2, "privacy policy must include Spatial Electronics Lab in both languages")
 assert(privacy.include?("Universal Clipboard") && privacy.include?("Cloud sync is currently disabled"), "Spatial Electronics Lab clipboard or cloud-sync privacy boundary is missing")
+assert(privacy.include?("Apple StoreKit") && privacy.include?("Foundation Course Pack is not a subscription"), "Spatial Electronics Lab StoreKit privacy boundary is missing")
+
+terms = read("terms.html")
+assert(terms.include?("最後更新：2026 年 8 月 31 日") && terms.include?("Last updated: August 31, 2026"), "terms date is not current in both languages")
+assert(terms.scan(/<h2>Spatial Electronics Lab<\/h2>/).length == 2, "terms must include Spatial Electronics Lab in both languages")
+assert(terms.include?("physical development board") && terms.include?("non-consumable in-app purchase"), "Spatial Electronics Lab safety or purchase terms are missing")
 
 realm_atlas = read("apps/realm-atlas.html")
 assert(realm_atlas.scan(/<video\b/).length == 2, "RealmAtlas must include one gameplay video per language")
