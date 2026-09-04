@@ -1,68 +1,59 @@
-# mibsteven.github.io
+# Apps by Yu-Hsiang Chang
 
-Simple GitHub Pages site for a developer website.
-
-## Purpose
-
-This site hosts:
-
-- A lightweight portfolio / app showcase
-- Individual pages for each app
-- A chronological updates archive
-- Support information
-- Privacy Policy
-- Terms of Use
-- `app-ads.txt`
+Static, bilingual developer website published with GitHub Pages. No framework, package installation, or hosted database is needed.
 
 ## Structure
 
-- `index.html`: Main landing page
-- `updates.html`: App launches, major updates, development notes, and milestones
-- `apps/`: One page per app
-- `privacy.html`: Shared privacy policy
-- `terms.html`: Shared terms of use
-- `support.html`: Support page
-- `app-ads.txt`: App advertising authorization file
+- `index.html`: Search, seven use categories, selected products, and recent work.
+- `apps.html`: Complete searchable catalogue with category, device, download type, and sorting controls.
+- `apps/`: Authored product pages and app-specific legal pages.
+- `data/apps.json`: Public product metadata, categories, recommendation order, and screenshot references.
+- `data/media-sources.json`: Source records for optimised product screenshots.
+- `assets/showcase/`: WebP images for catalogue covers and new product galleries.
+- `updates.html`: Chronological launch and update archive.
+- `support.html`: About, support email draft, and every app’s support link.
+- `privacy.html`, `terms.html`, `app-ads.txt`: Shared legal and advertising files.
+- `sitemap.xml`, `robots.txt`: Search discovery.
 
-## Add A New App
+## Edit and build
 
-1. Create a new HTML page inside `apps/`.
-2. Add a new card in `index.html` linking to that app page.
-3. Add the app to `support.html`.
-4. If the app has different privacy behavior, create a dedicated privacy page or update `privacy.html`.
+```sh
+python3 Tools/build_site.py
+ruby Tools/verify_site.rb
+python3 -m http.server 8765 --bind 127.0.0.1
+```
 
-## Add A New Update
+Preview at `http://127.0.0.1:8765/`. The validator can also be run directly with `python3 Tools/verify_site.py`.
 
-1. Add the full entry to `updates.html` in reverse chronological order.
-2. Use a semantic `<time datetime="YYYY-MM-DD">` date.
-3. Choose one category: new app, update, development, or milestone.
-4. Keep only the three most recent or most meaningful entries in the homepage preview.
-5. When several entries cover the same app in a short period, keep the newest result on the homepage and preserve the earlier story in the archive.
+`build_site.py` regenerates the homepage, catalogue, support page, sitemap, shared navigation, and marked sections of product pages. Edit those areas through the generator or product data. Authored product copy outside `<!-- generated:… -->` sections remains editable in each HTML file. Generated HTML is committed so GitHub Pages needs no build step.
 
-## Deploy With GitHub Pages
+## Add or update an app
 
-1. Push this repository to GitHub.
-2. Open the repository `Settings`.
-3. Go to `Pages`.
-4. Under `Build and deployment`, choose `Deploy from a branch`.
-5. Select the `main` branch and the `/ (root)` folder.
-6. Save and wait for GitHub Pages to publish the site.
+1. Create `apps/<id>.html` with Traditional Chinese and English `data-lang-panel` sections, descriptive metadata, and actual product information. Keep stable URLs.
+2. Add an entry to `data/apps.json` with bilingual name, short use-based summary, search aliases, primary `category`, browse `categories`, `platforms`, `pricing`, App Store URL, unique `rank`, `updated` date, and screenshot references. `updated` means the public store version’s release date, not the website edit date. `storeVerified` records the last manual store check.
+3. Use `paid` for paid downloads, `free` for free downloads, and `trial` for the two-lesson Spatial Electronics Lab trial. State subscriptions, ads, IAP access, or essential controller requirements in bilingual `notes`. Do not imply every free download has every feature free.
+4. Choose device tags for the platforms being presented: `iphone`, `ipad`, `mac`, `vision`, `tv`. Distinguish native experiences from optional compatibility in the product copy and link to the store’s current requirements. Do not claim an unreleased platform is available.
+5. Assign one primary category and any genuinely relevant additional browse categories. Counts overlap across categories; the complete catalogue always contains unique apps. For example, Shiji is in tools and education.
+6. Add actual app screenshots as WebP, at most 1440 pixels on either side and under 500 KB each. Supply `src`, `width`, and `height` per language. A single-language image can be reused with an honest caption; avoid fabricated UI. Record the project-relative source or public App Store image URL in `data/media-sources.json`.
+7. `media[0]` supplies the catalogue and homepage cover. Use `existing: true` when the authored page already displays the imagery and should not get a duplicate gallery. Add bilingual captions to `CAPTIONS` in the generator for new gallery images.
+8. Review app-specific privacy and terms, add a dated entry to `updates.html`, then build and validate.
 
-If this is your personal site, the repository name should usually be:
+## Maintain discovery
 
-`mibsteven.github.io`
+- Use an optional `related` list of app IDs for product-specific recommendations. Otherwise related apps come from the primary category. Keep the free app’s audience in mind: Zodiac points to reading and wildlife learning.
+- Set `featured: true` on two to four apps to refresh the homepage. Recommendation order uses `rank`; it is editorial, not a download leaderboard.
+- Review the selected apps and recent-work section when a meaningful release ships. Update the explicit recent-work entries in the generator rather than presenting an old product as newly released.
+- Evaluate free discovery apps, paid downloads, and IAP trials separately. Private sales reports do not belong in this public repository.
+- Read prices and device requirements from the current local App Store. The site avoids fixed currency prices that go stale between regions.
+- Query links are shareable: `apps.html?lang=zh&category=music&platform=ipad`. Supported parameters: `q`, `category`, `platform`, `price`, `sort`, `lang`.
+- Catalogue detail links preserve the filters in `browse`; the return link restores those filters and the product position. Local links retain the selected language.
+- Without JavaScript, Traditional Chinese content and the complete static catalogue remain readable. JavaScript enables filters, language switching, and email draft formatting. Blocked local storage must not prevent reading.
+- No analytics provider is installed. Future evaluation should distinguish visits to an app page, outgoing App Store clicks, paid purchases, and IAP unlocks. Do not infer website conversions from downloads alone.
 
-Then the site URL will look like:
+## Validation and publishing
 
-`https://mibsteven.github.io/`
+The validator checks catalogue/page coverage, category membership, bilingual catalogue and support entries, duplicate IDs, local links and anchors, alt text, screenshot provenance and budgets, sitemap coverage, purchase copy, the existing RealmAtlas video, and legal content.
 
-## Current Notes
+Before publishing, also check desktop and mobile layouts, English switching, Chinese and English searches, combined filters, empty results, resetting, sorting, browser back, and returning from a product page.
 
-- 向量財管 / VectraFin has an app page describing its local-first personal finance model.
-- 英語救星 / EnglishSaver has an expanded app page describing its AI English practice, vocabulary-to-story flow, iOS / visionOS versions, and privacy model.
-- 師記 and Melody Journal do not collect personal data.
-- 台北菜價 uses Google advertising services.
-- 注音故事 has an app page and is available on the App Store.
-- Notelyra has an app page and is available on the App Store.
-- Shared legal pages are acceptable as long as app behavior remains mostly consistent.
-- Taiwan Animals has an app page for its iOS, iPadOS, and visionOS nature learning experience.
+Push the reviewed website changes to the GitHub Pages branch (`main`, root folder) to publish. The existing `Tools/push_github_pages.command` helper is unchanged. Building locally does not deploy the site.

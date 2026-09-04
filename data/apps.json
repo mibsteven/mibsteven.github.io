@@ -1,0 +1,1731 @@
+{
+  "apps": [
+    {
+      "id": "vectrafin",
+      "name": {
+        "zh": "向量財管",
+        "en": "VectraFin"
+      },
+      "summary": {
+        "zh": "用自己的分類方式記帳，整理資產與負債，回看收支變化。",
+        "en": "Track spending your way, organise assets and debts, and follow changes over time."
+      },
+      "page": "apps/vectrafin.html",
+      "icon": "assets/apps/thumbs/vectrafin-icon.png",
+      "store": "https://apps.apple.com/tw/app/%E5%90%91%E9%87%8F%E8%B2%A1%E7%AE%A1/id6765916287?l=en-GB",
+      "updated": "2026-05-06",
+      "media": [
+        {
+          "src": {
+            "zh": "assets/showcase/vectrafin-1-store.webp"
+          },
+          "width": {
+            "zh": 1079
+          },
+          "height": {
+            "zh": 1440
+          },
+          "caption": {},
+          "shared": true
+        }
+      ],
+      "category": "tools",
+      "platforms": [
+        "iphone",
+        "ipad"
+      ],
+      "rank": 23,
+      "pricing": "paid",
+      "storeVerified": "2026-09-05",
+      "version": "1.0",
+      "aliases": [],
+      "featured": false,
+      "notes": {
+        "zh": "",
+        "en": ""
+      },
+      "categories": [
+        "tools"
+      ]
+    },
+    {
+      "id": "knowmenote",
+      "name": {
+        "zh": "懂我筆記本",
+        "en": "KnowMeNote"
+      },
+      "summary": {
+        "zh": "拿起來就能寫的安靜筆記本，在裝置上學習你常用的名字與說法。",
+        "en": "A quiet notebook that learns your usual names and phrasing on device."
+      },
+      "page": "apps/knowmenote.html",
+      "icon": "assets/apps/thumbs/knowmenote-icon.png",
+      "store": "https://apps.apple.com/tw/app/%E6%87%82%E6%88%91%E7%AD%86%E8%A8%98%E6%9C%AC/id6766533920?l=en-GB",
+      "updated": "2026-07-18",
+      "media": [
+        {
+          "src": {
+            "zh": "assets/showcase/knowmenote-1-zh.webp",
+            "en": "assets/showcase/knowmenote-1-en.webp"
+          },
+          "width": {
+            "zh": 1080,
+            "en": 1080
+          },
+          "height": {
+            "zh": 1440,
+            "en": 1440
+          },
+          "caption": {}
+        }
+      ],
+      "category": "tools",
+      "platforms": [
+        "iphone",
+        "ipad"
+      ],
+      "rank": 24,
+      "pricing": "free",
+      "storeVerified": "2026-09-05",
+      "version": "1.1",
+      "aliases": [],
+      "featured": false,
+      "notes": {
+        "zh": "",
+        "en": ""
+      },
+      "categories": [
+        "tools"
+      ]
+    },
+    {
+      "id": "zodiac-memory-match",
+      "name": {
+        "zh": "生肖翻牌配對",
+        "en": "Zodiac Pair Match"
+      },
+      "summary": {
+        "zh": "翻開生肖卡片，挑戰記憶力。適合短時間遊玩，也能和孩子一起玩。",
+        "en": "Flip zodiac cards and test your memory in a quick game, on your own or with children."
+      },
+      "page": "apps/zodiac-memory-match.html",
+      "icon": "assets/apps/thumbs/zodiac-memory-icon.png",
+      "store": "https://apps.apple.com/us/app/%E7%94%9F%E8%82%96%E7%BF%BB%E7%89%8C%E9%85%8D%E5%B0%8D/id6767039026",
+      "updated": "2026-06-15",
+      "media": [
+        {
+          "src": {
+            "zh": "assets/showcase/zodiac-memory-match-1-zh.webp",
+            "en": "assets/showcase/zodiac-memory-match-1-en.webp"
+          },
+          "width": {
+            "zh": 1080,
+            "en": 1080
+          },
+          "height": {
+            "zh": 1440,
+            "en": 1440
+          },
+          "caption": {}
+        }
+      ],
+      "category": "games",
+      "platforms": [
+        "iphone",
+        "ipad",
+        "vision"
+      ],
+      "rank": 27,
+      "pricing": "free",
+      "storeVerified": "2026-09-05",
+      "version": "1.1.1",
+      "aliases": [],
+      "featured": false,
+      "notes": {
+        "zh": "免費使用。",
+        "en": "Free to use."
+      },
+      "categories": [
+        "games",
+        "learning"
+      ],
+      "related": [
+        "zhuyin-story",
+        "english-savior",
+        "taiwan-animals"
+      ]
+    },
+    {
+      "id": "sishu-mengguan",
+      "name": {
+        "zh": "私塾蒙館",
+        "en": "Sishu Mengguan"
+      },
+      "summary": {
+        "zh": "讀四部經典蒙書，聽朗讀，也能走進 Apple Vision Pro 裡的沉浸式蒙館。",
+        "en": "Read and listen to four Chinese primers, or enter an immersive school on Vision Pro."
+      },
+      "page": "apps/sishu-mengguan.html",
+      "icon": "assets/apps/thumbs/sishu-mengguan-icon.png",
+      "store": "https://apps.apple.com/us/app/%E7%A7%81%E5%A1%BE%E8%92%99%E9%A4%A8/id6767709239",
+      "updated": "2026-07-27",
+      "media": [
+        {
+          "src": {
+            "zh": "assets/showcase/sishu-mengguan-cover-zh.webp",
+            "en": "assets/showcase/sishu-mengguan-cover-en.webp"
+          },
+          "width": {
+            "zh": 1120,
+            "en": 1120
+          },
+          "height": {
+            "zh": 630,
+            "en": 630
+          },
+          "caption": {},
+          "existing": true
+        }
+      ],
+      "category": "culture",
+      "platforms": [
+        "iphone",
+        "ipad",
+        "vision"
+      ],
+      "rank": 1,
+      "pricing": "paid",
+      "storeVerified": "2026-09-05",
+      "version": "1.1",
+      "aliases": [
+        "兒童閱讀",
+        "蒙書",
+        "古文",
+        "classics"
+      ],
+      "featured": true,
+      "notes": {
+        "zh": "",
+        "en": ""
+      },
+      "categories": [
+        "culture",
+        "learning"
+      ]
+    },
+    {
+      "id": "the-book-of-tea",
+      "name": {
+        "zh": "茶經",
+        "en": "The Book of Tea"
+      },
+      "summary": {
+        "zh": "讀《茶經》、探索台灣茶區，從互動製茶認識一杯茶的來歷。",
+        "en": "Read The Classic of Tea, explore Taiwan’s tea regions, and discover how tea is made."
+      },
+      "page": "apps/the-book-of-tea.html",
+      "icon": "assets/apps/thumbs/the-book-of-tea-icon.png",
+      "store": "https://apps.apple.com/us/app/%E8%8C%B6%E7%B6%93/id6782710210",
+      "updated": "2026-06-30",
+      "media": [
+        {
+          "src": {
+            "zh": "assets/showcase/the-book-of-tea-1-zh.webp",
+            "en": "assets/showcase/the-book-of-tea-1-en.webp"
+          },
+          "width": {
+            "zh": 1080,
+            "en": 1080
+          },
+          "height": {
+            "zh": 1440,
+            "en": 1440
+          },
+          "caption": {}
+        },
+        {
+          "src": {
+            "zh": "assets/showcase/the-book-of-tea-2-zh.webp",
+            "en": "assets/showcase/the-book-of-tea-2-en.webp"
+          },
+          "width": {
+            "zh": 1440,
+            "en": 1440
+          },
+          "height": {
+            "zh": 810,
+            "en": 810
+          },
+          "caption": {}
+        }
+      ],
+      "category": "culture",
+      "platforms": [
+        "iphone",
+        "ipad",
+        "vision"
+      ],
+      "rank": 7,
+      "pricing": "paid",
+      "storeVerified": "2026-09-05",
+      "version": "1.0",
+      "aliases": [
+        "茶經",
+        "The Classic of Tea"
+      ],
+      "featured": false,
+      "notes": {
+        "zh": "",
+        "en": ""
+      },
+      "categories": [
+        "culture"
+      ]
+    },
+    {
+      "id": "taiwan-animals",
+      "name": {
+        "zh": "Taiwan Animals｜台灣動物",
+        "en": "Taiwan Animals"
+      },
+      "summary": {
+        "zh": "用照片、插圖與 3D 模型認識台灣動物，走進沉浸式自然地景。",
+        "en": "Meet Taiwan’s wildlife through photos, illustrations, 3D models, and an immersive landscape."
+      },
+      "page": "apps/taiwan-animals.html",
+      "icon": "assets/apps/thumbs/taiwan-animals-icon.png",
+      "store": "https://apps.apple.com/us/app/%E5%8F%B0%E7%81%A3%E5%8B%95%E7%89%A9/id6772618087",
+      "updated": "2026-05-24",
+      "media": [
+        {
+          "src": {
+            "zh": "assets/showcase/taiwan-animals-1-store.webp"
+          },
+          "width": {
+            "zh": 1040
+          },
+          "height": {
+            "zh": 585
+          },
+          "caption": {},
+          "shared": true
+        }
+      ],
+      "category": "learning",
+      "platforms": [
+        "vision"
+      ],
+      "rank": 19,
+      "pricing": "paid",
+      "storeVerified": "2026-09-05",
+      "version": "1.0",
+      "aliases": [],
+      "featured": false,
+      "notes": {
+        "zh": "目前可下載 Apple Vision Pro 版本。",
+        "en": "Currently available for Apple Vision Pro."
+      },
+      "categories": [
+        "learning"
+      ]
+    },
+    {
+      "id": "swim-power",
+      "name": {
+        "zh": "Swim Power",
+        "en": "Swim Power"
+      },
+      "summary": {
+        "zh": "把游泳秒數的變化轉成看得懂的分析，幫助泳者、家長與教練討論進步。",
+        "en": "Turn swim-time changes into understandable insights for swimmers, parents, and coaches."
+      },
+      "page": "apps/swim-power.html",
+      "icon": "assets/apps/thumbs/swim-power-icon.png",
+      "store": "https://apps.apple.com/us/app/swim-power/id6779881141",
+      "updated": "2026-06-16",
+      "media": [
+        {
+          "src": {
+            "zh": "assets/showcase/swim-power-1-zh.webp",
+            "en": "assets/showcase/swim-power-1-en.webp"
+          },
+          "width": {
+            "zh": 1079,
+            "en": 1079
+          },
+          "height": {
+            "zh": 1440,
+            "en": 1440
+          },
+          "caption": {}
+        },
+        {
+          "src": {
+            "zh": "assets/showcase/swim-power-2-zh.webp",
+            "en": "assets/showcase/swim-power-2-en.webp"
+          },
+          "width": {
+            "zh": 1079,
+            "en": 1079
+          },
+          "height": {
+            "zh": 1440,
+            "en": 1440
+          },
+          "caption": {}
+        }
+      ],
+      "category": "tools",
+      "platforms": [
+        "iphone",
+        "ipad"
+      ],
+      "rank": 20,
+      "pricing": "paid",
+      "storeVerified": "2026-09-05",
+      "version": "1.0",
+      "aliases": [],
+      "featured": false,
+      "notes": {
+        "zh": "",
+        "en": ""
+      },
+      "categories": [
+        "tools"
+      ]
+    },
+    {
+      "id": "home-edu-assistance",
+      "name": {
+        "zh": "Home Edu Assistance",
+        "en": "Home Edu Assistance"
+      },
+      "summary": {
+        "zh": "整理孩子的每日任務、成長記錄與家庭約定，讓教養安排更清楚。",
+        "en": "Bring children’s tasks, growth records, and family agreements into one place."
+      },
+      "page": "apps/home-edu-assistance.html",
+      "icon": "assets/apps/thumbs/home-edu-assistance-icon.png",
+      "store": "https://apps.apple.com/us/app/home-edu-assistance/id6780086596",
+      "updated": "2026-06-23",
+      "media": [
+        {
+          "src": {
+            "zh": "assets/showcase/home-edu-assistance-1-zh.webp",
+            "en": "assets/showcase/home-edu-assistance-1-en.webp"
+          },
+          "width": {
+            "zh": 1080,
+            "en": 1080
+          },
+          "height": {
+            "zh": 1440,
+            "en": 1440
+          },
+          "caption": {}
+        },
+        {
+          "src": {
+            "zh": "assets/showcase/home-edu-assistance-2-zh.webp",
+            "en": "assets/showcase/home-edu-assistance-2-en.webp"
+          },
+          "width": {
+            "zh": 1080,
+            "en": 1080
+          },
+          "height": {
+            "zh": 1440,
+            "en": 1440
+          },
+          "caption": {}
+        }
+      ],
+      "category": "learning",
+      "platforms": [
+        "iphone",
+        "ipad"
+      ],
+      "rank": 21,
+      "pricing": "free",
+      "storeVerified": "2026-09-05",
+      "version": "1.0.1",
+      "aliases": [],
+      "featured": false,
+      "notes": {
+        "zh": "",
+        "en": ""
+      },
+      "categories": [
+        "learning"
+      ]
+    },
+    {
+      "id": "magicstage",
+      "name": {
+        "zh": "MagicStage",
+        "en": "MagicStage"
+      },
+      "summary": {
+        "zh": "把單人家庭演出換成舞台風格影片，修正前景、裁切，保留原音輸出。",
+        "en": "Give a solo home performance a stage setting, refine the foreground, and export with its sound."
+      },
+      "page": "apps/magicstage.html",
+      "icon": "assets/apps/thumbs/magicstage-icon.png",
+      "store": "https://apps.apple.com/us/app/magicstage/id6789845793",
+      "updated": "2026-07-16",
+      "media": [
+        {
+          "src": {
+            "zh": "assets/showcase/magicstage-cover-zh.webp",
+            "en": "assets/showcase/magicstage-cover-en.webp"
+          },
+          "width": {
+            "zh": 1120,
+            "en": 1120
+          },
+          "height": {
+            "zh": 630,
+            "en": 630
+          },
+          "caption": {},
+          "existing": true
+        }
+      ],
+      "category": "music",
+      "platforms": [
+        "iphone"
+      ],
+      "rank": 16,
+      "pricing": "paid",
+      "storeVerified": "2026-09-05",
+      "version": "1.0",
+      "aliases": [],
+      "featured": false,
+      "notes": {
+        "zh": "",
+        "en": ""
+      },
+      "categories": [
+        "music"
+      ]
+    },
+    {
+      "id": "buddha-hall",
+      "name": {
+        "zh": "佛堂",
+        "en": "Buddha Hall"
+      },
+      "summary": {
+        "zh": "留一處安靜的修行空間，讀經、記下祈願，也能與他人一起共修。",
+        "en": "Make space for sutra reading, personal wishes, and shared practice."
+      },
+      "page": "apps/buddha-hall.html",
+      "icon": "assets/apps/thumbs/buddha-hall-icon.png",
+      "store": "https://apps.apple.com/us/app/%E4%BD%9B%E5%A0%82/id6768970497",
+      "updated": "2026-05-14",
+      "media": [
+        {
+          "src": {
+            "en": "assets/showcase/buddha-hall-1-store.webp"
+          },
+          "width": {
+            "en": 1079
+          },
+          "height": {
+            "en": 1440
+          },
+          "caption": {},
+          "shared": true
+        }
+      ],
+      "category": "culture",
+      "platforms": [
+        "iphone",
+        "ipad",
+        "vision"
+      ],
+      "rank": 26,
+      "pricing": "paid",
+      "storeVerified": "2026-09-05",
+      "version": "1.1",
+      "aliases": [],
+      "featured": false,
+      "notes": {
+        "zh": "",
+        "en": ""
+      },
+      "categories": [
+        "culture"
+      ]
+    },
+    {
+      "id": "oracle-gecko-courtyard",
+      "name": {
+        "zh": "守宮易經庭院",
+        "en": "Oracle Gecko Courtyard"
+      },
+      "summary": {
+        "zh": "走進寧靜庭院，透過易經儀式、經文與本機記錄，整理一件心事。",
+        "en": "Enter a quiet courtyard and reflect through an I Ching ritual, readings, and private notes."
+      },
+      "page": "apps/oracle-gecko-courtyard.html",
+      "icon": "assets/apps/thumbs/oracle-gecko-courtyard-icon.png",
+      "store": "https://apps.apple.com/us/app/%E5%AE%88%E5%AE%AE%E6%98%93%E7%B6%93%E5%BA%AD%E9%99%A2/id6790085207",
+      "updated": "2026-07-21",
+      "media": [
+        {
+          "src": {
+            "zh": "assets/showcase/oracle-gecko-courtyard-cover-zh.webp",
+            "en": "assets/showcase/oracle-gecko-courtyard-cover-en.webp"
+          },
+          "width": {
+            "zh": 1120,
+            "en": 1120
+          },
+          "height": {
+            "zh": 840,
+            "en": 840
+          },
+          "caption": {},
+          "existing": true
+        }
+      ],
+      "category": "culture",
+      "platforms": [
+        "vision"
+      ],
+      "rank": 8,
+      "pricing": "paid",
+      "storeVerified": "2026-09-05",
+      "version": "1.0",
+      "aliases": [],
+      "featured": false,
+      "notes": {
+        "zh": "",
+        "en": ""
+      },
+      "categories": [
+        "culture"
+      ]
+    },
+    {
+      "id": "ordinary-adventure",
+      "name": {
+        "zh": "一個普通人的冒險",
+        "en": "An Ordinary Adventure"
+      },
+      "summary": {
+        "zh": "讀懂敵人的攻擊、收集裝備，穿越十二個不該相連的世界。",
+        "en": "Read enemy attacks, gather equipment, and cross twelve impossible worlds."
+      },
+      "page": "apps/ordinary-adventure.html",
+      "icon": "assets/apps/thumbs/ordinary-adventure-icon.png",
+      "store": "https://apps.apple.com/us/app/ordinaryadventure/id6799577586",
+      "updated": "2026-08-25",
+      "media": [
+        {
+          "src": {
+            "zh": "assets/showcase/ordinary-adventure-cover-zh.webp",
+            "en": "assets/showcase/ordinary-adventure-cover-en.webp"
+          },
+          "width": {
+            "zh": 1120,
+            "en": 1120
+          },
+          "height": {
+            "zh": 515,
+            "en": 515
+          },
+          "caption": {},
+          "existing": true
+        }
+      ],
+      "category": "games",
+      "platforms": [
+        "iphone",
+        "ipad",
+        "mac",
+        "vision",
+        "tv"
+      ],
+      "rank": 13,
+      "pricing": "paid",
+      "storeVerified": "2026-09-05",
+      "version": "1.0",
+      "aliases": [],
+      "featured": false,
+      "notes": {
+        "zh": "Vision Pro 遊戲需要相容控制器。",
+        "en": "A compatible controller is required for Vision Pro play."
+      },
+      "categories": [
+        "games"
+      ]
+    },
+    {
+      "id": "vine-window",
+      "name": {
+        "zh": "Vine Window：空間世界誌",
+        "en": "Vine Window: Spatial Atlas"
+      },
+      "summary": {
+        "zh": "從地圖與街景探索世界，把有位置的相片帶回曾經走過的地方。",
+        "en": "Explore maps and street views, then revisit places through your geotagged photos."
+      },
+      "page": "apps/vine-window.html",
+      "icon": "assets/apps/thumbs/vine-window-icon.png",
+      "store": "https://apps.apple.com/us/app/vine-window-spatial-atlas/id6800641407",
+      "updated": "2026-08-12",
+      "media": [
+        {
+          "src": {
+            "zh": "assets/showcase/vine-window-cover-zh.webp",
+            "en": "assets/showcase/vine-window-cover-en.webp"
+          },
+          "width": {
+            "zh": 1120,
+            "en": 1120
+          },
+          "height": {
+            "zh": 630,
+            "en": 630
+          },
+          "caption": {},
+          "existing": true
+        }
+      ],
+      "category": "travel",
+      "platforms": [
+        "vision"
+      ],
+      "rank": 0,
+      "pricing": "paid",
+      "storeVerified": "2026-09-05",
+      "version": "1.0",
+      "aliases": [],
+      "featured": true,
+      "notes": {
+        "zh": "",
+        "en": ""
+      },
+      "categories": [
+        "travel"
+      ]
+    },
+    {
+      "id": "realm-atlas",
+      "name": {
+        "zh": "RealmAtlas",
+        "en": "RealmAtlas"
+      },
+      "summary": {
+        "zh": "在地圖指揮王國，再看軍隊走上眼前的立體戰爭沙盤。",
+        "en": "Command kingdoms on a map, then watch armies meet on a spatial battlefield."
+      },
+      "page": "apps/realm-atlas.html",
+      "icon": "assets/apps/thumbs/realm-atlas-icon.png",
+      "store": "https://apps.apple.com/us/app/realmatlas/id6803876537",
+      "updated": "2026-08-24",
+      "media": [
+        {
+          "src": {
+            "zh": "assets/showcase/realm-atlas-cover-zh.webp",
+            "en": "assets/showcase/realm-atlas-cover-en.webp"
+          },
+          "width": {
+            "zh": 1120,
+            "en": 1120
+          },
+          "height": {
+            "zh": 630,
+            "en": 630
+          },
+          "caption": {},
+          "existing": true
+        }
+      ],
+      "category": "games",
+      "platforms": [
+        "vision"
+      ],
+      "rank": 5,
+      "pricing": "paid",
+      "storeVerified": "2026-09-05",
+      "version": "1.0",
+      "aliases": [
+        "戰略",
+        "沙盤",
+        "策略",
+        "strategy"
+      ],
+      "featured": false,
+      "notes": {
+        "zh": "",
+        "en": ""
+      },
+      "categories": [
+        "games"
+      ]
+    },
+    {
+      "id": "spatial-electronics-lab",
+      "name": {
+        "zh": "空間電子實驗室",
+        "en": "Spatial Electronics Lab"
+      },
+      "summary": {
+        "zh": "在眼前接線、操作元件，從亮起的 LED 一步步學會控制電路。",
+        "en": "Wire components in front of you and learn circuit control, one glowing LED at a time."
+      },
+      "page": "apps/spatial-electronics-lab.html",
+      "icon": "assets/apps/thumbs/spatial-electronics-lab-icon.png",
+      "store": "https://apps.apple.com/us/app/spatial-electronics-lab/id6806496662",
+      "updated": "2026-08-30",
+      "media": [
+        {
+          "src": {
+            "zh": "assets/showcase/spatial-electronics-lab-cover-zh.webp",
+            "en": "assets/showcase/spatial-electronics-lab-cover-en.webp"
+          },
+          "width": {
+            "zh": 1120,
+            "en": 1120
+          },
+          "height": {
+            "zh": 630,
+            "en": 630
+          },
+          "caption": {},
+          "existing": true
+        }
+      ],
+      "category": "learning",
+      "platforms": [
+        "vision"
+      ],
+      "rank": 6,
+      "pricing": "trial",
+      "storeVerified": "2026-09-05",
+      "version": "1.0",
+      "aliases": [
+        "電路",
+        "接線",
+        "電子",
+        "coding",
+        "circuits"
+      ],
+      "featured": false,
+      "notes": {
+        "zh": "前兩課免費；一次性內購解鎖後續四課。",
+        "en": "Two free lessons; unlock the remaining four with a one-time purchase."
+      },
+      "categories": [
+        "learning"
+      ],
+      "related": [
+        "diorama-map-maker",
+        "objectifyar",
+        "taiwan-animals"
+      ]
+    },
+    {
+      "id": "dark-invasion",
+      "name": {
+        "zh": "黑暗入侵",
+        "en": "Dark Invasion"
+      },
+      "summary": {
+        "zh": "用注視、捏合與投擲駕馭四種元素，守住逐漸升壓的校園防線。",
+        "en": "Use gaze, pinch, and throwing to wield four elements and defend an overrun school."
+      },
+      "page": "apps/dark-invasion.html",
+      "icon": "assets/apps/thumbs/dark-invasion-icon.png",
+      "store": "https://apps.apple.com/us/app/dark-invasion/id6795967546",
+      "updated": "2026-07-30",
+      "media": [
+        {
+          "src": {
+            "zh": "assets/showcase/dark-invasion-cover-zh.webp",
+            "en": "assets/showcase/dark-invasion-cover-en.webp"
+          },
+          "width": {
+            "zh": 1120,
+            "en": 1120
+          },
+          "height": {
+            "zh": 630,
+            "en": 630
+          },
+          "caption": {},
+          "existing": true
+        }
+      ],
+      "category": "games",
+      "platforms": [
+        "vision"
+      ],
+      "rank": 14,
+      "pricing": "paid",
+      "storeVerified": "2026-09-05",
+      "version": "1.0",
+      "aliases": [],
+      "featured": false,
+      "notes": {
+        "zh": "",
+        "en": ""
+      },
+      "categories": [
+        "games"
+      ]
+    },
+    {
+      "id": "objectifyar",
+      "name": {
+        "zh": "ObjectifyAR",
+        "en": "ObjectifyAR"
+      },
+      "summary": {
+        "zh": "掃描實體物件，整理成 3D 收藏，在 Vision Pro 打開自己的博物館。",
+        "en": "Scan real objects, curate a 3D collection, and open your own museum on Vision Pro."
+      },
+      "page": "apps/objectifyar.html",
+      "icon": "assets/apps/thumbs/objectifyar-icon.png",
+      "store": "https://apps.apple.com/us/app/objectifyar/id6766117380",
+      "updated": "2026-06-07",
+      "media": [
+        {
+          "src": {
+            "zh": "assets/showcase/objectifyar-cover-zh.webp",
+            "en": "assets/showcase/objectifyar-cover-en.webp"
+          },
+          "width": {
+            "zh": 840,
+            "en": 840
+          },
+          "height": {
+            "zh": 1120,
+            "en": 1120
+          },
+          "caption": {},
+          "existing": true
+        }
+      ],
+      "category": "creating",
+      "platforms": [
+        "iphone",
+        "ipad",
+        "mac",
+        "vision"
+      ],
+      "rank": 2,
+      "pricing": "paid",
+      "storeVerified": "2026-09-05",
+      "version": "1.0.1",
+      "aliases": [],
+      "featured": false,
+      "notes": {
+        "zh": "",
+        "en": ""
+      },
+      "categories": [
+        "creating"
+      ]
+    },
+    {
+      "id": "diorama-map-maker",
+      "name": {
+        "zh": "DioramaMapMaker",
+        "en": "DioramaMapMaker"
+      },
+      "summary": {
+        "zh": "從地形與植被設定產生 3D 微縮景觀，帶進你的空間作品。",
+        "en": "Generate 3D landscapes from terrain and vegetation settings for your spatial projects."
+      },
+      "page": "apps/diorama-map-maker.html",
+      "icon": "assets/apps/thumbs/diorama-map-maker-icon.png",
+      "store": "https://apps.apple.com/us/app/dioramamapmaker/id6770131261",
+      "updated": "2026-06-16",
+      "media": [
+        {
+          "src": {
+            "zh": "assets/showcase/diorama-map-maker-1-zh.webp",
+            "en": "assets/showcase/diorama-map-maker-1-en.webp"
+          },
+          "width": {
+            "zh": 1440,
+            "en": 1440
+          },
+          "height": {
+            "zh": 900,
+            "en": 900
+          },
+          "caption": {}
+        },
+        {
+          "src": {
+            "zh": "assets/showcase/diorama-map-maker-2-zh.webp",
+            "en": "assets/showcase/diorama-map-maker-2-en.webp"
+          },
+          "width": {
+            "zh": 1440,
+            "en": 1440
+          },
+          "height": {
+            "zh": 810,
+            "en": 810
+          },
+          "caption": {}
+        }
+      ],
+      "category": "creating",
+      "platforms": [
+        "iphone",
+        "ipad",
+        "mac",
+        "vision"
+      ],
+      "rank": 11,
+      "pricing": "paid",
+      "storeVerified": "2026-09-05",
+      "version": "1.0.1",
+      "aliases": [],
+      "featured": false,
+      "notes": {
+        "zh": "",
+        "en": ""
+      },
+      "categories": [
+        "creating"
+      ]
+    },
+    {
+      "id": "diorama-town-builder",
+      "name": {
+        "zh": "DioramaTownBuilder",
+        "en": "DioramaTownBuilder"
+      },
+      "summary": {
+        "zh": "用可調整的設定生成立體街景，快速嘗試不同小鎮與建築風格。",
+        "en": "Generate adjustable 3D streets and explore different towns and architectural styles."
+      },
+      "page": "apps/diorama-town-builder.html",
+      "icon": "assets/apps/thumbs/diorama-town-builder-icon.png",
+      "store": "https://apps.apple.com/us/app/dioramatownbuilder/id6770996354",
+      "updated": "2026-06-18",
+      "media": [
+        {
+          "src": {
+            "zh": "assets/showcase/diorama-town-builder-1-zh.webp",
+            "en": "assets/showcase/diorama-town-builder-1-en.webp"
+          },
+          "width": {
+            "zh": 1440,
+            "en": 1440
+          },
+          "height": {
+            "zh": 900,
+            "en": 900
+          },
+          "caption": {}
+        },
+        {
+          "src": {
+            "zh": "assets/showcase/diorama-town-builder-2-zh.webp",
+            "en": "assets/showcase/diorama-town-builder-2-en.webp"
+          },
+          "width": {
+            "zh": 1440,
+            "en": 1440
+          },
+          "height": {
+            "zh": 810,
+            "en": 810
+          },
+          "caption": {}
+        }
+      ],
+      "category": "creating",
+      "platforms": [
+        "iphone",
+        "ipad",
+        "mac",
+        "vision"
+      ],
+      "rank": 12,
+      "pricing": "paid",
+      "storeVerified": "2026-09-05",
+      "version": "1.0.1",
+      "aliases": [],
+      "featured": false,
+      "notes": {
+        "zh": "",
+        "en": ""
+      },
+      "categories": [
+        "creating"
+      ]
+    },
+    {
+      "id": "mansion-generator",
+      "name": {
+        "zh": "MansionGenerator",
+        "en": "MansionGenerator"
+      },
+      "summary": {
+        "zh": "設定基地、樓層與房間需求，生成建築方案，檢查平面與空間動線。",
+        "en": "Set your site, floors, and rooms, then generate a home and inspect its plans and routes."
+      },
+      "page": "apps/mansion-generator.html",
+      "icon": "assets/apps/thumbs/mansion-generator-icon.png",
+      "store": "https://apps.apple.com/us/app/mansiongenerator/id6789469461",
+      "updated": "2026-07-16",
+      "media": [
+        {
+          "src": {
+            "zh": "assets/showcase/mansion-generator-1-zh.webp",
+            "en": "assets/showcase/mansion-generator-1-en.webp"
+          },
+          "width": {
+            "zh": 1440,
+            "en": 1440
+          },
+          "height": {
+            "zh": 900,
+            "en": 900
+          },
+          "caption": {}
+        },
+        {
+          "src": {
+            "zh": "assets/showcase/mansion-generator-2-zh.webp",
+            "en": "assets/showcase/mansion-generator-2-en.webp"
+          },
+          "width": {
+            "zh": 1440,
+            "en": 1440
+          },
+          "height": {
+            "zh": 810,
+            "en": 810
+          },
+          "caption": {}
+        }
+      ],
+      "category": "creating",
+      "platforms": [
+        "iphone",
+        "ipad",
+        "mac",
+        "vision"
+      ],
+      "rank": 4,
+      "pricing": "paid",
+      "storeVerified": "2026-09-05",
+      "version": "1.0",
+      "aliases": [],
+      "featured": true,
+      "notes": {
+        "zh": "",
+        "en": ""
+      },
+      "categories": [
+        "creating"
+      ]
+    },
+    {
+      "id": "my-taiwan-tour-map",
+      "name": {
+        "zh": "我的台灣觀光地圖",
+        "en": "My Taiwan Tour Map"
+      },
+      "summary": {
+        "zh": "從景點、天氣與照片足跡出發，把台灣旅行整理在自己的地圖上。",
+        "en": "Bring Taiwan attractions, weather, and photo memories together on your personal map."
+      },
+      "page": "apps/my-taiwan-tour-map.html",
+      "icon": "assets/apps/thumbs/my-taiwan-tour-map-icon.png",
+      "store": "https://apps.apple.com/tw/app/%E6%88%91%E7%9A%84%E5%8F%B0%E7%81%A3%E8%A7%80%E5%85%89%E5%9C%B0%E5%9C%96/id6765615369",
+      "updated": "2026-07-29",
+      "media": [
+        {
+          "src": {
+            "zh": "assets/showcase/my-taiwan-tour-map-cover-zh.webp",
+            "en": "assets/showcase/my-taiwan-tour-map-cover-en.webp"
+          },
+          "width": {
+            "zh": 515,
+            "en": 515
+          },
+          "height": {
+            "zh": 1120,
+            "en": 1120
+          },
+          "caption": {},
+          "existing": true
+        }
+      ],
+      "category": "travel",
+      "platforms": [
+        "iphone",
+        "ipad"
+      ],
+      "rank": 10,
+      "pricing": "paid",
+      "storeVerified": "2026-09-05",
+      "version": "1.1",
+      "aliases": [],
+      "featured": false,
+      "notes": {
+        "zh": "",
+        "en": ""
+      },
+      "categories": [
+        "travel"
+      ]
+    },
+    {
+      "id": "sticker-vault",
+      "name": {
+        "zh": "Sticker Vault",
+        "en": "Sticker Vault"
+      },
+      "summary": {
+        "zh": "把照片整理成貼圖收藏，直接在 iMessage 分享。",
+        "en": "Turn photos into a sticker collection and share them in iMessage."
+      },
+      "page": "apps/sticker-vault.html",
+      "icon": "assets/apps/thumbs/sticker-vault-icon.png",
+      "store": "https://apps.apple.com/tw/app/personal-sticker-vault/id6762514383?l=en-GB",
+      "updated": "2026-04-21",
+      "media": [
+        {
+          "src": {
+            "zh": "assets/showcase/sticker-vault-1-store.webp"
+          },
+          "width": {
+            "zh": 1079
+          },
+          "height": {
+            "zh": 1440
+          },
+          "caption": {},
+          "shared": true
+        }
+      ],
+      "category": "tools",
+      "platforms": [
+        "iphone",
+        "ipad"
+      ],
+      "rank": 25,
+      "pricing": "paid",
+      "storeVerified": "2026-09-05",
+      "version": "1.1",
+      "aliases": [],
+      "featured": false,
+      "notes": {
+        "zh": "",
+        "en": ""
+      },
+      "categories": [
+        "tools"
+      ]
+    },
+    {
+      "id": "zhuyin-story",
+      "name": {
+        "zh": "注音故事",
+        "en": "Zhuyin Story"
+      },
+      "summary": {
+        "zh": "每天都有新的注音故事，搭配插畫與朗讀，陪孩子練習閱讀。",
+        "en": "Fresh Zhuyin stories, illustrations, and read-aloud support for young readers."
+      },
+      "page": "apps/zhuyin-story.html",
+      "icon": "assets/apps/thumbs/zhuyin-story-icon.png",
+      "store": "https://apps.apple.com/us/app/%E6%B3%A8%E9%9F%B3%E6%95%85%E4%BA%8B/id6762072592",
+      "updated": "2026-04-19",
+      "media": [
+        {
+          "src": {
+            "zh": "assets/showcase/zhuyin-story-cover-zh.webp",
+            "en": "assets/showcase/zhuyin-story-cover-en.webp"
+          },
+          "width": {
+            "zh": 1000,
+            "en": 1000
+          },
+          "height": {
+            "zh": 1000,
+            "en": 1000
+          },
+          "caption": {},
+          "existing": true
+        }
+      ],
+      "category": "learning",
+      "platforms": [
+        "iphone",
+        "ipad",
+        "vision"
+      ],
+      "rank": 17,
+      "pricing": "paid",
+      "storeVerified": "2026-09-05",
+      "version": "1.0",
+      "aliases": [
+        "注音",
+        "兒童閱讀",
+        "Zhuyin Story",
+        "Bopomofo"
+      ],
+      "featured": false,
+      "notes": {
+        "zh": "",
+        "en": ""
+      },
+      "categories": [
+        "learning"
+      ]
+    },
+    {
+      "id": "english-savior",
+      "name": {
+        "zh": "英語救星 EnglishSaver",
+        "en": "English Saver"
+      },
+      "summary": {
+        "zh": "把想說的中文練成英文，再用單字故事與口說練習加深印象。",
+        "en": "Turn Chinese ideas into English, then practise with vocabulary stories and speaking."
+      },
+      "page": "apps/english-savior.html",
+      "icon": "assets/apps/thumbs/english-saver-icon.png",
+      "store": "https://apps.apple.com/us/app/%E8%8B%B1%E8%AA%9E%E6%95%91%E6%98%9F/id6761374629",
+      "updated": "2026-04-10",
+      "media": [
+        {
+          "src": {
+            "zh": "assets/showcase/english-savior-cover-zh.webp",
+            "en": "assets/showcase/english-savior-cover-en.webp"
+          },
+          "width": {
+            "zh": 517,
+            "en": 517
+          },
+          "height": {
+            "zh": 1120,
+            "en": 1120
+          },
+          "caption": {},
+          "existing": true
+        }
+      ],
+      "category": "learning",
+      "platforms": [
+        "iphone",
+        "ipad",
+        "vision"
+      ],
+      "rank": 18,
+      "pricing": "paid",
+      "storeVerified": "2026-09-05",
+      "version": "1.2",
+      "aliases": [],
+      "featured": false,
+      "notes": {
+        "zh": "",
+        "en": ""
+      },
+      "categories": [
+        "learning"
+      ]
+    },
+    {
+      "id": "taipei-veggie-price",
+      "name": {
+        "zh": "台北菜價",
+        "en": "Taipei Veggie Price"
+      },
+      "summary": {
+        "zh": "快速查詢台北蔬菜價格，為採買多一份參考。",
+        "en": "Look up Taipei vegetable prices for a little more context before shopping."
+      },
+      "page": "apps/taipei-veggie-price.html",
+      "icon": "assets/apps/thumbs/taipei-veggie-price-icon.png",
+      "store": "https://apps.apple.com/us/app/%E5%8F%B0%E5%8C%97%E8%8F%9C%E5%83%B9/id6761520976",
+      "updated": "2026-08-14",
+      "media": [
+        {
+          "src": {
+            "zh": "assets/showcase/taipei-veggie-price-1-store.webp"
+          },
+          "width": {
+            "zh": 1079
+          },
+          "height": {
+            "zh": 1440
+          },
+          "caption": {},
+          "shared": true
+        },
+        {
+          "src": {
+            "zh": "assets/showcase/taipei-veggie-price-2-store.webp"
+          },
+          "width": {
+            "zh": 1079
+          },
+          "height": {
+            "zh": 1440
+          },
+          "caption": {},
+          "shared": true
+        }
+      ],
+      "category": "tools",
+      "platforms": [
+        "iphone",
+        "ipad"
+      ],
+      "rank": 28,
+      "pricing": "free",
+      "storeVerified": "2026-09-05",
+      "version": "1.2",
+      "aliases": [],
+      "featured": false,
+      "notes": {
+        "zh": "免費使用，含廣告。",
+        "en": "Free to use, with ads."
+      },
+      "categories": [
+        "tools"
+      ],
+      "related": [
+        "my-taiwan-tour-map",
+        "vectrafin",
+        "knowmenote"
+      ]
+    },
+    {
+      "id": "shiji",
+      "name": {
+        "zh": "師記",
+        "en": "Shiji"
+      },
+      "summary": {
+        "zh": "整理出缺勤、課堂記錄與聯絡簿草稿，讓教學中的重要細節有處可找。",
+        "en": "Organise attendance, classroom notes, and draft family updates in one place."
+      },
+      "page": "apps/shiji.html",
+      "icon": "assets/apps/thumbs/shiji-icon.png",
+      "store": "https://apps.apple.com/us/app/%E5%B8%AB%E8%A8%98/id6761170711",
+      "updated": "2026-05-11",
+      "media": [
+        {
+          "src": {
+            "zh": "assets/showcase/shiji-1-store.webp"
+          },
+          "width": {
+            "zh": 1079
+          },
+          "height": {
+            "zh": 1440
+          },
+          "caption": {},
+          "shared": true
+        }
+      ],
+      "category": "tools",
+      "platforms": [
+        "iphone",
+        "ipad"
+      ],
+      "rank": 22,
+      "pricing": "free",
+      "storeVerified": "2026-09-05",
+      "version": "1.2",
+      "aliases": [
+        "老師",
+        "教師",
+        "學生",
+        "teacher"
+      ],
+      "featured": false,
+      "notes": {
+        "zh": "免費下載，部分功能需訂閱。",
+        "en": "Free download; some features require a subscription."
+      },
+      "categories": [
+        "tools",
+        "learning"
+      ]
+    },
+    {
+      "id": "melody-journal",
+      "name": {
+        "zh": "Melody Journal",
+        "en": "Melody Journal"
+      },
+      "summary": {
+        "zh": "把樂譜、節拍器、調音器與錄音放在一起，為每次練習留下下一步。",
+        "en": "Keep scores, a metronome, tuner, and recordings together, with a next step for every practice."
+      },
+      "page": "apps/melody-journal.html",
+      "icon": "assets/apps/thumbs/melody-journal-icon.png",
+      "store": "https://apps.apple.com/us/app/melody-journal/id6737501375",
+      "updated": "2026-07-17",
+      "media": [
+        {
+          "src": {
+            "zh": "assets/showcase/melody-journal-cover-zh.webp",
+            "en": "assets/showcase/melody-journal-cover-en.webp"
+          },
+          "width": {
+            "zh": 515,
+            "en": 515
+          },
+          "height": {
+            "zh": 1120,
+            "en": 1120
+          },
+          "caption": {},
+          "existing": true
+        }
+      ],
+      "category": "music",
+      "platforms": [
+        "iphone",
+        "ipad"
+      ],
+      "rank": 9,
+      "pricing": "paid",
+      "storeVerified": "2026-09-05",
+      "version": "1.4",
+      "aliases": [],
+      "featured": false,
+      "notes": {
+        "zh": "",
+        "en": ""
+      },
+      "categories": [
+        "music"
+      ]
+    },
+    {
+      "id": "notelyra",
+      "name": {
+        "zh": "Notelyra",
+        "en": "Notelyra"
+      },
+      "summary": {
+        "zh": "把音樂課的講解與示範記在時間軸上，回家練習時回到關鍵片段。",
+        "en": "Capture explanations and demonstrations on a timeline, then return to them during practice."
+      },
+      "page": "apps/notelyra.html",
+      "icon": "assets/apps/thumbs/notelyra-icon.png",
+      "store": "https://apps.apple.com/tw/app/notelyra/id6763519147?l=en-GB",
+      "updated": "2026-06-10",
+      "media": [
+        {
+          "src": {
+            "zh": "assets/showcase/notelyra-1-zh.webp",
+            "en": "assets/showcase/notelyra-1-en.webp"
+          },
+          "width": {
+            "zh": 1080,
+            "en": 1080
+          },
+          "height": {
+            "zh": 1440,
+            "en": 1440
+          },
+          "caption": {}
+        },
+        {
+          "src": {
+            "zh": "assets/showcase/notelyra-2-zh.webp",
+            "en": "assets/showcase/notelyra-2-en.webp"
+          },
+          "width": {
+            "zh": 1080,
+            "en": 1080
+          },
+          "height": {
+            "zh": 1440,
+            "en": 1440
+          },
+          "caption": {}
+        }
+      ],
+      "category": "music",
+      "platforms": [
+        "iphone",
+        "ipad"
+      ],
+      "rank": 15,
+      "pricing": "paid",
+      "storeVerified": "2026-09-05",
+      "version": "1.1.2",
+      "aliases": [],
+      "featured": false,
+      "notes": {
+        "zh": "",
+        "en": ""
+      },
+      "categories": [
+        "music"
+      ]
+    },
+    {
+      "id": "musheetcreator",
+      "name": {
+        "zh": "MuSheetCreator",
+        "en": "MuSheetCreator"
+      },
+      "summary": {
+        "zh": "把演奏或 MIDI 變成可以修改的樂譜草稿，保留原音，慢慢整理靈感。",
+        "en": "Turn playing or MIDI into an editable score draft, with the original recording beside it."
+      },
+      "page": "apps/musheetcreator.html",
+      "icon": "assets/apps/thumbs/musheetcreator-icon.png",
+      "store": "https://apps.apple.com/us/app/musheetcreator/id6776268670",
+      "updated": "2026-06-06",
+      "media": [
+        {
+          "src": {
+            "zh": "assets/showcase/musheetcreator-1-zh.webp",
+            "en": "assets/showcase/musheetcreator-1-en.webp"
+          },
+          "width": {
+            "zh": 1080,
+            "en": 1080
+          },
+          "height": {
+            "zh": 1440,
+            "en": 1440
+          },
+          "caption": {}
+        },
+        {
+          "src": {
+            "zh": "assets/showcase/musheetcreator-2-zh.webp",
+            "en": "assets/showcase/musheetcreator-2-en.webp"
+          },
+          "width": {
+            "zh": 1080,
+            "en": 1080
+          },
+          "height": {
+            "zh": 1440,
+            "en": 1440
+          },
+          "caption": {}
+        }
+      ],
+      "category": "music",
+      "platforms": [
+        "iphone",
+        "ipad"
+      ],
+      "rank": 3,
+      "pricing": "paid",
+      "storeVerified": "2026-09-05",
+      "version": "1.0.1",
+      "aliases": [
+        "樂譜",
+        "MIDI",
+        "記譜",
+        "score",
+        "composition"
+      ],
+      "featured": false,
+      "notes": {
+        "zh": "",
+        "en": ""
+      },
+      "categories": [
+        "music"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": "learning",
+      "name": {
+        "zh": "學習與教育",
+        "en": "Learning & education"
+      },
+      "description": {
+        "zh": "一起閱讀、練習語言，或動手理解新知。",
+        "en": "Read, practise languages, and learn by doing."
+      }
+    },
+    {
+      "id": "music",
+      "name": {
+        "zh": "音樂與演出",
+        "en": "Music & performance"
+      },
+      "description": {
+        "zh": "從課堂筆記、日常練習，到樂譜與演出。",
+        "en": "From lesson notes and daily practice to scores and performances."
+      }
+    },
+    {
+      "id": "creating",
+      "name": {
+        "zh": "3D 建模與創作",
+        "en": "3D & creation"
+      },
+      "description": {
+        "zh": "製作地形、街景與建築，保存你的 3D 收藏。",
+        "en": "Build landscapes, streets, and homes, or curate your 3D collection."
+      }
+    },
+    {
+      "id": "games",
+      "name": {
+        "zh": "遊戲與冒險",
+        "en": "Games & adventures"
+      },
+      "description": {
+        "zh": "玩一局配對，或走進冒險與戰略世界。",
+        "en": "A quick matching game, an adventure, or a world of strategy."
+      }
+    },
+    {
+      "id": "culture",
+      "name": {
+        "zh": "文化閱讀與靜心",
+        "en": "Culture & reflection"
+      },
+      "description": {
+        "zh": "讀古文、認識茶，也留一點安靜的時間。",
+        "en": "Read the classics, discover tea, and make room for reflection."
+      }
+    },
+    {
+      "id": "travel",
+      "name": {
+        "zh": "地圖與旅行",
+        "en": "Maps & travel"
+      },
+      "description": {
+        "zh": "找下一站，也重新發現走過的地方。",
+        "en": "Find your next stop and rediscover places you have been."
+      }
+    },
+    {
+      "id": "tools",
+      "name": {
+        "zh": "生活與工作工具",
+        "en": "Everyday tools"
+      },
+      "description": {
+        "zh": "整理文字、財務、教學與日常的小事。",
+        "en": "Organise writing, finances, teaching, and everyday details."
+      }
+    }
+  ],
+  "schemaVersion": 1
+}

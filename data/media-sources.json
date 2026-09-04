@@ -1,0 +1,347 @@
+[
+  {
+    "asset": "assets/showcase/musheetcreator-1-zh.webp",
+    "source": "MusicComposer/AppStoreScreenshots/iPad/03-score-editor.png",
+    "kind": "project-app-store-screenshot"
+  },
+  {
+    "asset": "assets/showcase/musheetcreator-1-en.webp",
+    "source": "MusicComposer/AppStoreScreenshots/en/iPad_13/03-score-editor.png",
+    "kind": "project-app-store-screenshot"
+  },
+  {
+    "asset": "assets/showcase/musheetcreator-2-zh.webp",
+    "source": "MusicComposer/AppStoreScreenshots/iPad/02-setup.png",
+    "kind": "project-app-store-screenshot"
+  },
+  {
+    "asset": "assets/showcase/musheetcreator-2-en.webp",
+    "source": "MusicComposer/AppStoreScreenshots/en/iPad_13/02-setup.png",
+    "kind": "project-app-store-screenshot"
+  },
+  {
+    "asset": "assets/showcase/mansion-generator-1-zh.webp",
+    "source": "MansionGenerator/AppStore/Screenshots/macos/mac/zh-Hant/01-design.png",
+    "kind": "project-app-store-screenshot"
+  },
+  {
+    "asset": "assets/showcase/mansion-generator-1-en.webp",
+    "source": "MansionGenerator/AppStore/Screenshots/macos/mac/en-US/01-design.png",
+    "kind": "project-app-store-screenshot"
+  },
+  {
+    "asset": "assets/showcase/mansion-generator-2-zh.webp",
+    "source": "MansionGenerator/AppStore/Screenshots/visionos/apple-vision-pro/zh-Hant/05-diorama.png",
+    "kind": "project-app-store-screenshot"
+  },
+  {
+    "asset": "assets/showcase/mansion-generator-2-en.webp",
+    "source": "MansionGenerator/AppStore/Screenshots/visionos/apple-vision-pro/en-US/05-diorama.png",
+    "kind": "project-app-store-screenshot"
+  },
+  {
+    "asset": "assets/showcase/the-book-of-tea-1-zh.webp",
+    "source": "TheBookOfTea/AppStoreConnect/iOS/zh-Hant/screenshots/ipad/01_tea_classic.png",
+    "kind": "project-app-store-screenshot"
+  },
+  {
+    "asset": "assets/showcase/the-book-of-tea-1-en.webp",
+    "source": "TheBookOfTea/AppStoreConnect/iOS/en-US/screenshots/ipad/01_tea_classic.png",
+    "kind": "project-app-store-screenshot"
+  },
+  {
+    "asset": "assets/showcase/the-book-of-tea-2-zh.webp",
+    "source": "TheBookOfTea/AppStoreConnect/visionOS/zh-Hant/screenshots/apple-vision-pro/03_making_game.png",
+    "kind": "project-app-store-screenshot"
+  },
+  {
+    "asset": "assets/showcase/the-book-of-tea-2-en.webp",
+    "source": "TheBookOfTea/AppStoreConnect/visionOS/en-US/screenshots/apple-vision-pro/03_making_game.png",
+    "kind": "project-app-store-screenshot"
+  },
+  {
+    "asset": "assets/showcase/diorama-map-maker-1-zh.webp",
+    "source": "AppleDioramaMapMaker/Docs/AppStore/Screenshots/macos/mac/zh-Hant/01-material.png",
+    "kind": "project-app-store-screenshot"
+  },
+  {
+    "asset": "assets/showcase/diorama-map-maker-1-en.webp",
+    "source": "AppleDioramaMapMaker/Docs/AppStore/Screenshots/macos/mac/en/01-material.png",
+    "kind": "project-app-store-screenshot"
+  },
+  {
+    "asset": "assets/showcase/diorama-map-maker-2-zh.webp",
+    "source": "AppleDioramaMapMaker/Docs/AppStore/Screenshots/visionos/apple-vision-pro/zh-Hant/03-spatial.png",
+    "kind": "project-app-store-screenshot"
+  },
+  {
+    "asset": "assets/showcase/diorama-map-maker-2-en.webp",
+    "source": "AppleDioramaMapMaker/Docs/AppStore/Screenshots/visionos/apple-vision-pro/en/03-spatial.png",
+    "kind": "project-app-store-screenshot"
+  },
+  {
+    "asset": "assets/showcase/diorama-town-builder-1-zh.webp",
+    "source": "DioramaTownBuilder/AppStoreAssets/Screenshots/v1.0.1/zh-Hant/macOS/01-dense-shop-street.png",
+    "kind": "project-app-store-screenshot"
+  },
+  {
+    "asset": "assets/showcase/diorama-town-builder-1-en.webp",
+    "source": "DioramaTownBuilder/AppStoreAssets/Screenshots/v1.0.1/en/macOS/01-dense-shop-street.png",
+    "kind": "project-app-store-screenshot"
+  },
+  {
+    "asset": "assets/showcase/diorama-town-builder-2-zh.webp",
+    "source": "DioramaTownBuilder/AppStoreAssets/Screenshots/v1.0.1/zh-Hant/visionOS/02-blue-tile-village.png",
+    "kind": "project-app-store-screenshot"
+  },
+  {
+    "asset": "assets/showcase/diorama-town-builder-2-en.webp",
+    "source": "DioramaTownBuilder/AppStoreAssets/Screenshots/v1.0.1/en/visionOS/02-blue-tile-village.png",
+    "kind": "project-app-store-screenshot"
+  },
+  {
+    "asset": "assets/showcase/home-edu-assistance-1-zh.webp",
+    "source": "HomeEduAssistance/AppStoreAssets/zh-Hant/iPad/01_today_dashboard.png",
+    "kind": "project-app-store-screenshot"
+  },
+  {
+    "asset": "assets/showcase/home-edu-assistance-1-en.webp",
+    "source": "HomeEduAssistance/AppStoreAssets/en/iPad/01_today_dashboard.png",
+    "kind": "project-app-store-screenshot"
+  },
+  {
+    "asset": "assets/showcase/home-edu-assistance-2-zh.webp",
+    "source": "HomeEduAssistance/AppStoreAssets/zh-Hant/iPad/04_reward_contracts.png",
+    "kind": "project-app-store-screenshot"
+  },
+  {
+    "asset": "assets/showcase/home-edu-assistance-2-en.webp",
+    "source": "HomeEduAssistance/AppStoreAssets/en/iPad/04_reward_contracts.png",
+    "kind": "project-app-store-screenshot"
+  },
+  {
+    "asset": "assets/showcase/swim-power-1-zh.webp",
+    "source": "SwimPower/AppStore/Screenshots/localized/zh-Hant/upload/ipad/ipad-wide-dashboard.png",
+    "kind": "project-app-store-screenshot"
+  },
+  {
+    "asset": "assets/showcase/swim-power-1-en.webp",
+    "source": "SwimPower/AppStore/Screenshots/localized/en/upload/ipad/ipad-wide-dashboard.png",
+    "kind": "project-app-store-screenshot"
+  },
+  {
+    "asset": "assets/showcase/swim-power-2-zh.webp",
+    "source": "SwimPower/AppStore/Screenshots/localized/zh-Hant/upload/ipad/ipad-training-ratio.png",
+    "kind": "project-app-store-screenshot"
+  },
+  {
+    "asset": "assets/showcase/swim-power-2-en.webp",
+    "source": "SwimPower/AppStore/Screenshots/localized/en/upload/ipad/ipad-training-ratio.png",
+    "kind": "project-app-store-screenshot"
+  },
+  {
+    "asset": "assets/showcase/zodiac-memory-match-1-zh.webp",
+    "source": "New project/ZodiacMemory/AppStoreMetadata/zh-Hant/screenshots/iPad/ipad_half_zh-Hant.png",
+    "kind": "project-app-store-screenshot"
+  },
+  {
+    "asset": "assets/showcase/zodiac-memory-match-1-en.webp",
+    "source": "New project/ZodiacMemory/AppStoreMetadata/en/screenshots/iPad/ipad_half_en.png",
+    "kind": "project-app-store-screenshot"
+  },
+  {
+    "asset": "assets/showcase/knowmenote-1-zh.webp",
+    "source": "KnowMeNote/AppStore/1.1/screenshots/zh-Hant/ipad-13/01-editor.png",
+    "kind": "project-app-store-screenshot"
+  },
+  {
+    "asset": "assets/showcase/notelyra-1-zh.webp",
+    "source": "Notelyra/AppStoreMetadata/zh-Hant/iPad/02-recorder.png",
+    "kind": "project-app-store-screenshot"
+  },
+  {
+    "asset": "assets/showcase/notelyra-1-en.webp",
+    "source": "Notelyra/AppStoreMetadata/en-US/iPad/02-recorder.png",
+    "kind": "project-app-store-screenshot"
+  },
+  {
+    "asset": "assets/showcase/notelyra-2-zh.webp",
+    "source": "Notelyra/AppStoreMetadata/zh-Hant/iPad/01-dashboard.png",
+    "kind": "project-app-store-screenshot"
+  },
+  {
+    "asset": "assets/showcase/notelyra-2-en.webp",
+    "source": "Notelyra/AppStoreMetadata/en-US/iPad/01-dashboard.png",
+    "kind": "project-app-store-screenshot"
+  },
+  {
+    "asset": "assets/showcase/knowmenote-1-en.webp",
+    "source": "KnowMeNote/AppStore/1.1/screenshots/en/ipad-13/01-editor.png",
+    "kind": "project-app-store-screenshot"
+  },
+  {
+    "asset": "assets/showcase/sishu-mengguan-cover-zh.webp",
+    "source": "assets/screenshots/sishu-mengguan-immersive-classroom.png",
+    "kind": "existing-website-screenshot"
+  },
+  {
+    "asset": "assets/showcase/sishu-mengguan-cover-en.webp",
+    "source": "assets/screenshots/sishu-mengguan-immersive-classroom.png",
+    "kind": "existing-website-screenshot"
+  },
+  {
+    "asset": "assets/showcase/magicstage-cover-zh.webp",
+    "source": "assets/screenshots/magicstage-concert-hall.jpg",
+    "kind": "existing-website-screenshot"
+  },
+  {
+    "asset": "assets/showcase/magicstage-cover-en.webp",
+    "source": "assets/screenshots/magicstage-concert-hall.jpg",
+    "kind": "existing-website-screenshot"
+  },
+  {
+    "asset": "assets/showcase/oracle-gecko-courtyard-cover-zh.webp",
+    "source": "assets/screenshots/oracle-gecko-courtyard-render.png",
+    "kind": "existing-website-screenshot"
+  },
+  {
+    "asset": "assets/showcase/oracle-gecko-courtyard-cover-en.webp",
+    "source": "assets/screenshots/oracle-gecko-courtyard-render.png",
+    "kind": "existing-website-screenshot"
+  },
+  {
+    "asset": "assets/showcase/ordinary-adventure-cover-zh.webp",
+    "source": "assets/screenshots/ordinary-adventure-deep-sea.jpg",
+    "kind": "existing-website-screenshot"
+  },
+  {
+    "asset": "assets/showcase/ordinary-adventure-cover-en.webp",
+    "source": "assets/screenshots/ordinary-adventure-deep-sea.jpg",
+    "kind": "existing-website-screenshot"
+  },
+  {
+    "asset": "assets/showcase/vine-window-cover-zh.webp",
+    "source": "assets/screenshots/vine-window-immersive.jpg",
+    "kind": "existing-website-screenshot"
+  },
+  {
+    "asset": "assets/showcase/vine-window-cover-en.webp",
+    "source": "assets/screenshots/vine-window-immersive.jpg",
+    "kind": "existing-website-screenshot"
+  },
+  {
+    "asset": "assets/showcase/realm-atlas-cover-zh.webp",
+    "source": "assets/screenshots/realm-atlas-spatial-realm.jpg",
+    "kind": "existing-website-screenshot"
+  },
+  {
+    "asset": "assets/showcase/realm-atlas-cover-en.webp",
+    "source": "assets/screenshots/realm-atlas-spatial-realm.jpg",
+    "kind": "existing-website-screenshot"
+  },
+  {
+    "asset": "assets/showcase/spatial-electronics-lab-cover-zh.webp",
+    "source": "assets/screenshots/spatial-electronics-lab-led-lab-zh.jpg",
+    "kind": "existing-website-screenshot"
+  },
+  {
+    "asset": "assets/showcase/spatial-electronics-lab-cover-en.webp",
+    "source": "assets/screenshots/spatial-electronics-lab-led-lab-en.jpg",
+    "kind": "existing-website-screenshot"
+  },
+  {
+    "asset": "assets/showcase/dark-invasion-cover-zh.webp",
+    "source": "assets/screenshots/dark-invasion-fire-zh.png",
+    "kind": "existing-website-screenshot"
+  },
+  {
+    "asset": "assets/showcase/dark-invasion-cover-en.webp",
+    "source": "assets/screenshots/dark-invasion-fire-en.png",
+    "kind": "existing-website-screenshot"
+  },
+  {
+    "asset": "assets/showcase/objectifyar-cover-zh.webp",
+    "source": "assets/screenshots/objectifyar-ipad.png",
+    "kind": "existing-website-screenshot"
+  },
+  {
+    "asset": "assets/showcase/objectifyar-cover-en.webp",
+    "source": "assets/screenshots/objectifyar-ipad.png",
+    "kind": "existing-website-screenshot"
+  },
+  {
+    "asset": "assets/showcase/my-taiwan-tour-map-cover-zh.webp",
+    "source": "assets/screenshots/my-taiwan-tour-map-map-zh.png",
+    "kind": "existing-website-screenshot"
+  },
+  {
+    "asset": "assets/showcase/my-taiwan-tour-map-cover-en.webp",
+    "source": "assets/screenshots/my-taiwan-tour-map-map-en.png",
+    "kind": "existing-website-screenshot"
+  },
+  {
+    "asset": "assets/showcase/zhuyin-story-cover-zh.webp",
+    "source": "assets/screenshots/zhuyin-story-bg.jpg",
+    "kind": "existing-website-screenshot"
+  },
+  {
+    "asset": "assets/showcase/zhuyin-story-cover-en.webp",
+    "source": "assets/screenshots/zhuyin-story-bg.jpg",
+    "kind": "existing-website-screenshot"
+  },
+  {
+    "asset": "assets/showcase/english-savior-cover-zh.webp",
+    "source": "assets/screenshots/english-saver-bg.jpg",
+    "kind": "existing-website-screenshot"
+  },
+  {
+    "asset": "assets/showcase/english-savior-cover-en.webp",
+    "source": "assets/screenshots/english-saver-bg.jpg",
+    "kind": "existing-website-screenshot"
+  },
+  {
+    "asset": "assets/showcase/melody-journal-cover-zh.webp",
+    "source": "assets/screenshots/melody-journal-practice-zh.png",
+    "kind": "existing-website-screenshot"
+  },
+  {
+    "asset": "assets/showcase/melody-journal-cover-en.webp",
+    "source": "assets/screenshots/melody-journal-practice-en.png",
+    "kind": "existing-website-screenshot"
+  },
+  {
+    "asset": "assets/showcase/vectrafin-1-store.webp",
+    "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ed/f4/ef/edf4efaa-e150-93a0-571e-474dd0c5e681/Simulator_Screenshot_-_iPad_Air_13-inch__U0028M4_U0029_-_2026-05-03_at_12.44.22.png/1440x1440bb.jpg",
+    "kind": "published-app-store-screenshot"
+  },
+  {
+    "asset": "assets/showcase/buddha-hall-1-store.webp",
+    "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f5/82/94/f58294bc-0092-18ed-d384-788a4eb0daac/Simulator_Screenshot_-_iPad_Air_13-inch__U0028M4_U0029_-_2026-05-13_at_21.42.35.png/1440x1440bb.jpg",
+    "kind": "published-app-store-screenshot"
+  },
+  {
+    "asset": "assets/showcase/sticker-vault-1-store.webp",
+    "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f5/7e/12/f57e12e1-eb3b-0e22-0f9f-efb91c753ccf/Simulator_Screenshot_-_iPad_Air_13-inch__U0028M4_U0029_-_2026-04-18_at_22.32.28.png/1440x1440bb.jpg",
+    "kind": "published-app-store-screenshot"
+  },
+  {
+    "asset": "assets/showcase/taipei-veggie-price-1-store.webp",
+    "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ec/f8/92/ecf8922e-888d-49a0-d5d1-bf4b0dc2cae8/Simulator_Screenshot_-_iPad_Air_13-inch__U0028M4_U0029_-_2026-04-08_at_18.11.54.png/1440x1440bb.jpg",
+    "kind": "published-app-store-screenshot"
+  },
+  {
+    "asset": "assets/showcase/taipei-veggie-price-2-store.webp",
+    "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/bc/d3/b9/bcd3b9ef-0d28-866b-c086-c621cec150a4/Simulator_Screenshot_-_iPad_Air_13-inch__U0028M4_U0029_-_2026-04-08_at_18.11.42.png/1440x1440bb.jpg",
+    "kind": "published-app-store-screenshot"
+  },
+  {
+    "asset": "assets/showcase/shiji-1-store.webp",
+    "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e4/49/b4/e449b48a-6358-6865-8771-02fcac4cd262/Simulator_Screenshot_-_iPad_Air_13-inch__U0028M4_U0029_-_2026-03-26_at_22.32.46.png/1440x1440bb.jpg",
+    "kind": "published-app-store-screenshot"
+  },
+  {
+    "asset": "assets/showcase/taiwan-animals-1-store.webp",
+    "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c3/4f/42/c34f42fc-5067-c8af-d734-26cdecab04ca/Simulator_Screenshot_-_Apple_Vision_Pro_-_2026-05-24_at_07.28.22.png/1040x586bb.webp",
+    "kind": "published-app-store-screenshot"
+  }
+]
