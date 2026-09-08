@@ -1,15 +1,16 @@
 {
-  "title": "MansionGenerator 1.1 — Four homes in motion",
-  "durationSeconds": 30,
+  "title": "MansionGenerator 1.1 — Outside and within",
+  "edition": "Interiors and artwork",
+  "durationSeconds": 40,
   "width": 1920,
   "height": 1080,
   "fps": 30,
-  "renderer": "Blender 5.1 Eevee",
+  "renderer": "Blender 5.1: Eevee exterior animations, Cycles interior stills",
   "generatorVersion": "2026.09.07.1",
   "seed": 1101,
-  "cameraAnimation": "Four real 3D camera moves; 0.6-second dissolves and a closing card",
-  "rasterGlass": "Exported glass opacity mapped to Eevee alpha transparency",
-  "sourceGeometry": "Unmodified complete USDZ exports from the 1.1 project validation set",
+  "cameraAnimation": "Four exterior 3D camera moves, four furnished-room stills and four artwork stills with pan/zoom, 0.4-second dissolves, closing card",
+  "rasterGlass": "Exported glass opacity mapped to Eevee alpha transparency in the shared scenes",
+  "sourceGeometry": "Unmodified complete USDZ exports from the 1.1 project validation set; presentation cameras and lighting added in Blender",
   "audio": [
     "MansionGenerator/Sources/PlatformUI/Shared/Resources/Soundscapes/mansion-breeze.m4a",
     "MansionGenerator/Sources/PlatformUI/Shared/Resources/Soundscapes/mansion-water.m4a"
@@ -20,7 +21,329 @@
     "mediterraneanCourtyard",
     "palladianVilla"
   ],
+  "interiorSources": [
+    {
+      "style": "modernResort",
+      "view": "living",
+      "package": "collection-modernResort-library-1101.mansion",
+      "generatorVersion": "2026.09.07.1",
+      "seed": 1101,
+      "sourceUSDZSHA256": "e62cc13984833985dba5ac9004b5c194b18189fa8c89397ebc2b425a73ae13dd",
+      "image": "modernResort-living.png",
+      "sha256": "5cf9869c0f2ad1268acb293270b618ec61e28de855385e8bd11befe68df08c23",
+      "cameraPosition": [
+        -7.5037760734558105,
+        -5.704357147216797,
+        1.9500000476837158
+      ],
+      "cameraTarget": [
+        -5.571617603302002,
+        -3.4642155170440674,
+        1.5700000524520874
+      ],
+      "lensMM": 20.0,
+      "renderer": "Blender 5.1 Cycles CPU",
+      "softboxWatts": 320.0,
+      "geometryModified": false
+    },
+    {
+      "style": "modernResort",
+      "view": "art",
+      "package": "collection-modernResort-library-1101.mansion",
+      "generatorVersion": "2026.09.07.1",
+      "seed": 1101,
+      "sourceUSDZSHA256": "e62cc13984833985dba5ac9004b5c194b18189fa8c89397ebc2b425a73ae13dd",
+      "image": "modernResort-art.png",
+      "sha256": "c01d890a2864b0eac36306dbd6e62a32949e039f6e08b849873f7895b4988c88",
+      "cameraPosition": [
+        -7.6297101974487305,
+        -3.885340452194214,
+        1.9600000381469727
+      ],
+      "cameraTarget": [
+        -5.843937397003174,
+        -1.8276779651641846,
+        2.3186399936676025
+      ],
+      "lensMM": 32.0,
+      "renderer": "Blender 5.1 Cycles CPU",
+      "softboxWatts": 320.0,
+      "geometryModified": false
+    },
+    {
+      "style": "japaneseCourtyard",
+      "view": "living",
+      "package": "collection-japaneseCourtyard-library-1101.mansion",
+      "generatorVersion": "2026.09.07.1",
+      "seed": 1101,
+      "sourceUSDZSHA256": "5b649f573951e8e5846a9e97339c6a1e9013c0888339b842afaf47032d658b3d",
+      "image": "japaneseCourtyard-living.png",
+      "sha256": "e95d7f68d400b6a0a8ed469dea7d5ead46b068c0f818a4f9852f923dc3e1fd94",
+      "cameraPosition": [
+        -1.76115083694458,
+        6.298780918121338,
+        1.9500000476837158
+      ],
+      "cameraTarget": [
+        -3.8928616046905518,
+        7.640224456787109,
+        1.350000023841858
+      ],
+      "lensMM": 22.0,
+      "renderer": "Blender 5.1 Cycles CPU",
+      "softboxWatts": 400.0,
+      "geometryModified": false
+    },
+    {
+      "style": "japaneseCourtyard",
+      "view": "art",
+      "package": "collection-japaneseCourtyard-library-1101.mansion",
+      "generatorVersion": "2026.09.07.1",
+      "seed": 1101,
+      "sourceUSDZSHA256": "5b649f573951e8e5846a9e97339c6a1e9013c0888339b842afaf47032d658b3d",
+      "image": "japaneseCourtyard-art.png",
+      "sha256": "313cf846609b38d7224f66484e8a2ac3ea3075b4c50a519ce5d316306e92a78d",
+      "cameraPosition": [
+        -5.901694297790527,
+        6.550693988800049,
+        1.9600000381469727
+      ],
+      "cameraTarget": [
+        -7.085723400115967,
+        8.96923542022705,
+        1.3849999904632568
+      ],
+      "lensMM": 32.0,
+      "renderer": "Blender 5.1 Cycles CPU",
+      "softboxWatts": 400.0,
+      "geometryModified": false
+    },
+    {
+      "style": "mediterraneanCourtyard",
+      "view": "living",
+      "package": "collection-mediterraneanCourtyard-library-1101.mansion",
+      "generatorVersion": "2026.09.07.1",
+      "seed": 1101,
+      "sourceUSDZSHA256": "9629e1c38f3f00603250488fa3674838e5f1a97b9f24d6824c64af6b409ae55d",
+      "image": "mediterraneanCourtyard-living.png",
+      "sha256": "203291d7665948276b227a083c406838cd9cf38478df4139fe4bf2fd721cf11a",
+      "cameraPosition": [
+        -9.22690486907959,
+        2.235568046569824,
+        1.9500000476837158
+      ],
+      "cameraTarget": [
+        -10.943320274353027,
+        5.551049709320068,
+        1.350000023841858
+      ],
+      "lensMM": 22.0,
+      "renderer": "Blender 5.1 Cycles CPU",
+      "softboxWatts": 320.0,
+      "geometryModified": false
+    },
+    {
+      "style": "mediterraneanCourtyard",
+      "view": "art",
+      "package": "collection-mediterraneanCourtyard-library-1101.mansion",
+      "generatorVersion": "2026.09.07.1",
+      "seed": 1101,
+      "sourceUSDZSHA256": "9629e1c38f3f00603250488fa3674838e5f1a97b9f24d6824c64af6b409ae55d",
+      "image": "mediterraneanCourtyard-art.png",
+      "sha256": "4a473c83ee1370fd049b2503d101bc758f4fea1fa8983a4b0d9f135a389802ad",
+      "cameraPosition": [
+        -11.761366844177246,
+        5.529366970062256,
+        1.9600000381469727
+      ],
+      "cameraTarget": [
+        -9.064644813537598,
+        5.319908142089844,
+        1.6200000047683716
+      ],
+      "lensMM": 32.0,
+      "renderer": "Blender 5.1 Cycles CPU",
+      "softboxWatts": 320.0,
+      "geometryModified": false
+    },
+    {
+      "style": "palladianVilla",
+      "view": "living",
+      "package": "collection-palladianVilla-library-1101.mansion",
+      "generatorVersion": "2026.09.07.1",
+      "seed": 1101,
+      "sourceUSDZSHA256": "92253a8e43b9cb3074de3ed1e5115803ca3cdc1501476a655d32d688122f4dd3",
+      "image": "palladianVilla-living.png",
+      "sha256": "556d67a4b95b3836bd21debd6a69b1aeaab025e56519a85e2e3885874172a9cc",
+      "cameraPosition": [
+        -4.323360443115234,
+        3.084807872772217,
+        1.9500000476837158
+      ],
+      "cameraTarget": [
+        -7.096972465515137,
+        5.250707626342773,
+        1.350000023841858
+      ],
+      "lensMM": 22.0,
+      "renderer": "Blender 5.1 Cycles CPU",
+      "softboxWatts": 320.0,
+      "geometryModified": false
+    },
+    {
+      "style": "palladianVilla",
+      "view": "art",
+      "package": "collection-palladianVilla-library-1101.mansion",
+      "generatorVersion": "2026.09.07.1",
+      "seed": 1101,
+      "sourceUSDZSHA256": "92253a8e43b9cb3074de3ed1e5115803ca3cdc1501476a655d32d688122f4dd3",
+      "image": "palladianVilla-art.png",
+      "sha256": "af29dbe141ab30c7b134e6abce01754cd8721ec08343a4992fb6da8def48c343",
+      "cameraPosition": [
+        -10.676665306091309,
+        4.984278678894043,
+        1.9600000381469727
+      ],
+      "cameraTarget": [
+        -11.511945724487305,
+        2.4000000953674316,
+        1.6449999809265137
+      ],
+      "lensMM": 32.0,
+      "renderer": "Blender 5.1 Cycles CPU",
+      "softboxWatts": 320.0,
+      "geometryModified": false
+    }
+  ],
+  "timeline": [
+    {
+      "style": "modernResort",
+      "view": "exterior",
+      "duration": 4,
+      "motion": "Original 7.2-second 3D camera move retimed to 4 seconds",
+      "start": 0,
+      "end": 4
+    },
+    {
+      "style": "modernResort",
+      "view": "living",
+      "duration": 3.8,
+      "source": "interiors/modernResort-living.png",
+      "sourceSHA256": "5cf9869c0f2ad1268acb293270b618ec61e28de855385e8bd11befe68df08c23",
+      "motion": "Slow push in toward seating and wall art",
+      "technique": "Pan/zoom animation of an authentic exported-model still",
+      "start": 3.6,
+      "end": 7.4
+    },
+    {
+      "style": "modernResort",
+      "view": "art",
+      "duration": 2.5,
+      "source": "interiors/modernResort-art.png",
+      "sourceSHA256": "c01d890a2864b0eac36306dbd6e62a32949e039f6e08b849873f7895b4988c88",
+      "motion": "Slow push in toward the artwork",
+      "technique": "Pan/zoom animation of an authentic exported-model still",
+      "start": 7.0,
+      "end": 9.5
+    },
+    {
+      "style": "japaneseCourtyard",
+      "view": "exterior",
+      "duration": 4,
+      "motion": "Original 7.2-second 3D camera move retimed to 4 seconds",
+      "start": 9.1,
+      "end": 13.1
+    },
+    {
+      "style": "japaneseCourtyard",
+      "view": "living",
+      "duration": 3.8,
+      "source": "interiors/japaneseCourtyard-living.png",
+      "sourceSHA256": "e95d7f68d400b6a0a8ed469dea7d5ead46b068c0f818a4f9852f923dc3e1fd94",
+      "motion": "Gentle left-to-right pan",
+      "technique": "Pan/zoom animation of an authentic exported-model still",
+      "start": 12.7,
+      "end": 16.5
+    },
+    {
+      "style": "japaneseCourtyard",
+      "view": "art",
+      "duration": 2.5,
+      "source": "interiors/japaneseCourtyard-art.png",
+      "sourceSHA256": "313cf846609b38d7224f66484e8a2ac3ea3075b4c50a519ce5d316306e92a78d",
+      "motion": "Slow push in toward the artwork",
+      "technique": "Pan/zoom animation of an authentic exported-model still",
+      "start": 16.1,
+      "end": 18.6
+    },
+    {
+      "style": "mediterraneanCourtyard",
+      "view": "exterior",
+      "duration": 4,
+      "motion": "Original 7.2-second 3D camera move retimed to 4 seconds",
+      "start": 18.2,
+      "end": 22.2
+    },
+    {
+      "style": "mediterraneanCourtyard",
+      "view": "living",
+      "duration": 3.8,
+      "source": "interiors/mediterraneanCourtyard-living.png",
+      "sourceSHA256": "203291d7665948276b227a083c406838cd9cf38478df4139fe4bf2fd721cf11a",
+      "motion": "Slow pull back to reveal furniture and ceramic display",
+      "technique": "Pan/zoom animation of an authentic exported-model still",
+      "start": 21.8,
+      "end": 25.6
+    },
+    {
+      "style": "mediterraneanCourtyard",
+      "view": "art",
+      "duration": 2.5,
+      "source": "interiors/mediterraneanCourtyard-art.png",
+      "sourceSHA256": "4a473c83ee1370fd049b2503d101bc758f4fea1fa8983a4b0d9f135a389802ad",
+      "motion": "Slow push in toward the artwork",
+      "technique": "Pan/zoom animation of an authentic exported-model still",
+      "start": 25.2,
+      "end": 27.7
+    },
+    {
+      "style": "palladianVilla",
+      "view": "exterior",
+      "duration": 4,
+      "motion": "Original 7.2-second 3D camera move retimed to 4 seconds",
+      "start": 27.3,
+      "end": 31.3
+    },
+    {
+      "style": "palladianVilla",
+      "view": "living",
+      "duration": 3.8,
+      "source": "interiors/palladianVilla-living.png",
+      "sourceSHA256": "556d67a4b95b3836bd21debd6a69b1aeaab025e56519a85e2e3885874172a9cc",
+      "motion": "Gentle right-to-left pan across the seating arrangement",
+      "technique": "Pan/zoom animation of an authentic exported-model still",
+      "start": 30.9,
+      "end": 34.7
+    },
+    {
+      "style": "palladianVilla",
+      "view": "art",
+      "duration": 2.5,
+      "source": "interiors/palladianVilla-art.png",
+      "sourceSHA256": "af29dbe141ab30c7b134e6abce01754cd8721ec08343a4992fb6da8def48c343",
+      "motion": "Slow push in toward the artwork",
+      "technique": "Pan/zoom animation of an authentic exported-model still",
+      "start": 34.3,
+      "end": 36.8
+    },
+    {
+      "view": "closing",
+      "duration": 3.6,
+      "start": 36.4,
+      "end": 40.0
+    }
+  ],
   "video": "assets/videos/mansion-generator-1-1-showcase.mp4",
-  "bytes": 5341077,
-  "sha256": "9d26a40863b3f459ff4b17951e586904edf16a41988e3d10141a9680e2f355eb"
+  "bytes": 7032539,
+  "sha256": "185d254703a0fd9bcf5d1c0ec961dbd3f0eebce9c18a10fab8c9d47016069411"
 }

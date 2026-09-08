@@ -61,14 +61,18 @@ Push the reviewed website changes to the GitHub Pages branch (`main`, root folde
 
 ## MansionGenerator 1.1 showcase
 
-The 30-second film uses four actual complete USDZ exports (seed 1101, generator `2026.09.07.1`). Geometry and material colours are preserved; glass opacity is adapted for Eevee raster transparency. The camera, presentation ground, and lighting are set in Blender. It is an exported-model demonstration, identified as such beside the player. Sound comes from the app's own generated breeze and water resources.
+The 40-second film uses four actual complete USDZ exports (seed 1101, generator `2026.09.07.1`). Each style has an exterior camera move, a furnished living room, and an artwork close-up. Geometry and material colours are preserved; glass opacity is adapted for Eevee raster transparency. The exterior moves use Eevee; eight high-resolution interior stills use Cycles and receive gentle pan/zoom effects. Cameras and presentation lighting are set in Blender. It is an exported-model demonstration, identified as such beside the player. Sound comes from the app's own generated breeze and water resources.
 
-Keep large renders, original USDZ files, and packed `.blend` scenes outside the website repository. Only the compressed H.264/AAC MP4, posters, and style images are published. `assets/mansion-generator-1.1/provenance.json` records the final media source and checksum.
+Recreate the visuals with the complete `.mansion` packages from the app's validation output:
 
 ```sh
 blender --background --factory-startup --python Tools/render_mansion_showcase.py -- --packages EXPORT_ROOT --output RENDER_OUTPUT --preview
 blender --background --factory-startup --python Tools/render_mansion_showcase.py -- --packages EXPORT_ROOT --output RENDER_OUTPUT --render
+blender --background --factory-startup --python Tools/render_mansion_interiors.py -- --packages EXPORT_ROOT --renders RENDER_OUTPUT --preview
+blender --background --factory-startup --python Tools/render_mansion_interiors.py -- --packages EXPORT_ROOT --renders RENDER_OUTPUT
 python3 Tools/assemble_mansion_showcase.py --renders RENDER_OUTPUT --project MANSION_PROJECT
 ```
 
-Rendering requires Blender 5.1; assembly requires Pillow and ffmpeg. Review all shot endpoints before rendering. The edit uses four 7.2-second camera moves, 0.6-second dissolves, and a 3.6-second closing card, for exactly 30 seconds. The website player loads its poster first and waits for user playback. Switching languages pauses the hidden player.
+Rendering requires Blender 5.1; assembly requires Pillow and ffmpeg. Review the interior previews and all camera endpoints before rendering. Use `--reuse-exterior-clips` during assembly only if the previously encoded exterior footage and titles are unchanged. The edit has four groups of 4-second exteriors, 3.8-second living rooms, and 2.5-second artwork details, followed by a 3.6-second closing card. Twelve 0.4-second dissolves yield exactly 40 seconds (1200 frames at 30 fps). The output folder contains an editable timeline, camera/source records, packed Blender scenes, and the 1080p master `MansionGenerator-1.1-Showcase-Interiors-1080p.mp4`.
+
+The website player loads its poster first and waits for user playback. Switching languages pauses the hidden player. The updated media URLs include an edition query to refresh previously cached video and poster files. `assets/mansion-generator-1.1/provenance.json` records source hashes, camera positions, the edit timeline, and the published file hash.
