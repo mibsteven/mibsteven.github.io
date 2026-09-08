@@ -121,6 +121,12 @@ check('non-consumable in-app purchase' in terms, 'Existing purchase terms lost')
 realm = pages[(ROOT / 'apps/realm-atlas.html').resolve()]
 check(len(realm.matching('video')) == 2, 'RealmAtlas gameplay video lost')
 check((ROOT / 'assets/videos/realm-atlas-gameplay.mp4').stat().st_size < 6 * 1024 * 1024, 'Gameplay video exceeds 6 MB')
+mansion = pages[(ROOT / 'apps/mansion-generator.html').resolve()]
+check(len(mansion.matching('video')) == 2, 'MansionGenerator needs its showcase in both languages')
+for video in mansion.matching('video'):
+    check('controls' in video and 'playsinline' in video and 'autoplay' not in video, 'Showcase must have user-controlled inline playback')
+    check(video.get('preload') == 'none' and video.get('poster'), 'Showcase must load a poster before the visitor plays it')
+check((ROOT / 'assets/videos/mansion-generator-1-1-showcase.mp4').stat().st_size < 16 * 1024 * 1024, 'Mansion showcase exceeds 16 MB')
 updates = (ROOT / 'updates.html').read_text()
 for archive in re.findall(r'<section class="updates-archive"[^>]*>.*?</section>', updates, re.S):
     dates = re.findall(r'<time datetime="([\d-]+)">', archive)

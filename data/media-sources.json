@@ -20,26 +20,6 @@
     "kind": "project-app-store-screenshot"
   },
   {
-    "asset": "assets/showcase/mansion-generator-1-zh.webp",
-    "source": "MansionGenerator/AppStore/Screenshots/macos/mac/zh-Hant/01-design.png",
-    "kind": "project-app-store-screenshot"
-  },
-  {
-    "asset": "assets/showcase/mansion-generator-1-en.webp",
-    "source": "MansionGenerator/AppStore/Screenshots/macos/mac/en-US/01-design.png",
-    "kind": "project-app-store-screenshot"
-  },
-  {
-    "asset": "assets/showcase/mansion-generator-2-zh.webp",
-    "source": "MansionGenerator/AppStore/Screenshots/visionos/apple-vision-pro/zh-Hant/05-diorama.png",
-    "kind": "project-app-store-screenshot"
-  },
-  {
-    "asset": "assets/showcase/mansion-generator-2-en.webp",
-    "source": "MansionGenerator/AppStore/Screenshots/visionos/apple-vision-pro/en-US/05-diorama.png",
-    "kind": "project-app-store-screenshot"
-  },
-  {
     "asset": "assets/showcase/the-book-of-tea-1-zh.webp",
     "source": "TheBookOfTea/AppStoreConnect/iOS/zh-Hant/screenshots/ipad/01_tea_classic.png",
     "kind": "project-app-store-screenshot"
@@ -343,5 +323,55 @@
     "asset": "assets/showcase/taiwan-animals-1-store.webp",
     "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c3/4f/42/c34f42fc-5067-c8af-d734-26cdecab04ca/Simulator_Screenshot_-_Apple_Vision_Pro_-_2026-05-24_at_07.28.22.png/1040x586bb.webp",
     "kind": "published-app-store-screenshot"
+  },
+  {
+    "asset": "assets/showcase/mansion-generator-v1-1-1-zh.webp",
+    "source": "MansionGenerator/AppStore/Screenshots/macos/mac/zh-Hant/01-design.jpg",
+    "kind": "project App Store screenshot · version 1.1"
+  },
+  {
+    "asset": "assets/showcase/mansion-generator-v1-1-1-en.webp",
+    "source": "MansionGenerator/AppStore/Screenshots/macos/mac/en-US/01-design.jpg",
+    "kind": "project App Store screenshot · version 1.1"
+  },
+  {
+    "asset": "assets/showcase/mansion-generator-v1-1-2-zh.webp",
+    "source": "MansionGenerator/AppStore/Screenshots/visionos/apple-vision-pro/zh-Hant/06-full-scale.jpg",
+    "kind": "project App Store screenshot · version 1.1"
+  },
+  {
+    "asset": "assets/showcase/mansion-generator-v1-1-2-en.webp",
+    "source": "MansionGenerator/AppStore/Screenshots/visionos/apple-vision-pro/en-US/06-full-scale.jpg",
+    "kind": "project App Store screenshot · version 1.1"
+  },
+  {
+    "asset": "assets/showcase/mansion-generator-v1-1-3-zh.webp",
+    "source": "MansionGenerator/AppStore/Screenshots/visionos/apple-vision-pro/zh-Hant/07-interior.jpg",
+    "kind": "project App Store screenshot · version 1.1"
+  },
+  {
+    "asset": "assets/showcase/mansion-generator-v1-1-3-en.webp",
+    "source": "MansionGenerator/AppStore/Screenshots/visionos/apple-vision-pro/en-US/07-interior.jpg",
+    "kind": "project App Store screenshot · version 1.1"
+  },
+  {
+    "asset": "assets/showcase/mansion-generator-1-zh.webp",
+    "source": "MansionGenerator/AppStore/Screenshots/macos/mac/zh-Hant/01-design.png",
+    "kind": "project-app-store-screenshot"
+  },
+  {
+    "asset": "assets/showcase/mansion-generator-1-en.webp",
+    "source": "MansionGenerator/AppStore/Screenshots/macos/mac/en-US/01-design.png",
+    "kind": "project-app-store-screenshot"
+  },
+  {
+    "asset": "assets/showcase/mansion-generator-2-zh.webp",
+    "source": "MansionGenerator/AppStore/Screenshots/visionos/apple-vision-pro/zh-Hant/05-diorama.png",
+    "kind": "project-app-store-screenshot"
+  },
+  {
+    "asset": "assets/showcase/mansion-generator-2-en.webp",
+    "source": "MansionGenerator/AppStore/Screenshots/visionos/apple-vision-pro/en-US/05-diorama.png",
+    "kind": "project-app-store-screenshot"
   }
 ]

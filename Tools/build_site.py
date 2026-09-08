@@ -33,7 +33,8 @@ def document(titlezh,titleen,description,main,route,bodyclass='',extra=''):
 def topiclinks(lang):
  return '<ul class="topic-links">'+''.join(f'<li><a href="{catalog_url(lang,c["id"])}">{e(c["name"][lang])}<small>{sum(c["id"] in a["categories"] for a in APPS)}</small></a></li>' for c in CATEGORIES)+'</ul>'
 def meta(a,lang):
- return f'<div class="product-meta"><span class="price-label">{e(PRICE[lang][a["pricing"]])}</span><span>{e(" / ".join(PLATFORMS[p] for p in a["platforms"]))}</span></div>'
+ release=f'<span class="price-label">{e(a["releaseLabel"][lang])}</span>' if a.get('releaseLabel') else ''
+ return f'<div class="product-meta">{release}<span class="price-label">{e(PRICE[lang][a["pricing"]])}</span><span>{e(" / ".join(PLATFORMS[p] for p in a["platforms"]))}</span></div>'
 def sectionhead(title,note,lang,href=None):
  return f'<div class="section-head"><div><h2 class="section-title">{title}</h2><p class="section-note">{note}</p></div>'+ (f'<a class="text-link" href="{href}">{t("查看全部","View all",lang)} →</a>' if href else '')+'</div>'
 def homepage():
@@ -41,7 +42,8 @@ def homepage():
  for lang in ['zh','en']:
   intro=f'''<section class="home-intro"><span class="eyebrow">INDEPENDENT APPS · BY YU-HSIANG CHANG</span><h1>{t('找到你的下一個 Apple App。','Find your next Apple app.',lang)}</h1><div class="intro-row"><p class="lead">{t('閱讀、音樂、3D 創作，或一段空間冒險。從你想做的事開始，找到適合的作品。','Reading, music, 3D creation, or a spatial adventure. Start with what you want to do.',lang)}</p><form class="search-entry" action="apps.html"><input type="hidden" name="lang" value="{lang}"><input type="search" name="q" aria-label="{t('搜尋 App 名稱或用途','Search by app name or use',lang)}" placeholder="{t('搜尋 App、用途或關鍵字','Search apps, uses, or keywords',lang)}"><button class="button primary" type="submit">{t('搜尋','Search',lang)}</button></form></div><div class="platform-entry"><span>{t('我使用','For my',lang)}</span>{''.join(f'<a href="apps.html?lang={lang}&platform={p}">{"Vision Pro" if p == "vision" else label}</a>' for p,label in PLATFORMS.items() if p != 'tv')}</div><div id="{'apps' if lang=='zh' else 'apps-en'}"><span id="{'audiences' if lang=='zh' else 'audiences-en'}"></span>{topiclinks(lang)}</div></section>'''
   stories=''
-  for i,ident in enumerate([a['id'] for a in APPS if a['featured']]):
+  selections=sorted([a for a in APPS if a['featured']],key=lambda a:(not bool(a.get('releaseLabel')),a['rank']))
+  for i,ident in enumerate([a['id'] for a in selections]):
    a=BY_ID[ident];url=product_url(a,lang)
    stories+=f'<article class="story-card"><a class="story-image" href="{url}" aria-label="{e(name(a,lang))}">{img(a,lang,lazy=i>0)}</a><div class="story-copy">{meta(a,lang)}<h3><a href="{url}">{e(name(a,lang))}</a></h3><p>{e(a["summary"][lang])}</p><a class="text-link" href="{url}">{t("看看怎麼使用","See how it works",lang)} →</a></div></article>'
   featured=f'<section id="{t("featured","featured-en",lang)}">'+sectionhead(t('值得認識的作品','A few places to begin',lang),t('從生活情境出發，看看 App 真正能做什麼。','Real uses, with a closer look at what each app can do.',lang),lang,catalog_url(lang))+f'<div class="featured-stories">{stories}</div></section>'
@@ -117,7 +119,7 @@ def generated(a,lang,kind):
    result+='<div class="product-gallery">'
    for i,m in enumerate(media):
     ml=lang if lang in m['src'] else next(iter(m['src']));src='../'+m['src'][ml]
-    cap=t(*CAPTIONS.get(a['id'],[(name(a,'zh')+' 產品畫面',name(a,'en')+' app view')]*len(media))[i],lang)
+    cap=m.get('caption',{}).get(lang) or t(*CAPTIONS.get(a['id'],[(name(a,'zh')+' 產品畫面',name(a,'en')+' app view')]*len(media))[i],lang)
     result+=f'<figure><a href="{e(src)}" aria-label="{e(t("放大畫面：","Enlarge image: ",lang)+cap)}"><img src="{e(src)}" alt="{e(cap)}" width="{m["width"][ml]}" height="{m["height"][ml]}" loading="lazy" decoding="async"></a><figcaption>{e(cap)}</figcaption></figure>'
    result+='</div>'
   return result
@@ -137,7 +139,8 @@ def update_products():
     opening,body,closing=match.groups()
     crumb=f'<nav class="breadcrumb" aria-label="{t("所在位置","Breadcrumb",lang)}"><a data-back-catalog="{a["id"]}" href="../apps.html?lang={lang}">{t("探索 App","Explore apps",lang)}</a><span aria-hidden="true">/</span><a href="{catalog_url(lang,a["category"],"../")}">{e(CATS[a["category"]]["name"][lang])}</a></nav>'
     overview='<!-- generated:overview-'+lang+' -->'+generated(a,lang,'overview')+'<!-- /generated -->'
-    pos=body.find('<h2')
+    pos=body.find('<!-- product-overview -->')
+    if pos<0:pos=body.find('<h2')
     if pos<0:pos=len(body)
     body=body[:pos]+overview+body[pos:]
     return opening+'<!-- generated:breadcrumb-'+lang+' -->'+crumb+'<!-- /generated -->'+body+'<!-- generated:related-'+lang+' -->'+generated(a,lang,'related')+'<!-- /generated -->'+closing

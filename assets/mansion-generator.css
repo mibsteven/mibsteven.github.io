@@ -1,0 +1,35 @@
+.mansion-page { overflow: hidden; max-width: none; }
+.mansion-intro { max-width: 850px; margin: 24px auto 28px; text-align: center; }
+.mansion-intro .app-icon { display: block; width: 48px; height: 48px; margin: 0 auto 16px; }
+.mansion-intro h1 { font-size: clamp(2.3rem, 4.4vw, 3.6rem); line-height: 1.13; letter-spacing: -.035em; margin: 18px 0; text-wrap: balance; }
+.mansion-intro .lead { max-width: 710px; margin: 0 auto 24px; }
+.mansion-intro .actions { justify-content: center; }
+.mansion-platform-line { font-size: .85rem; color: var(--muted); margin-top: 22px; }
+.mansion-film { margin: 0; scroll-margin-top: 24px; }
+.mansion-film video { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; border-radius: 14px; background: #1d2524; }
+.mansion-film figcaption { font-size: .82rem; line-height: 1.65; color: var(--muted); margin: 12px 4px; }
+.mansion-film figcaption a { display: inline-block; margin-left: .5em; }
+.mansion-section-head { max-width: 790px; margin: 64px 0 25px; }
+.mansion-section-head h2 { margin: 10px 0 14px; font-size: clamp(1.55rem, 3vw, 2.2rem); line-height: 1.35; text-wrap: balance; }
+.mansion-styles { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; }
+.mansion-style { overflow: hidden; border: 1px solid var(--border); border-radius: 14px; }
+.mansion-style img { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; }
+.mansion-style > div { padding: 18px 20px 20px; }
+.mansion-style h3, .mansion-details h3 { margin: 0 0 10px; font-size: 1.12rem; }
+.mansion-style p { margin: 0; }
+.mansion-details { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 28px; margin: 25px 0 38px; }
+.mansion-details article { border-top: 2px solid #b16a44; padding-top: 20px; }
+.mansion-details p { margin: 0; }
+.mansion-page .product-gallery { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.mansion-page .product-gallery figure:first-child { grid-column: 1 / -1; }
+.mansion-workflow { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 36px; margin: 42px 0 24px; }
+.mansion-workflow h2 { font-size: 1.45rem; margin-top: 0; }
+.mansion-scope { font-size: .84rem; color: var(--muted); }
+@media (max-width: 700px) {
+  .mansion-intro { margin-top: 24px; }
+  .mansion-intro h1 { font-size: 2rem; }
+  .mansion-styles, .mansion-details, .mansion-workflow, .mansion-page .product-gallery { grid-template-columns: 1fr; }
+  .mansion-details { gap: 26px; }
+  .mansion-section-head { margin-top: 42px; }
+  .mansion-style > div { padding: 16px; }
+}

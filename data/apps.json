@@ -1072,18 +1072,18 @@
         "en": "MansionGenerator"
       },
       "summary": {
-        "zh": "設定基地、樓層與房間需求，生成建築方案，檢查平面與空間動線。",
-        "en": "Set your site, floors, and rooms, then generate a home and inspect its plans and routes."
+        "zh": "從四種豪宅風格開始，生成含家具與庭園的住宅，拍下喜歡的光景，或在 Vision Pro 走進空間。",
+        "en": "Generate furnished homes in four coordinated styles, save photographs, and explore at full scale on Vision Pro."
       },
       "page": "apps/mansion-generator.html",
       "icon": "assets/apps/thumbs/mansion-generator-icon.png",
       "store": "https://apps.apple.com/us/app/mansiongenerator/id6789469461",
-      "updated": "2026-07-16",
+      "updated": "2026-09-08",
       "media": [
         {
           "src": {
-            "zh": "assets/showcase/mansion-generator-1-zh.webp",
-            "en": "assets/showcase/mansion-generator-1-en.webp"
+            "zh": "assets/showcase/mansion-generator-v1-1-1-zh.webp",
+            "en": "assets/showcase/mansion-generator-v1-1-1-en.webp"
           },
           "width": {
             "zh": 1440,
@@ -1093,12 +1093,15 @@
             "zh": 900,
             "en": 900
           },
-          "caption": {}
+          "caption": {
+            "zh": "在 Mac 調整風格、基地與房間需求，預覽生成的住宅。",
+            "en": "Adjust the style, site, and rooms in the Mac workspace."
+          }
         },
         {
           "src": {
-            "zh": "assets/showcase/mansion-generator-2-zh.webp",
-            "en": "assets/showcase/mansion-generator-2-en.webp"
+            "zh": "assets/showcase/mansion-generator-v1-1-2-zh.webp",
+            "en": "assets/showcase/mansion-generator-v1-1-2-en.webp"
           },
           "width": {
             "zh": 1440,
@@ -1108,7 +1111,28 @@
             "zh": 810,
             "en": 810
           },
-          "caption": {}
+          "caption": {
+            "zh": "在 Apple Vision Pro，以真實尺寸探索柱廊入口。",
+            "en": "Explore a columned entrance at full scale on Apple Vision Pro."
+          }
+        },
+        {
+          "src": {
+            "zh": "assets/showcase/mansion-generator-v1-1-3-zh.webp",
+            "en": "assets/showcase/mansion-generator-v1-1-3-en.webp"
+          },
+          "width": {
+            "zh": 1440,
+            "en": 1440
+          },
+          "height": {
+            "zh": 810,
+            "en": 810
+          },
+          "caption": {
+            "zh": "走進含家具與藝品的房間，切換光景與照明。",
+            "en": "Step into furnished rooms with artwork and lighting controls."
+          }
         }
       ],
       "category": "creating",
@@ -1120,17 +1144,33 @@
       ],
       "rank": 4,
       "pricing": "paid",
-      "storeVerified": "2026-09-05",
-      "version": "1.0",
-      "aliases": [],
+      "storeVerified": "2026-09-09",
+      "version": "1.1",
+      "aliases": [
+        "豪宅",
+        "日式庭院",
+        "地中海庭院",
+        "現代度假宅",
+        "帕拉第奧別墅",
+        "Japanese courtyard",
+        "Mediterranean courtyard",
+        "modern resort",
+        "Palladian villa",
+        "USDZ",
+        "OpenUSD"
+      ],
       "featured": true,
       "notes": {
-        "zh": "",
-        "en": ""
+        "zh": "1.1 已在 iOS、macOS 與 visionOS 上架。",
+        "en": "Version 1.1 is available on iOS, macOS, and visionOS."
       },
       "categories": [
         "creating"
-      ]
+      ],
+      "releaseLabel": {
+        "zh": "1.1 新版",
+        "en": "NEW · 1.1"
+      }
     },
     {
       "id": "my-taiwan-tour-map",

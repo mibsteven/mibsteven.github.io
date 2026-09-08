@@ -1,0 +1,26 @@
+{
+  "title": "MansionGenerator 1.1 — Four homes in motion",
+  "durationSeconds": 30,
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "renderer": "Blender 5.1 Eevee",
+  "generatorVersion": "2026.09.07.1",
+  "seed": 1101,
+  "cameraAnimation": "Four real 3D camera moves; 0.6-second dissolves and a closing card",
+  "rasterGlass": "Exported glass opacity mapped to Eevee alpha transparency",
+  "sourceGeometry": "Unmodified complete USDZ exports from the 1.1 project validation set",
+  "audio": [
+    "MansionGenerator/Sources/PlatformUI/Shared/Resources/Soundscapes/mansion-breeze.m4a",
+    "MansionGenerator/Sources/PlatformUI/Shared/Resources/Soundscapes/mansion-water.m4a"
+  ],
+  "styles": [
+    "modernResort",
+    "japaneseCourtyard",
+    "mediterraneanCourtyard",
+    "palladianVilla"
+  ],
+  "video": "assets/videos/mansion-generator-1-1-showcase.mp4",
+  "bytes": 5341077,
+  "sha256": "9d26a40863b3f459ff4b17951e586904edf16a41988e3d10141a9680e2f355eb"
+}
