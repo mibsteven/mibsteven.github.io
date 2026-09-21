@@ -1,5 +1,45 @@
 [
   {
+    "asset": "assets/showcase/diorama-map-maker-1-1-forest-zh.webp",
+    "source": "AppleDioramaMapMaker/Docs/AppStore/1.1/Screenshots/macos/mac/zh-Hant/01-forest.png",
+    "kind": "project-app-store-screenshot"
+  },
+  {
+    "asset": "assets/showcase/diorama-map-maker-1-1-coast-zh.webp",
+    "source": "AppleDioramaMapMaker/Docs/AppStore/1.1/Screenshots/visionos/apple-vision-pro/zh-Hant/02-coastal-landscape.png",
+    "kind": "project-app-store-screenshot"
+  },
+  {
+    "asset": "assets/showcase/diorama-map-maker-1-1-desert-zh.webp",
+    "source": "AppleDioramaMapMaker/Docs/AppStore/1.1/Screenshots/ios/ipad-13/zh-Hant/03-wind-desert.png",
+    "kind": "project-app-store-screenshot"
+  },
+  {
+    "asset": "assets/showcase/diorama-map-maker-1-1-compare-zh.webp",
+    "source": "AppleDioramaMapMaker/Docs/AppStore/1.1/Screenshots/macos/mac/zh-Hant/05-compare-versions.png",
+    "kind": "project-app-store-screenshot"
+  },
+  {
+    "asset": "assets/showcase/diorama-map-maker-1-1-forest-en.webp",
+    "source": "AppleDioramaMapMaker/Docs/AppStore/1.1/Screenshots/macos/mac/en/01-forest.png",
+    "kind": "project-app-store-screenshot"
+  },
+  {
+    "asset": "assets/showcase/diorama-map-maker-1-1-coast-en.webp",
+    "source": "AppleDioramaMapMaker/Docs/AppStore/1.1/Screenshots/visionos/apple-vision-pro/en/02-coastal-landscape.png",
+    "kind": "project-app-store-screenshot"
+  },
+  {
+    "asset": "assets/showcase/diorama-map-maker-1-1-desert-en.webp",
+    "source": "AppleDioramaMapMaker/Docs/AppStore/1.1/Screenshots/ios/ipad-13/en/03-wind-desert.png",
+    "kind": "project-app-store-screenshot"
+  },
+  {
+    "asset": "assets/showcase/diorama-map-maker-1-1-compare-en.webp",
+    "source": "AppleDioramaMapMaker/Docs/AppStore/1.1/Screenshots/macos/mac/en/05-compare-versions.png",
+    "kind": "project-app-store-screenshot"
+  },
+  {
     "asset": "assets/showcase/musheetcreator-1-zh.webp",
     "source": "MusicComposer/AppStoreScreenshots/iPad/03-score-editor.png",
     "kind": "project-app-store-screenshot"

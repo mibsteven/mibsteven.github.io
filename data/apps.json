@@ -938,18 +938,18 @@
         "en": "DioramaMapMaker"
       },
       "summary": {
-        "zh": "從地形與植被設定產生 3D 微縮景觀，帶進你的空間作品。",
-        "en": "Generate 3D landscapes from terrain and vegetation settings for your spatial projects."
+        "zh": "生成山林、群島與荒漠，保存喜歡的場景版本，在 Vision Pro 走進地景，或匯出模型繼續創作。",
+        "en": "Generate forests, islands, and deserts. Save favorite scene versions, explore on Vision Pro, or export models for your next project."
       },
       "page": "apps/diorama-map-maker.html",
       "icon": "assets/apps/thumbs/diorama-map-maker-icon.png",
       "store": "https://apps.apple.com/us/app/dioramamapmaker/id6770131261",
-      "updated": "2026-06-16",
+      "updated": "2026-09-20",
       "media": [
         {
           "src": {
-            "zh": "assets/showcase/diorama-map-maker-1-zh.webp",
-            "en": "assets/showcase/diorama-map-maker-1-en.webp"
+            "zh": "assets/showcase/diorama-map-maker-1-1-forest-zh.webp",
+            "en": "assets/showcase/diorama-map-maker-1-1-forest-en.webp"
           },
           "width": {
             "zh": 1440,
@@ -959,12 +959,15 @@
             "zh": 900,
             "en": 900
           },
-          "caption": {}
+          "caption": {
+            "zh": "Mac：從山林溪谷主題開始，調整植被密度與地形起伏。",
+            "en": "Mac: start with Forest Valley and adjust vegetation density and terrain relief."
+          }
         },
         {
           "src": {
-            "zh": "assets/showcase/diorama-map-maker-2-zh.webp",
-            "en": "assets/showcase/diorama-map-maker-2-en.webp"
+            "zh": "assets/showcase/diorama-map-maker-1-1-coast-zh.webp",
+            "en": "assets/showcase/diorama-map-maker-1-1-coast-en.webp"
           },
           "width": {
             "zh": 1440,
@@ -974,7 +977,34 @@
             "zh": 810,
             "en": 810
           },
-          "caption": {}
+          "caption": {
+            "zh": "Apple Vision Pro：從桌上模型走進海岸群島的沉浸式地景。",
+            "en": "Apple Vision Pro: move from a tabletop model into an immersive Coastal Islands landscape."
+          }
+        },
+        {
+          "src": {
+            "zh": "assets/showcase/diorama-map-maker-1-1-desert-zh.webp",
+            "en": "assets/showcase/diorama-map-maker-1-1-desert-en.webp"
+          },
+          "width": { "zh": 1440, "en": 1440 },
+          "height": { "zh": 1080, "en": 1080 },
+          "caption": {
+            "zh": "iPad：嘗試風蝕荒漠，一鍵生成另一個版本，再套用喜歡的調整。",
+            "en": "iPad: explore Wind-shaped Desert, generate another variation, and apply the changes you like."
+          }
+        },
+        {
+          "src": {
+            "zh": "assets/showcase/diorama-map-maker-1-1-compare-zh.webp",
+            "en": "assets/showcase/diorama-map-maker-1-1-compare-en.webp"
+          },
+          "width": { "zh": 1440, "en": 1440 },
+          "height": { "zh": 900, "en": 900 },
+          "caption": {
+            "zh": "Mac：比較保存的場景版本，選擇下一步想繼續創作的地景。",
+            "en": "Mac: compare saved scene versions and choose the landscape to keep working on."
+          }
         }
       ],
       "category": "creating",
@@ -986,13 +1016,17 @@
       ],
       "rank": 11,
       "pricing": "paid",
-      "storeVerified": "2026-09-05",
-      "version": "1.0.1",
+      "storeVerified": "2026-09-21",
+      "version": "1.1",
+      "releaseLabel": {
+        "zh": "1.1 新版上架",
+        "en": "Version 1.1 available"
+      },
       "aliases": [],
       "featured": false,
       "notes": {
-        "zh": "",
-        "en": ""
+        "zh": "1.1 已在 iOS、macOS 與 visionOS 上架。",
+        "en": "Version 1.1 is available on iOS, macOS, and visionOS."
       },
       "categories": [
         "creating"
