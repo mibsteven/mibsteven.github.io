@@ -1657,18 +1657,18 @@
         "en": "MuSheetCreator"
       },
       "summary": {
-        "zh": "把演奏或 MIDI 變成可以修改的樂譜草稿，保留原音，慢慢整理靈感。",
-        "en": "Turn playing or MIDI into an editable score draft, with the original recording beside it."
+        "zh": "把演奏或 MIDI 整理成樂譜草稿，連續閱譜、對照原音逐小節修改，再匯出 PDF 或 MIDI。",
+        "en": "Turn playing or MIDI into a score draft. Read continuously, refine each measure, and export PDF or MIDI."
       },
       "page": "apps/musheetcreator.html",
       "icon": "assets/apps/thumbs/musheetcreator-icon.png",
       "store": "https://apps.apple.com/us/app/musheetcreator/id6776268670",
-      "updated": "2026-06-06",
+      "updated": "2026-10-13",
       "media": [
         {
           "src": {
-            "zh": "assets/showcase/musheetcreator-1-zh.webp",
-            "en": "assets/showcase/musheetcreator-1-en.webp"
+            "zh": "assets/showcase/musheetcreator-1-1-0-score-zh.webp",
+            "en": "assets/showcase/musheetcreator-1-1-0-score-en.webp"
           },
           "width": {
             "zh": 1080,
@@ -1678,12 +1678,15 @@
             "zh": 1440,
             "en": 1440
           },
-          "caption": {}
+          "caption": {
+            "zh": "iPad：連續滑動閱讀整首樂譜，需要修改時再打開單一小節。",
+            "en": "iPad: scroll through the full score, then open a measure when you want to edit."
+          }
         },
         {
           "src": {
-            "zh": "assets/showcase/musheetcreator-2-zh.webp",
-            "en": "assets/showcase/musheetcreator-2-en.webp"
+            "zh": "assets/showcase/musheetcreator-1-1-0-editing-zh.webp",
+            "en": "assets/showcase/musheetcreator-1-1-0-editing-en.webp"
           },
           "width": {
             "zh": 1080,
@@ -1693,7 +1696,34 @@
             "zh": 1440,
             "en": 1440
           },
-          "caption": {}
+          "caption": {
+            "zh": "iPad：在單小節編輯中調整音符，完成後回到原本的閱譜位置。",
+            "en": "iPad: refine notes in the measure editor, then return to your reading position."
+          }
+        },
+        {
+          "src": {
+            "zh": "assets/showcase/musheetcreator-1-1-0-playback-zh.webp",
+            "en": "assets/showcase/musheetcreator-1-1-0-playback-en.webp"
+          },
+          "width": { "zh": 662, "en": 662 },
+          "height": { "zh": 1440, "en": 1440 },
+          "caption": {
+            "zh": "iPhone：分別選擇原音選段與樂譜合成音，邊聽邊校對。",
+            "en": "iPhone: choose the original audio selection or synthesized score to compare and refine the draft."
+          }
+        },
+        {
+          "src": {
+            "zh": "assets/showcase/musheetcreator-1-1-0-export-zh.webp",
+            "en": "assets/showcase/musheetcreator-1-1-0-export-en.webp"
+          },
+          "width": { "zh": 1080, "en": 1080 },
+          "height": { "zh": 1440, "en": 1440 },
+          "caption": {
+            "zh": "iPad：依用途匯出 PDF、MIDI、HTML、事件文字或作品備份。",
+            "en": "iPad: export PDF, MIDI, HTML, event text, or a project backup for your next step."
+          }
         }
       ],
       "category": "music",
@@ -1703,19 +1733,27 @@
       ],
       "rank": 3,
       "pricing": "paid",
-      "storeVerified": "2026-09-05",
-      "version": "1.0.1",
+      "storeVerified": "2026-10-14",
+      "version": "1.1.0",
+      "releaseLabel": {
+        "zh": "1.1.0 新版上架",
+        "en": "Version 1.1.0 available"
+      },
       "aliases": [
         "樂譜",
         "MIDI",
         "記譜",
         "score",
-        "composition"
+        "composition",
+        "PDF",
+        "鋼琴",
+        "piano",
+        "transcription"
       ],
       "featured": false,
       "notes": {
-        "zh": "",
-        "en": ""
+        "zh": "鋼琴辨識與多音／和弦模式支援最長 5 分鐘錄音；辨識結果是可編輯的草稿。",
+        "en": "Piano and polyphonic/chord modes support recordings up to 5 minutes. Transcription produces an editable draft."
       },
       "categories": [
         "music"

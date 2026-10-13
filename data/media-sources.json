@@ -1,5 +1,45 @@
 [
   {
+    "asset": "assets/showcase/musheetcreator-1-1-0-score-zh.webp",
+    "source": "MusicComposer/AppStoreScreenshots/1.1.0/zh-Hant/iPad-13/01-continuous-score.png",
+    "kind": "project-app-store-screenshot"
+  },
+  {
+    "asset": "assets/showcase/musheetcreator-1-1-0-editing-zh.webp",
+    "source": "MusicComposer/AppStoreScreenshots/1.1.0/zh-Hant/iPad-13/03-note-editing.png",
+    "kind": "project-app-store-screenshot"
+  },
+  {
+    "asset": "assets/showcase/musheetcreator-1-1-0-playback-zh.webp",
+    "source": "MusicComposer/AppStoreScreenshots/1.1.0/zh-Hant/iPhone-medium/04-original-and-score.png",
+    "kind": "project-app-store-screenshot"
+  },
+  {
+    "asset": "assets/showcase/musheetcreator-1-1-0-export-zh.webp",
+    "source": "MusicComposer/AppStoreScreenshots/1.1.0/zh-Hant/iPad-13/05-export-and-backup.png",
+    "kind": "project-app-store-screenshot"
+  },
+  {
+    "asset": "assets/showcase/musheetcreator-1-1-0-score-en.webp",
+    "source": "MusicComposer/AppStoreScreenshots/1.1.0/en-US/iPad-13/01-en-US-continuous-score.png",
+    "kind": "project-app-store-screenshot"
+  },
+  {
+    "asset": "assets/showcase/musheetcreator-1-1-0-editing-en.webp",
+    "source": "MusicComposer/AppStoreScreenshots/1.1.0/en-US/iPad-13/03-en-US-note-editing.png",
+    "kind": "project-app-store-screenshot"
+  },
+  {
+    "asset": "assets/showcase/musheetcreator-1-1-0-playback-en.webp",
+    "source": "MusicComposer/AppStoreScreenshots/1.1.0/en-US/iPhone-medium/04-en-US-original-and-score.png",
+    "kind": "project-app-store-screenshot"
+  },
+  {
+    "asset": "assets/showcase/musheetcreator-1-1-0-export-en.webp",
+    "source": "MusicComposer/AppStoreScreenshots/1.1.0/en-US/iPad-13/05-en-US-export-and-backup.png",
+    "kind": "project-app-store-screenshot"
+  },
+  {
     "asset": "assets/showcase/diorama-map-maker-1-1-forest-zh.webp",
     "source": "AppleDioramaMapMaker/Docs/AppStore/1.1/Screenshots/macos/mac/zh-Hant/01-forest.png",
     "kind": "project-app-store-screenshot"
