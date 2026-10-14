@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EnglishSaver Privacy Policy | Apps by Yu-Hsiang Chang</title>
-    <meta name="description" content="英語救星的資料處理、系統生圖、BYOK 文字服務與隱私控制說明。">
+    <meta name="description" content="英語救星的系統模型、資料保存、隱私控制及舊版過渡說明。">
     <link rel="canonical" href="https://mibsteven.github.io/apps/english-savior-privacy.html">
     <link rel="stylesheet" href="../assets/site.css?v=20260905-1">
 </head>
@@ -16,116 +16,50 @@
 <section class="panel content-card" data-lang-panel="zh">
 <span class="eyebrow">Privacy · EnglishSaver</span>
 <h1 class="page-title">英語救星 隱私權政策</h1>
-<p>適用平台：iOS、iPadOS 與 visionOS<br>
-最後更新：2026 年 10 月 15 日<br>
-開發者：Yu-Hsiang Chang</p>
-<p>英語救星提供英文練習、字典解釋、故事閱讀與插圖功能。App 不要求註冊開發者提供的帳號。以下說明 iOS 1.42 與 visionOS 1.3 版各項功能的資料去向、用途與可用的控制方式；可用功能依 App 與系統版本而異。</p>
-<p>App 不會將你的學習內容、插圖或 API 金鑰傳給開發者。開發者未為這些功能架設後端，也未在 App 加入廣告或第三方分析／當機回報 SDK。若你啟用 BYOK，選定服務商會接收並可能保留下述資料。</p>
-<h2>1. 裝置端文字功能</h2>
-<p>預設文字模式使用 Foundation Models 框架的裝置端模型，產生練習建議、字典解釋、故事及插圖描述摘要。這條文字推論路徑在裝置上執行，需支援的裝置、語言、系統設定與已下載的模型。若無法使用，不會自行將請求轉送至外部文字服務。</p>
-<h2>2. 系統故事插圖</h2>
-<p>按「產生插圖」後，App 透過 Image Playground 框架開啟系統介面，傳入由故事整理出的簡短圖像描述。你可以修改描述、選擇圖片或取消。在 iOS 27 與 visionOS 27，生圖使用 Apple 提供的 Private Cloud Compute，需要網路連線；較早版本依該系統提供的方式處理。此流程不經開發者自建的生圖伺服器或中繼服務。<br>
-App 不啟用外部服務商的生圖風格與人物個人化功能，也不提供來源照片。取消不會刪除故事或既有插圖。接受圖片後，App 會先複製暫存圖片；收藏故事時，再把文字與圖片存至 App 本地儲存空間。</p>
-<h2>3. 自備金鑰的外部文字服務（BYOK）</h2>
-<p>你可以自備 API 金鑰，選擇 Google Gemini API 或 Groq。App 會在啟用前顯示資料說明，並向各服務商分別取得資料傳送同意。未同意時，不會向該服務商驗證金鑰或送出文字生成請求。<br>
-請求由裝置直接透過 HTTPS 傳送到選定服務商：Google 的 generativelanguage.googleapis.com 或 Groq 的 api.groq.com，不經開發者自建伺服器。金鑰保存在裝置 Keychain，並提供給對應服務商驗證請求。<br>
-各功能送出的內容如下：<br>
-• 字典：所查單字、可用的句子上下文，用於產生解釋與例句。<br>
-• 練習：你想表達的意思與輸入的英文，用於產生回饋及詞彙內容。<br>
-• 故事：最近學過的單字與選定主題，用於生成故事及理解題。<br>
-• 各請求也包含語言偏好及任務指令。<br>
-• 金鑰驗證：金鑰及固定測試請求或模型查詢，不包含學習紀錄。<br>
-這些 BYOK 文字請求不包含原始錄音或圖片。若你在文字中輸入個人資料，該文字會依你選定並同意的服務路徑處理。<br>
-服務商的資料保留、模型改進、服務額度與費用依其政策及你的帳戶設定而定。BYOK 不表示資料留在裝置端，也不適用系統生圖的 Private Cloud Compute 保護。<br>
-Google Gemini API：<a href="https://ai.google.dev/gemini-api/terms">Gemini API Terms</a><br>
-Groq：<a href="https://console.groq.com/docs/your-data">Groq: Your Data</a></p>
-<h3>服務商留存與帳戶連結</h3>
-<p>Google Gemini：免費服務內容可能用於產品與模型改進，並由人員審閱；請勿提供敏感、機密或個人資料。適用付費服務資料條款時，內容不會用於改進產品，但 Google 仍會在有限期間保留安全與濫用防範紀錄。適用地區條款及 Cloud 專案的計費狀態會影響資料處理條款。<br>
-Groq：推論內容通常不留存；可靠性及濫用調查紀錄可能保留輸入與輸出最多 30 天，法律要求時更久。Groq 的 Zero Data Retention 控制可停止這類內容留存，但仍會保留用量中繼資料。模型訓練需取得客戶許可或指示。<br>
-兩家服務商都會收到網路位址及請求驗證資訊，並可將紀錄對應到 API 帳戶或專案。用量紀錄用於服務運作與用量分析；API 診斷紀錄用於運作、安全及除錯。開發者不會透過 App 取得這些服務商紀錄，也無法刪除。本 App 未實作廣告或跨 App 追蹤。因服務商可能保留資料，BYOK 並非「不收集資料」模式。</p>
-<h3>App Store 隱私類別</h3>
-<p>商店標示涵蓋 App 可使用的 BYOK 路徑及服務商留存，不表示開發者收到這些紀錄。依服務商與帳戶設定，可能保留的資料如下：</p>
-<ul>
-<li>其他使用者內容：送出的學習文字及生成回應，用於「App 功能」；Gemini 免費服務的產品／模型改進另列為「其他用途」。</li>
-<li>使用者 ID：API 驗證所對應的服務商帳戶、專案或服務帳戶識別，用於「App 功能」。這不表示 App 要求你的姓名或電子郵件，也不表示服務商一定在紀錄中保留原始 API 金鑰。</li>
-<li>其他使用資料：API 呼叫／token 用量與請求模式，用於「App 功能」及「分析」。Groq 明載保留用量中繼資料，並提供專案層級的用量分析。</li>
-<li>其他診斷資料：API 運作、安全及錯誤紀錄，用於維持服務、安全與除錯，列為「App 功能」。這不包含 App 的當機回報 SDK，也未另申報此類資料用於「分析」。</li>
-</ul>
-<p>四類均標示為「與使用者連結」，因為服務商可將紀錄對應到 API 帳戶或專案。這是帳戶／專案層級的連結，不表示 App 知道每次操作的個人身分。日後交由人員審閱前移除識別資訊，不等於收集前已匿名化。各類均未申報追蹤用途。這是依實作資料流與服務商公開政策作出的分類判斷，並非 Apple 的背書或針對個別服務商的裁定。</p>
-<p>App 不驗證服務商的留存設定。Groq 的內容留存控制不會移除用量中繼資料。選用裝置端文字可避免這些 BYOK 請求；系統插圖與語音處理依本政策的個別章節說明。</p>
-<p>參考說明：<a href="https://ai.google.dev/gemini-api/docs/api-key">Gemini API keys</a> · <a href="https://ai.google.dev/gemini-api/docs/usage-policies">Gemini abuse monitoring</a> · <a href="https://console.groq.com/docs/projects">Groq projects</a> · <a href="https://developer.apple.com/app-store/app-privacy-details/">App Store privacy definitions</a></p>
-<h3>服務使用資格</h3>
-<p>Gemini 條款要求年滿 18 歲，且禁止面向或可能供未滿 18 歲者使用的 API Client。條款未將 prompt 限制或 BYOK 列為例外。僅支援指定地區；歐洲經濟區、瑞士及英國的 API Client 必須使用付費服務。揭露與同意不代表 App 或使用者已符合這些條件。App 不驗證年齡、實際所在地或服務商計費狀態；Gemini 的可用性及適用族群仍須符合其條款。<br>
-GroqCloud 要求帳戶持有人為成年人，並有應用程式及地區要求。App Store 銷售地區及介面語言不代表符合外部服務的使用資格。<br>
-Gemini 支援地區：<a href="https://ai.google.dev/gemini-api/docs/available-regions">Gemini supported regions</a><br>
-Groq 服務條款：<a href="https://console.groq.com/docs/legal/services-agreement">Groq service terms</a></p>
-<h2>4. 同意與控制</h2>
-<p>你可以在 AI 設定中關閉個別服務商的資料傳送同意、改用裝置端文字模式，或移除 API 金鑰。關閉同意會阻止新的請求，但無法撤回已完成的傳送，也不會刪除服務商已收到的資料；相關資料與帳戶管理請依服務商提供的方式處理。原有金鑰會在升級時保留，但資料說明有實質變更時，不沿用舊同意。Build 6 會要求使用者重新確認各服務商的留存及帳戶連結說明。</p>
-<h2>5. 語音功能</h2>
-<p>iOS 的選用語音輸入會在需要時請求麥克風及語音辨識權限，透過系統 Speech 框架辨識。依裝置支援及設定，辨識可能使用系統語音服務。辨識後的文字依你選定的文字模式處理。朗讀使用系統文字轉語音功能。裝置端文字模式不代表所有語音與圖像功能都能離線運作。</p>
-<h2>6. 本地保存與刪除</h2>
-<p>練習紀錄、收藏故事及插圖保存在 App 本地容器，可於 App 內刪除。移除 App 通常也會移除本地資料；系統備份可能保留相關檔案，依你的系統設定處理。移除 App 不等於撤銷服務商金鑰或刪除已傳送至服務商的資料。</p>
+<p>iOS · iPadOS · visionOS<br>2026-10-15 · Yu-Hsiang Chang</p>
+<h2>適用版本</h2>
+<p>本政策區分 iOS 1.42、visionOS 1.3 的 build 7 起版本，以及仍可能使用外部文字服務的較早版本。新版目前為更新準備版本；請以裝置上安裝的版本為準。</p>
+<h2>1. 新版不蒐集資料</h2>
+<p>Build 7 起只使用系統提供的文字模型與生圖介面，不再提供 Gemini、Groq 或自備 API 金鑰（BYOK）。開發者不接收你的學習文字、音訊、圖片、識別資料、用量或診斷紀錄。本 App 沒有開發者自建後端、廣告、追蹤或第三方分析／當機回報 SDK，也不需要註冊開發者帳戶。依目前實作與 App Store 的定義，新版符合「Data Not Collected／不蒐集資料」的申報方向；這不表示所有系統功能都離線運作。</p>
+<h2>2. 系統文字模型</h2>
+<p>練習回饋、字典解釋、故事與插畫描述使用 Foundation Models 框架的 SystemLanguageModel.default 裝置端模型。文字推論在裝置上進行，需支援的裝置、語言、系統設定與已下載的模型。模型不可用時會顯示說明，不會轉送至外部文字服務。介面翻譯不等於模型支援該語言。</p>
+<h2>3. 系統生圖</h2>
+<p>你點選「產生插圖」後，App 透過 Image Playground 框架開啟系統介面，提供由故事整理的簡短圖片描述。你可以調整描述、接受圖片或取消。iOS 27 與 visionOS 27 的系統生圖使用 Apple 的 Private Cloud Compute，需要網路連線；較早支援版本依該版本的系統功能處理。開發者沒有生圖伺服器或轉送服務。App 不啟用第三方服務商的圖片風格或人物個人化，也不提供來源照片。取消不會刪除故事或既有插畫。</p>
+<h2>4. 語音與系統服務</h2>
+<p>iOS 的選用語音輸入會請求麥克風及語音辨識權限，透過系統 Speech 框架把聲音轉為練習文字，依裝置與系統狀態可能使用線上語音辨識。辨識後的文字只交給系統文字模型。朗讀使用系統文字轉語音。開發者不接收音訊，也不另行保存原始錄音。系統服務的資料處理依系統說明與你的設定；依 Apple 的 App Store 隱私指引，Apple 自行蒐集的資料不由開發者代為申報。</p>
+<h2>5. 本地資料、備份與刪除</h2>
+<p>生字、練習紀錄、收藏故事與插畫保存在 App 的本地容器，可在 App 內刪除。移除 App 通常也會移除本地資料；系統備份是否包含這些資料，取決於你的系統設定。產生的內容可能有誤，請依學習需求核對。</p>
+<h2>6. 升級與舊版外部服務</h2>
+<p>升級至 build 7 會保留原有生字、練習紀錄、故事、圖片及已保存的閱讀作答，只移除退休的服務商設定與本 App 儲存的兩個 API 金鑰項目。裝置受保護而無法刪除金鑰時，之後啟動會重試；新版不會讀取或傳送金鑰。這不會撤銷服務商帳戶中的金鑰，也不能刪除舊版已傳送的資料。</p>
+<h2>較早版本的資料傳送</h2>
+<p>仍使用較早版本並啟用 BYOK 時，字典的單字及上下文、練習輸入、故事生字與主題、語言偏好及任務指示會由裝置直接傳送至選定的 Gemini 或 Groq，以金鑰驗證服務帳戶；不經開發者伺服器。服務商可能保留內容、帳戶／專案識別、用量與診斷資料。Gemini 的未付費內容可能用於產品改進；付費及免費服務另有安全留存規則。Groq 可能因安全或可靠性保留內容，並保留用量中繼資料。相關資料可能與服務帳戶連結，受服務商政策、年齡及地區條款約束。舊版可關閉傳送同意或移除金鑰以停止新請求；過往資料與金鑰撤銷請向服務商管理。新版不蒐集資料的描述不套用至這些舊版 BYOK 傳送。</p>
 <h2>7. 聯絡與政策更新</h2>
-<p>如對本政策或資料處理有疑問，請來信 <a href="mailto:mibsteven.chang@gmail.com">mibsteven.chang@gmail.com</a> 聯絡開發者。政策如因功能調整而更新，會同步調整本頁更新日期。</p>
-<p>文中的框架與服務名稱用於辨識處理技術及資料接收方，不表示贊助、背書或合作關係。</p>
-<div class="actions"><a class="button primary" href="english-savior.html?lang=zh">返回英語救星</a></div>
+<p>如有隱私問題，請來信 mibsteven.chang@gmail.com。功能或資料處理變更時會更新本頁。框架與服務名稱僅用於辨識技術及資料接收方，不表示贊助、背書或合作關係。</p>
+<p><a href="https://developer.apple.com/app-store/app-privacy-details/">App Store privacy definitions</a> · <a href="https://www.apple.com/legal/privacy/data/">System privacy information</a> · <a href="https://ai.google.dev/gemini-api/terms">Legacy Gemini terms</a> · <a href="https://console.groq.com/docs/your-data">Legacy Groq data policy</a></p>
 </section>
 <section class="panel content-card" data-lang-panel="en">
 <span class="eyebrow">Privacy · EnglishSaver</span>
 <h1 class="page-title">EnglishSaver Privacy Policy</h1>
-<p>Platforms: iOS, iPadOS and visionOS<br>
-Last updated: October 15, 2026<br>
-Developer: Yu-Hsiang Chang</p>
-<p>EnglishSaver provides English practice, dictionary explanations, stories and illustrations. It does not require an account operated by the developer. This policy explains the processing paths and controls for iOS 1.42 and visionOS 1.3; available features depend on your app and system version.</p>
-<p>The app does not send your learning content, illustrations or API keys to the developer. The developer operates no backend for these features and has no in-app advertising or third-party analytics/crash-reporting SDK. If you enable a BYOK provider, that provider receives and may retain the data described below.</p>
-<h2>1. On-device text</h2>
-<p>The default text mode uses the Foundation Models framework&#x27;s on-device model for practice feedback, dictionary explanations, stories and illustration briefs. This text inference runs on your device and requires a supported device, language, system settings and downloaded models. An unavailable on-device request is not automatically sent to an external text provider.</p>
-<h2>2. System story illustrations</h2>
-<p>When you choose Create Illustration, the app opens the system interface through the Image Playground framework with a short image description derived from the story. You can edit the description, accept an image or cancel. On iOS 27 and visionOS 27, image generation uses Apple&#x27;s Private Cloud Compute and requires internet access. Earlier supported versions use their available system image service. The developer operates no image server or relay.<br>
-The app does not enable external-provider image styles or person personalization and supplies no source photo. Cancelling preserves your story and any existing illustration. Accepted results are copied from the system&#x27;s temporary location; collecting a story saves its text and image in the app&#x27;s local storage.</p>
-<h2>3. Optional external text providers (BYOK)</h2>
-<p>You can supply your own API key for Google Gemini API or Groq. The app explains the data and purpose and requires separate consent for each provider before key validation or text generation requests.<br>
-Requests go directly over HTTPS from the device to generativelanguage.googleapis.com or api.groq.com, without a developer-operated backend. Keys are kept in the device&#x27;s Keychain and sent to the corresponding provider to authenticate requests.<br>
-Request contents and purposes:<br>
-• Dictionary: the selected word and available sentence context, for explanations and examples.<br>
-• Practice: your intended meaning and English attempt, for feedback and vocabulary.<br>
-• Story: recent vocabulary and the selected theme, for stories and comprehension questions.<br>
-• Requests also include language preferences and task instructions.<br>
-• Key validation: authentication and a fixed test request or model check, without learning history.<br>
-These BYOK text clients do not send raw microphone audio or images. If you include personal information in your text, that text follows the provider path you selected and consented to.<br>
-Retention, model improvement, quotas and charges depend on the provider&#x27;s policies and your account settings. BYOK does not mean data stays on your device and is not covered by the Private Cloud Compute protections of system image generation.<br>
-Google Gemini API: <a href="https://ai.google.dev/gemini-api/terms">Gemini API Terms</a><br>
-Groq: <a href="https://console.groq.com/docs/your-data">Groq: Your Data</a></p>
-<h3>Provider retention and account linkage</h3>
-<p>Google Gemini: unpaid-service content may be used for product and model improvement and reviewed by people; do not submit sensitive, confidential or personal information. Under paid-service data terms, content is not used for product improvement, but Google retains safety/abuse-monitoring logs for a limited period. Applicable regional terms and the Cloud project&#x27;s billing status determine which data terms apply.<br>
-Groq: inference content is normally not retained. Reliability/abuse logs may retain inputs and outputs for up to 30 days, longer when legally required. Groq&#x27;s Zero Data Retention control disables that content retention; usage metadata is still retained. Model training requires the customer&#x27;s permission or instruction.<br>
-Both providers receive the network address and authentication needed for a request. Provider records can be associated with the API account or project. Usage records support service operation and usage analysis; API diagnostic records support operation, security and debugging. The developer has no access to these provider records through the app and cannot delete them. No advertising or cross-app tracking is implemented by this app. Provider retention means BYOK is not a “no data collected” mode.</p>
-<h3>App Store privacy categories</h3>
-<p>The App Store label covers the available BYOK paths, including provider retention; it does not mean that the developer receives these records. Depending on the provider and account settings, the following data may be retained:</p>
-<ul>
-<li>Other User Content: submitted learning text and generated responses, for App Functionality; Gemini unpaid-service product/model improvement is additionally declared as Other Purposes.</li>
-<li>User ID: the provider account, project or service-account identifier associated with API authentication, for App Functionality. This does not mean the app requests your name or email, or that providers necessarily retain the raw API key in their logs.</li>
-<li>Other Usage Data: API call/token counts and request patterns, for App Functionality and Analytics. Groq documents retained usage metadata and project-level usage analytics.</li>
-<li>Other Diagnostic Data: API operational, safety and error records used to operate, secure and debug the service, for App Functionality. This does not include an app crash-reporting SDK; no separate Analytics purpose is declared for this category.</li>
-</ul>
-<p>All four categories are declared as linked to the user because provider records can be associated with the API account or project. This is account/project linkage, not a claim that the app knows the identity of the person making each request. Removing identifiers before a later human review does not establish anonymization before collection. No tracking purpose is declared. These categories are our assessment of the implemented data flows and published provider practices, not an Apple endorsement or provider-specific ruling.</p>
-<p>The app does not verify provider retention settings. Groq&#x27;s content-retention control does not remove usage metadata. Choosing on-device text avoids these BYOK requests; system illustration and speech processing are described separately above and below.</p>
-<p>References: <a href="https://ai.google.dev/gemini-api/docs/api-key">Gemini API keys</a> · <a href="https://ai.google.dev/gemini-api/docs/usage-policies">Gemini abuse monitoring</a> · <a href="https://console.groq.com/docs/projects">Groq projects</a> · <a href="https://developer.apple.com/app-store/app-privacy-details/">App Store privacy definitions</a></p>
-<h3>Service eligibility</h3>
-<p>Gemini&#x27;s terms require age 18+ and prohibit API clients directed at or likely to be accessed by people under 18. Prompt restrictions and BYOK are not listed exceptions. Only supported regions are eligible; API clients in the EEA, Switzerland and UK must use paid services. Disclosure and consent do not establish that an app or user meets these conditions. The app does not verify age, physical location or provider billing status. Gemini availability and audience suitability remain subject to the provider&#x27;s terms.<br>
-GroqCloud requires an adult account holder; its application and regional requirements also apply. App Store availability and interface language do not establish provider eligibility.<br>
-Gemini supported regions: <a href="https://ai.google.dev/gemini-api/docs/available-regions">Gemini supported regions</a><br>
-Groq service terms: <a href="https://console.groq.com/docs/legal/services-agreement">Groq service terms</a></p>
-<h2>4. Consent and controls</h2>
-<p>In AI Settings you can revoke consent for an individual provider, select on-device text mode or remove an API key. Revocation stops new requests but cannot retract completed transmissions or delete data a provider has already received. Use that provider&#x27;s data and account controls for those requests. Existing keys are preserved on upgrade, but previous consent is not reused after a material disclosure change. Build 6 requires renewed, provider-specific consent to the retention and account-linkage explanation.</p>
-<h2>5. Speech</h2>
-<p>Optional iOS dictation requests microphone and speech-recognition permission when needed and uses the system Speech framework. Depending on device support and settings, recognition may use the system speech service. Recognized text follows your selected text-provider path. Read-aloud uses system text-to-speech. On-device text inference does not mean every speech and image feature works offline.</p>
-<h2>6. Local storage and deletion</h2>
-<p>Practice records, collected stories and images are stored in the app&#x27;s local container and can be deleted in the app. Removing the app normally removes its local files; system backups may retain them according to your settings. Removing the app does not revoke provider keys or delete data previously sent to providers.</p>
-<h2>7. Contact and changes</h2>
-<p>For privacy questions, contact <a href="mailto:mibsteven.chang@gmail.com">mibsteven.chang@gmail.com</a>. We update the date on this page when this policy changes.</p>
-<p>Framework and service names identify the processing technology and recipients. They do not imply sponsorship, endorsement or partnership.</p>
-<div class="actions"><a class="button primary" href="english-savior.html?lang=en">Back to EnglishSaver</a></div>
+<p>iOS · iPadOS · visionOS<br>2026-10-15 · Yu-Hsiang Chang</p>
+<h2>Version scope</h2>
+<p>This policy distinguishes iOS 1.42 and visionOS 1.3 starting with build 7 from earlier versions that may still use external text services. The new build is currently being prepared as an update; refer to the version installed on your device.</p>
+<h2>1. No data collection in the new build</h2>
+<p>Starting with build 7, the app uses only system text models and the system image interface. Gemini, Groq and bring-your-own API keys (BYOK) are no longer offered. The developer receives no learning text, audio, images, identifiers, usage or diagnostic records. There is no developer backend, advertising, tracking, third-party analytics or crash-reporting SDK, and no developer account to create. Based on the implemented data flow and App Store definitions, the new build qualifies for a Data Not Collected declaration. This is not a claim that every system feature works offline.</p>
+<h2>2. System text model</h2>
+<p>Practice feedback, dictionary explanations, stories and illustration briefs use the Foundation Models framework with the on-device SystemLanguageModel.default model. Text inference runs on your device and requires a supported device, language, system settings and downloaded model. When unavailable, the app explains the limitation and does not forward requests to an external text service. Interface translations do not guarantee model language support.</p>
+<h2>3. System images</h2>
+<p>Choosing Create Illustration opens the Image Playground system interface with a short description derived from the story. You can edit the description, accept an image or cancel. On iOS 27 and visionOS 27, system image generation uses Apple’s Private Cloud Compute and needs internet. Earlier supported versions use their system image service. The developer operates no image server or relay. The app does not enable third-party image styles or person personalization and supplies no source photo. Cancelling preserves the story and any previous illustration.</p>
+<h2>4. Speech and system services</h2>
+<p>Optional iOS dictation requests microphone and speech-recognition permission. The system Speech framework transcribes microphone audio and may use online recognition depending on device and system availability. Transcribed text is passed only to the system text model. Read-aloud uses system speech synthesis. The developer receives no audio and does not separately save raw recordings. System processing follows system disclosures and your settings. Apple’s App Store privacy guidance states developers are not responsible for declaring data collected by Apple itself.</p>
+<h2>5. Local storage, backups and deletion</h2>
+<p>Vocabulary, practice records, collected stories and illustrations are saved in the app’s local container and can be deleted within the app. Removing the app normally removes its local data; system backups may include that data depending on your settings. Generated content may contain mistakes and should be checked for your learning needs.</p>
+<h2>6. Upgrades and earlier external services</h2>
+<p>Upgrading to build 7 preserves existing vocabulary, practice records, stories, images and saved reading answers. Only retired provider preferences and the two app-owned API key items are removed. If protected Keychain data is temporarily unavailable, removal is retried on later launches; the new build does not read or transmit those keys. This does not revoke keys in the provider account or delete data already sent by an older version.</p>
+<h2>Data transmission in earlier versions</h2>
+<p>If you still use an earlier version with BYOK enabled, dictionary words/context, practice input, story vocabulary/theme, language preferences and task instructions go directly from the device to the selected Gemini or Groq service, authenticated with your key, without a developer server. Providers may retain content, account/project identifiers, usage and diagnostic data. Gemini unpaid content may be used for product improvement; paid and unpaid services also have safety-retention rules. Groq may retain content for security or reliability and retains usage metadata. Records may be linked to your service account and are subject to provider privacy, age and regional terms. Older versions let you withdraw transmission consent or remove a key to stop new requests. Manage previously sent data and key revocation with the provider. The new build’s no-collection description does not apply to these older BYOK transmissions.</p>
+<h2>7. Contact and policy updates</h2>
+<p>For privacy questions, contact mibsteven.chang@gmail.com. This page is updated when features or processing change. Framework and service names identify technologies and recipients and do not imply sponsorship, endorsement or partnership.</p>
+<p><a href="https://developer.apple.com/app-store/app-privacy-details/">App Store privacy definitions</a> · <a href="https://www.apple.com/legal/privacy/data/">System privacy information</a> · <a href="https://ai.google.dev/gemini-api/terms">Legacy Gemini terms</a> · <a href="https://console.groq.com/docs/your-data">Legacy Groq data policy</a></p>
 </section>
 </main>
         <footer class="site-footer"><p data-i18n="footerText">Apps by Yu-Hsiang Chang · 為 iPhone、iPad、Mac 與 Apple Vision Pro 打造的獨立作品。</p><div class="legal-links"><a href="../privacy.html" data-i18n="privacyPolicy">隱私權政策</a><a href="../terms.html" data-i18n="termsUse">使用條款</a><a href="../support.html" data-i18n="support">支援</a><a href="https://www.facebook.com/profile.php?id=61590182079285">Facebook</a></div></footer>
