@@ -1369,29 +1369,104 @@
         "en": "English Saver"
       },
       "summary": {
-        "zh": "把想說的中文練成英文，再用單字故事與口說練習加深印象。",
-        "en": "Turn Chinese ideas into English, then practise with vocabulary stories and speaking."
+        "zh": "從想說的話開始練英文，用故事複習生字；改用系統模型，無須設定 API 金鑰。",
+        "en": "Practise what you want to say, then revisit words in stories. System AI, with no API key setup."
       },
       "page": "apps/english-savior.html",
       "icon": "assets/apps/thumbs/english-saver-icon.png",
       "store": "https://apps.apple.com/us/app/%E8%8B%B1%E8%AA%9E%E6%95%91%E6%98%9F/id6761374629",
-      "updated": "2026-04-10",
+      "updated": "2026-10-15",
       "media": [
         {
           "src": {
-            "zh": "assets/showcase/english-savior-cover-zh.webp",
-            "en": "assets/showcase/english-savior-cover-en.webp"
+            "zh": "assets/showcase/english-savior-1-42-practice-zh.webp",
+            "en": "assets/showcase/english-savior-1-42-practice-en.webp"
           },
           "width": {
-            "zh": 517,
-            "en": 517
+            "zh": 662,
+            "en": 662
           },
           "height": {
-            "zh": 1120,
-            "en": 1120
+            "zh": 1440,
+            "en": 1440
           },
-          "caption": {},
+          "caption": {
+            "zh": "先寫下想表達的意思，再試著用英文說一次。",
+            "en": "Start with your idea, then try expressing it in English."
+          },
           "existing": true
+        },
+        {
+          "src": {
+            "zh": "assets/showcase/english-savior-1-42-story-zh.webp",
+            "en": "assets/showcase/english-savior-1-42-story-en.webp"
+          },
+          "width": {
+            "zh": 1080,
+            "en": 1080
+          },
+          "height": {
+            "zh": 1440,
+            "en": 1440
+          },
+          "caption": {
+            "zh": "在 iPad 選擇主題，用最近學過的單字生成故事。",
+            "en": "Choose a theme on iPad and create a story from recent vocabulary."
+          }
+        },
+        {
+          "src": {
+            "zh": "assets/showcase/english-savior-1-42-settings-zh.webp",
+            "en": "assets/showcase/english-savior-1-42-settings-en.webp"
+          },
+          "width": {
+            "zh": 662,
+            "en": 662
+          },
+          "height": {
+            "zh": 1440,
+            "en": 1440
+          },
+          "caption": {
+            "zh": "查看系統模型狀態與資料處理說明，無須設定 API 金鑰。",
+            "en": "Check system model availability and data handling, without API key setup."
+          }
+        },
+        {
+          "src": {
+            "zh": "assets/showcase/english-savior-1-42-duo-zh.webp",
+            "en": "assets/showcase/english-savior-1-42-duo-en.webp"
+          },
+          "width": {
+            "zh": 1440,
+            "en": 1440
+          },
+          "height": {
+            "zh": 1013,
+            "en": 1013
+          },
+          "caption": {
+            "zh": "iPhone Duo 展開時，想法與英文嘗試可並排練習。",
+            "en": "Practise with your idea and English attempt side by side on the unfolded iPhone Duo."
+          }
+        },
+        {
+          "src": {
+            "zh": "assets/showcase/english-savior-1-42-vision-zh.webp",
+            "en": "assets/showcase/english-savior-1-42-vision-en.webp"
+          },
+          "width": {
+            "zh": 1440,
+            "en": 1440
+          },
+          "height": {
+            "zh": 810,
+            "en": 810
+          },
+          "caption": {
+            "zh": "在 Apple Vision Pro 的空間視窗中練習英文。",
+            "en": "Practise English in a spatial window on Apple Vision Pro."
+          }
         }
       ],
       "category": "learning",
@@ -1402,17 +1477,29 @@
       ],
       "rank": 18,
       "pricing": "paid",
-      "storeVerified": "2026-09-05",
-      "version": "1.2",
-      "aliases": [],
+      "storeVerified": "2026-10-16",
+      "version": "iOS 1.42 / visionOS 1.3",
+      "aliases": [
+        "EnglishSaver",
+        "English Saver",
+        "英文練習",
+        "生字",
+        "單字故事",
+        "vocabulary",
+        "system AI"
+      ],
       "featured": false,
       "notes": {
-        "zh": "",
-        "en": ""
+        "zh": "iOS 1.42 / visionOS 1.3。付費下載，無須 API 金鑰、訂閱或 App 內購買。文字生成需支援的裝置、語言、系統設定與已下載的模型；系統生圖及語音功能可能需要網路。",
+        "en": "iOS 1.42 / visionOS 1.3. Paid download; no API key, subscription, or in-app purchase required. Text generation needs a supported device, language, system settings, and downloaded model. System image and speech features may need internet."
       },
       "categories": [
         "learning"
-      ]
+      ],
+      "releaseLabel": {
+        "zh": "iOS 1.42 · visionOS 1.3 新版",
+        "en": "iOS 1.42 · visionOS 1.3 update"
+      }
     },
     {
       "id": "taipei-veggie-price",

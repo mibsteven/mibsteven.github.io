@@ -1,5 +1,55 @@
 [
   {
+    "asset": "assets/showcase/english-savior-1-42-practice-zh.webp",
+    "source": "EnglishSaver/AppStoreScreenshots/2026-10-build8/zh-Hant/iPhone/zh-Hant-02-practice.png",
+    "kind": "project-app-store-screenshot"
+  },
+  {
+    "asset": "assets/showcase/english-savior-1-42-practice-en.webp",
+    "source": "EnglishSaver/AppStoreScreenshots/2026-10-build8/en/iPhone/en-02-practice.png",
+    "kind": "project-app-store-screenshot"
+  },
+  {
+    "asset": "assets/showcase/english-savior-1-42-story-zh.webp",
+    "source": "EnglishSaver/AppStoreScreenshots/2026-10-build8/zh-Hant/iPad/zh-Hant-03-story.png",
+    "kind": "project-app-store-screenshot"
+  },
+  {
+    "asset": "assets/showcase/english-savior-1-42-story-en.webp",
+    "source": "EnglishSaver/AppStoreScreenshots/2026-10-build8/en/iPad/en-03-story.png",
+    "kind": "project-app-store-screenshot"
+  },
+  {
+    "asset": "assets/showcase/english-savior-1-42-settings-zh.webp",
+    "source": "EnglishSaver/AppStoreScreenshots/2026-10-build8/zh-Hant/iPhone/zh-Hant-04-settings.png",
+    "kind": "project-app-store-screenshot"
+  },
+  {
+    "asset": "assets/showcase/english-savior-1-42-settings-en.webp",
+    "source": "EnglishSaver/AppStoreScreenshots/2026-10-build8/en/iPhone/en-04-settings.png",
+    "kind": "project-app-store-screenshot"
+  },
+  {
+    "asset": "assets/showcase/english-savior-1-42-duo-zh.webp",
+    "source": "EnglishSaver/AppStoreScreenshots/2026-10-build8/zh-Hant/iPhone-Duo/inner-zh-Hant-02-practice.png",
+    "kind": "project-app-store-screenshot"
+  },
+  {
+    "asset": "assets/showcase/english-savior-1-42-duo-en.webp",
+    "source": "EnglishSaver/AppStoreScreenshots/2026-10-build8/en/iPhone-Duo/inner-en-02-practice.png",
+    "kind": "project-app-store-screenshot"
+  },
+  {
+    "asset": "assets/showcase/english-savior-1-42-vision-zh.webp",
+    "source": "EnglishSaver/AppStoreScreenshots/2026-10-build7/zh-Hant/visionOS/zh-Hant-02-practice.png",
+    "kind": "project-app-store-screenshot"
+  },
+  {
+    "asset": "assets/showcase/english-savior-1-42-vision-en.webp",
+    "source": "EnglishSaver/AppStoreScreenshots/2026-10-build7/en/visionOS/en-02-practice.png",
+    "kind": "project-app-store-screenshot"
+  },
+  {
     "asset": "assets/showcase/musheetcreator-1-1-0-score-zh.webp",
     "source": "MusicComposer/AppStoreScreenshots/1.1.0/zh-Hant/iPad-13/01-continuous-score.png",
     "kind": "project-app-store-screenshot"
