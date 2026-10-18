@@ -503,5 +503,41 @@
     "asset": "assets/showcase/mansion-generator-2-en.webp",
     "source": "MansionGenerator/AppStore/Screenshots/visionos/apple-vision-pro/en-US/05-diorama.png",
     "kind": "project-app-store-screenshot"
+  },
+  {
+    "asset": "assets/showcase/swim-power-1-1-journey-zh.webp",
+    "source": "SwimPower/AppStore/Releases/1.1/Screenshots/upload/zh-Hant/ipad/01-journey.png",
+    "kind": "project-app-store-screenshot",
+    "version": "1.1",
+    "build": "2",
+    "syntheticData": true,
+    "sourceSha256": "7873dd8b94dca50d46d05589255bf0cc4de6f054af355aac674210d471c39e12"
+  },
+  {
+    "asset": "assets/showcase/swim-power-1-1-journey-en.webp",
+    "source": "SwimPower/AppStore/Releases/1.1/Screenshots/upload/en/ipad/01-journey.png",
+    "kind": "project-app-store-screenshot",
+    "version": "1.1",
+    "build": "2",
+    "syntheticData": true,
+    "sourceSha256": "96798ec2578402bb9093168934d3a1eaaf3c7c674db1a466ea0c72649f4f5203"
+  },
+  {
+    "asset": "assets/showcase/swim-power-1-1-achievement-zh.webp",
+    "source": "SwimPower/AppStore/Releases/1.1/Screenshots/upload/zh-Hant/iphone/03-achievement.png",
+    "kind": "project-app-store-screenshot",
+    "version": "1.1",
+    "build": "2",
+    "syntheticData": true,
+    "sourceSha256": "5cdd469ce394b1f99c6d347bdd2c4d5493adfe7b9657ccc5a091d4ba9af4d7f5"
+  },
+  {
+    "asset": "assets/showcase/swim-power-1-1-achievement-en.webp",
+    "source": "SwimPower/AppStore/Releases/1.1/Screenshots/upload/en/iphone/03-achievement.png",
+    "kind": "project-app-store-screenshot",
+    "version": "1.1",
+    "build": "2",
+    "syntheticData": true,
+    "sourceSha256": "be1d51e95067c19554723bba6e4898a72e1ec8103f82460d55ca859659e5f80f"
   }
 ]

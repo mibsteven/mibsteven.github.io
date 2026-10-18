@@ -336,43 +336,49 @@
         "en": "Swim Power"
       },
       "summary": {
-        "zh": "把游泳秒數的變化轉成看得懂的分析，幫助泳者、家長與教練討論進步。",
-        "en": "Turn swim-time changes into understandable insights for swimmers, parents, and coaches."
+        "zh": "用每週目標、旅程與成就卡片，留下每一趟游泳的進步；記錄成績，回看相對趨勢。",
+        "en": "Record every swim, revisit relative trends, and celebrate progress through weekly goals, a training journey, and achievement cards."
       },
       "page": "apps/swim-power.html",
       "icon": "assets/apps/thumbs/swim-power-icon.png",
       "store": "https://apps.apple.com/us/app/swim-power/id6779881141",
-      "updated": "2026-06-16",
+      "updated": "2026-10-16",
       "media": [
         {
           "src": {
-            "zh": "assets/showcase/swim-power-1-zh.webp",
-            "en": "assets/showcase/swim-power-1-en.webp"
+            "zh": "assets/showcase/swim-power-1-1-journey-zh.webp",
+            "en": "assets/showcase/swim-power-1-1-journey-en.webp"
           },
           "width": {
-            "zh": 1079,
-            "en": 1079
+            "zh": 1080,
+            "en": 1080
           },
           "height": {
             "zh": 1440,
             "en": 1440
           },
-          "caption": {}
+          "caption": {
+            "zh": "iPad 旅程：一起查看個人最佳、每週目標與旅程章節。畫面使用示範資料。",
+            "en": "Journey on iPad brings personal bests, weekly goals, and chapters together. Shown with sample data."
+          }
         },
         {
           "src": {
-            "zh": "assets/showcase/swim-power-2-zh.webp",
-            "en": "assets/showcase/swim-power-2-en.webp"
+            "zh": "assets/showcase/swim-power-1-1-achievement-zh.webp",
+            "en": "assets/showcase/swim-power-1-1-achievement-en.webp"
           },
           "width": {
-            "zh": 1079,
-            "en": 1079
+            "zh": 663,
+            "en": 663
           },
           "height": {
             "zh": 1440,
             "en": 1440
           },
-          "caption": {}
+          "caption": {
+            "zh": "iPhone 成就回放：保留進步時刻，查看比較依據，再預覽分享。畫面使用示範資料。",
+            "en": "Revisit an achievement on iPhone, inspect the comparison behind it, and preview sharing. Shown with sample data."
+          }
         }
       ],
       "category": "tools",
@@ -382,9 +388,16 @@
       ],
       "rank": 20,
       "pricing": "paid",
-      "storeVerified": "2026-09-05",
-      "version": "1.0",
-      "aliases": [],
+      "storeVerified": "2026-10-18",
+      "version": "1.1",
+      "aliases": [
+        "游泳",
+        "泳訓",
+        "訓練紀錄",
+        "成就卡片",
+        "swimming",
+        "training log"
+      ],
       "featured": false,
       "notes": {
         "zh": "",
@@ -392,7 +405,11 @@
       },
       "categories": [
         "tools"
-      ]
+      ],
+      "releaseLabel": {
+        "zh": "1.1 新版上架",
+        "en": "Version 1.1 available"
+      }
     },
     {
       "id": "home-edu-assistance",
@@ -987,8 +1004,14 @@
             "zh": "assets/showcase/diorama-map-maker-1-1-desert-zh.webp",
             "en": "assets/showcase/diorama-map-maker-1-1-desert-en.webp"
           },
-          "width": { "zh": 1440, "en": 1440 },
-          "height": { "zh": 1080, "en": 1080 },
+          "width": {
+            "zh": 1440,
+            "en": 1440
+          },
+          "height": {
+            "zh": 1080,
+            "en": 1080
+          },
           "caption": {
             "zh": "iPad：嘗試風蝕荒漠，一鍵生成另一個版本，再套用喜歡的調整。",
             "en": "iPad: explore Wind-shaped Desert, generate another variation, and apply the changes you like."
@@ -999,8 +1022,14 @@
             "zh": "assets/showcase/diorama-map-maker-1-1-compare-zh.webp",
             "en": "assets/showcase/diorama-map-maker-1-1-compare-en.webp"
           },
-          "width": { "zh": 1440, "en": 1440 },
-          "height": { "zh": 900, "en": 900 },
+          "width": {
+            "zh": 1440,
+            "en": 1440
+          },
+          "height": {
+            "zh": 900,
+            "en": 900
+          },
           "caption": {
             "zh": "Mac：比較保存的場景版本，選擇下一步想繼續創作的地景。",
             "en": "Mac: compare saved scene versions and choose the landscape to keep working on."
@@ -1793,8 +1822,14 @@
             "zh": "assets/showcase/musheetcreator-1-1-0-playback-zh.webp",
             "en": "assets/showcase/musheetcreator-1-1-0-playback-en.webp"
           },
-          "width": { "zh": 662, "en": 662 },
-          "height": { "zh": 1440, "en": 1440 },
+          "width": {
+            "zh": 662,
+            "en": 662
+          },
+          "height": {
+            "zh": 1440,
+            "en": 1440
+          },
           "caption": {
             "zh": "iPhone：分別選擇原音選段與樂譜合成音，邊聽邊校對。",
             "en": "iPhone: choose the original audio selection or synthesized score to compare and refine the draft."
@@ -1805,8 +1840,14 @@
             "zh": "assets/showcase/musheetcreator-1-1-0-export-zh.webp",
             "en": "assets/showcase/musheetcreator-1-1-0-export-en.webp"
           },
-          "width": { "zh": 1080, "en": 1080 },
-          "height": { "zh": 1440, "en": 1440 },
+          "width": {
+            "zh": 1080,
+            "en": 1080
+          },
+          "height": {
+            "zh": 1440,
+            "en": 1440
+          },
           "caption": {
             "zh": "iPad：依用途匯出 PDF、MIDI、HTML、事件文字或作品備份。",
             "en": "iPad: export PDF, MIDI, HTML, event text, or a project backup for your next step."
