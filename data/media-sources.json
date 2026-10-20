@@ -584,5 +584,71 @@
     "build": "2",
     "sourceSha256": "b4b56b95fbf677f36288b14516760427663b9981c7bdd433977d2c373e41e92e",
     "capture": "Simulator screenshot; Traditional Chinese interface; example story content"
+  },
+  {
+    "asset": "assets/showcase/sticker-vault-1-2-1-create-zh.webp",
+    "source": "StickerVault/AppStore/1.2.1/Screenshots/zh-Hant/01-Duo-Create.jpg",
+    "kind": "project-app-store-screenshot",
+    "version": "1.2.1",
+    "build": "2",
+    "sourceSha256": "6e55c30217619861f2aa6ba05861f298e9a509d03116d7770dd6c81c202e9f3f",
+    "capture": "Actual app UI in iPhone Duo simulator, iOS 27.1; isolated sample data; foreground PNG produced by the app on a physical iPhone.",
+    "photoCredit": "Cat on home.jpg by FahimHP, CC0 1.0",
+    "photoSource": "https://commons.wikimedia.org/wiki/File:Cat_on_home.jpg"
+  },
+  {
+    "asset": "assets/showcase/sticker-vault-1-2-1-create-en.webp",
+    "source": "StickerVault/AppStore/1.2.1/Screenshots/en-US/01-Duo-Create.jpg",
+    "kind": "project-app-store-screenshot",
+    "version": "1.2.1",
+    "build": "2",
+    "sourceSha256": "ba3cd1744c1e4123c6dc5a95cb55ee3a14ba0c62b985919cf9c6e2fb7dad7d5e",
+    "capture": "Actual app UI in iPhone Duo simulator, iOS 27.1; isolated sample data; foreground PNG produced by the app on a physical iPhone.",
+    "photoCredit": "Cat on home.jpg by FahimHP, CC0 1.0",
+    "photoSource": "https://commons.wikimedia.org/wiki/File:Cat_on_home.jpg"
+  },
+  {
+    "asset": "assets/showcase/sticker-vault-1-2-1-library-zh.webp",
+    "source": "StickerVault/AppStore/1.2.1/Screenshots/zh-Hant/02-Duo-Library.jpg",
+    "kind": "project-app-store-screenshot",
+    "version": "1.2.1",
+    "build": "2",
+    "sourceSha256": "1c456bf1660034c2de9c6e6842f120b7b9a2ff377cf093af13b121181a31435b",
+    "capture": "Actual app UI in iPhone Duo simulator, iOS 27.1; isolated sample data; foreground PNG produced by the app on a physical iPhone.",
+    "photoCredit": "Cat on home.jpg by FahimHP, CC0 1.0",
+    "photoSource": "https://commons.wikimedia.org/wiki/File:Cat_on_home.jpg"
+  },
+  {
+    "asset": "assets/showcase/sticker-vault-1-2-1-library-en.webp",
+    "source": "StickerVault/AppStore/1.2.1/Screenshots/en-US/02-Duo-Library.jpg",
+    "kind": "project-app-store-screenshot",
+    "version": "1.2.1",
+    "build": "2",
+    "sourceSha256": "ded0d122ad15b5de0e086d8c68aa7e3dbb946cb838080cfa1affdc1d7665957c",
+    "capture": "Actual app UI in iPhone Duo simulator, iOS 27.1; isolated sample data; foreground PNG produced by the app on a physical iPhone.",
+    "photoCredit": "Cat on home.jpg by FahimHP, CC0 1.0",
+    "photoSource": "https://commons.wikimedia.org/wiki/File:Cat_on_home.jpg"
+  },
+  {
+    "asset": "assets/showcase/sticker-vault-1-2-1-tags-zh.webp",
+    "source": "StickerVault/AppStore/1.2.1/Screenshots/zh-Hant/03-Duo-Tags.jpg",
+    "kind": "project-app-store-screenshot",
+    "version": "1.2.1",
+    "build": "2",
+    "sourceSha256": "c0812bfbf55b918ce261a1365de763d71921c5e535cefdc0b89bf2344b44092e",
+    "capture": "Actual app UI in iPhone Duo simulator, iOS 27.1; isolated sample data; foreground PNG produced by the app on a physical iPhone.",
+    "photoCredit": "Cat on home.jpg by FahimHP, CC0 1.0",
+    "photoSource": "https://commons.wikimedia.org/wiki/File:Cat_on_home.jpg"
+  },
+  {
+    "asset": "assets/showcase/sticker-vault-1-2-1-tags-en.webp",
+    "source": "StickerVault/AppStore/1.2.1/Screenshots/en-US/03-Duo-Tags.jpg",
+    "kind": "project-app-store-screenshot",
+    "version": "1.2.1",
+    "build": "2",
+    "sourceSha256": "a57077893db5d3ffbde31d23fcd60420f938b5a485f39158cc83f771ca6ec21b",
+    "capture": "Actual app UI in iPhone Duo simulator, iOS 27.1; isolated sample data; foreground PNG produced by the app on a physical iPhone.",
+    "photoCredit": "Cat on home.jpg by FahimHP, CC0 1.0",
+    "photoSource": "https://commons.wikimedia.org/wiki/File:Cat_on_home.jpg"
   }
 ]

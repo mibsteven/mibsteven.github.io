@@ -1289,30 +1289,72 @@
     {
       "id": "sticker-vault",
       "name": {
-        "zh": "Sticker Vault",
-        "en": "Sticker Vault"
+        "zh": "貼圖寶庫",
+        "en": "Personal Sticker Vault"
       },
       "summary": {
-        "zh": "把照片整理成貼圖收藏，直接在 iMessage 分享。",
-        "en": "Turn photos into a sticker collection and share them in iMessage."
+        "zh": "把照片做成有文字的貼圖，用名稱與標籤整理收藏，再到 iMessage 分享。",
+        "en": "Turn photos into stickers with your own text, organise them by name and tag, and share in iMessage."
       },
       "page": "apps/sticker-vault.html",
       "icon": "assets/apps/thumbs/sticker-vault-icon.png",
       "store": "https://apps.apple.com/tw/app/personal-sticker-vault/id6762514383?l=en-GB",
-      "updated": "2026-04-21",
+      "updated": "2026-10-20",
       "media": [
         {
           "src": {
-            "zh": "assets/showcase/sticker-vault-1-store.webp"
+            "zh": "assets/showcase/sticker-vault-1-2-1-create-zh.webp",
+            "en": "assets/showcase/sticker-vault-1-2-1-create-en.webp"
           },
           "width": {
-            "zh": 1079
+            "zh": 1440,
+            "en": 1440
           },
           "height": {
-            "zh": 1440
+            "zh": 1013,
+            "en": 1013
           },
-          "caption": {},
-          "shared": true
+          "caption": {
+            "zh": "在 iPhone Duo 展開畫面製作貼圖，調整文字、顏色與位置。",
+            "en": "Create a sticker and adjust its text, colour, and position on the expanded iPhone Duo display."
+          },
+          "existing": true
+        },
+        {
+          "src": {
+            "zh": "assets/showcase/sticker-vault-1-2-1-library-zh.webp",
+            "en": "assets/showcase/sticker-vault-1-2-1-library-en.webp"
+          },
+          "width": {
+            "zh": 1440,
+            "en": 1440
+          },
+          "height": {
+            "zh": 1013,
+            "en": 1013
+          },
+          "caption": {
+            "zh": "依名稱或標籤搜尋收藏，並排查看貼圖詳細資料。",
+            "en": "Search your collection by name or tag and view sticker details alongside the library."
+          }
+        },
+        {
+          "src": {
+            "zh": "assets/showcase/sticker-vault-1-2-1-tags-zh.webp",
+            "en": "assets/showcase/sticker-vault-1-2-1-tags-en.webp"
+          },
+          "width": {
+            "zh": 1440,
+            "en": 1440
+          },
+          "height": {
+            "zh": 1013,
+            "en": 1013
+          },
+          "caption": {
+            "zh": "編輯貼圖名稱與標籤，讓下次找圖更容易。",
+            "en": "Edit sticker names and tags to make the right reaction easier to find."
+          }
         }
       ],
       "category": "tools",
@@ -1322,17 +1364,28 @@
       ],
       "rank": 25,
       "pricing": "paid",
-      "storeVerified": "2026-09-05",
-      "version": "1.1",
-      "aliases": [],
+      "storeVerified": "2026-10-20",
+      "version": "1.2.1",
+      "aliases": [
+        "Sticker Vault",
+        "StickerVault",
+        "Personal Sticker Vault",
+        "貼圖寶庫",
+        "貼圖",
+        "iMessage"
+      ],
       "featured": false,
       "notes": {
-        "zh": "",
-        "en": ""
+        "zh": "iPhone／iPad 1.2.1，持續支援 iOS／iPadOS 26.4。照片去背在裝置上完成；可選擇本機保存或私人 iCloud 同步。",
+        "en": "Version 1.2.1 for iPhone and iPad continues to support iOS/iPadOS 26.4. Background removal runs on your device; choose local storage or private iCloud sync."
       },
       "categories": [
         "tools"
-      ]
+      ],
+      "releaseLabel": {
+        "zh": "1.2.1 新版上架",
+        "en": "Version 1.2.1"
+      }
     },
     {
       "id": "zhuyin-story",
