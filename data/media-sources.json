@@ -539,5 +539,50 @@
     "build": "2",
     "syntheticData": true,
     "sourceSha256": "be1d51e95067c19554723bba6e4898a72e1ec8103f82460d55ca859659e5f80f"
+  },
+  {
+    "asset": "assets/showcase/zhuyin-story-1-2-reader-zh.webp",
+    "source": "JuYinStory/AppStore/1.2/Screenshots/iPhone/01-reader.png",
+    "kind": "project-app-store-screenshot",
+    "version": "1.2",
+    "build": "2",
+    "sourceSha256": "095b19e580b3122520fb1804584db2e8437f781e4f514d92b9766a7ee439c030",
+    "capture": "Simulator screenshot; Traditional Chinese interface; example story content"
+  },
+  {
+    "asset": "assets/showcase/zhuyin-story-1-2-dictionary-ipad-zh.webp",
+    "source": "JuYinStory/AppStore/1.2/Screenshots/iPad/01-dictionary-word.png",
+    "kind": "project-app-store-screenshot",
+    "version": "1.2",
+    "build": "2",
+    "sourceSha256": "76e01cefcf4f8aa68fc13d0f453b0b319f8b9e7e791a7a46ac276037022a673f",
+    "capture": "Simulator screenshot; Traditional Chinese interface; example story content"
+  },
+  {
+    "asset": "assets/showcase/zhuyin-story-1-2-dictionary-vision-zh.webp",
+    "source": "JuYinStory/AppStore/1.2/Screenshots/visionOS/02-dictionary-word.png",
+    "kind": "project-app-store-screenshot",
+    "version": "1.2",
+    "build": "2",
+    "sourceSha256": "5b4352b93dfc883989b580b24540000d4f6726a8dfccfca9ec78c643885ae1a1",
+    "capture": "Simulator screenshot; Traditional Chinese interface; example story content"
+  },
+  {
+    "asset": "assets/showcase/zhuyin-story-1-2-creation-vision-zh.webp",
+    "source": "JuYinStory/AppStore/1.2/Screenshots/visionOS/04-story-creation.png",
+    "kind": "project-app-store-screenshot",
+    "version": "1.2",
+    "build": "2",
+    "sourceSha256": "c92c1189b449a6e86bd9ba0401c4f8e4e7fa5859267d9ec48d1820c47740dfaf",
+    "capture": "Simulator screenshot; Traditional Chinese interface; example story content"
+  },
+  {
+    "asset": "assets/showcase/zhuyin-story-1-2-illustration-vision-zh.webp",
+    "source": "JuYinStory/AppStore/1.2/Screenshots/visionOS/05-illustration-reading.png",
+    "kind": "project-app-store-screenshot",
+    "version": "1.2",
+    "build": "2",
+    "sourceSha256": "b4b56b95fbf677f36288b14516760427663b9981c7bdd433977d2c373e41e92e",
+    "capture": "Simulator screenshot; Traditional Chinese interface; example story content"
   }
 ]

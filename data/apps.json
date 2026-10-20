@@ -1341,29 +1341,104 @@
         "en": "Zhuyin Story"
       },
       "summary": {
-        "zh": "每天都有新的注音故事，搭配插畫與朗讀，陪孩子練習閱讀。",
-        "en": "Fresh Zhuyin stories, illustrations, and read-aloud support for young readers."
+        "zh": "邊讀注音故事，邊點字查教育部辭典；離線查詞、朗讀陪讀，生成故事不用 API 金鑰。",
+        "en": "Read Zhuyin stories and tap words for offline Ministry of Education definitions. Create new stories without API key setup."
       },
       "page": "apps/zhuyin-story.html",
       "icon": "assets/apps/thumbs/zhuyin-story-icon.png",
       "store": "https://apps.apple.com/us/app/%E6%B3%A8%E9%9F%B3%E6%95%85%E4%BA%8B/id6762072592",
-      "updated": "2026-04-19",
+      "updated": "2026-10-20",
       "media": [
         {
           "src": {
-            "zh": "assets/showcase/zhuyin-story-cover-zh.webp",
-            "en": "assets/showcase/zhuyin-story-cover-en.webp"
+            "zh": "assets/showcase/zhuyin-story-1-2-reader-zh.webp",
+            "en": "assets/showcase/zhuyin-story-1-2-reader-zh.webp"
           },
           "width": {
-            "zh": 1000,
-            "en": 1000
+            "zh": 662,
+            "en": 662
           },
           "height": {
-            "zh": 1000,
-            "en": 1000
+            "zh": 1440,
+            "en": 1440
           },
-          "caption": {},
+          "caption": {
+            "zh": "iPhone 注音閱讀與朗讀控制。",
+            "en": "Zhuyin reading and playback controls on iPhone (Traditional Chinese interface)."
+          },
           "existing": true
+        },
+        {
+          "src": {
+            "zh": "assets/showcase/zhuyin-story-1-2-dictionary-ipad-zh.webp",
+            "en": "assets/showcase/zhuyin-story-1-2-dictionary-ipad-zh.webp"
+          },
+          "width": {
+            "zh": 1080,
+            "en": 1080
+          },
+          "height": {
+            "zh": 1440,
+            "en": 1440
+          },
+          "caption": {
+            "zh": "在 iPad 閱讀時查「森林」，同時查看教育部詞條、注音與解釋。",
+            "en": "Look up 森林 while reading on iPad, with Ministry of Education pronunciation and definitions (Traditional Chinese interface)."
+          }
+        },
+        {
+          "src": {
+            "zh": "assets/showcase/zhuyin-story-1-2-dictionary-vision-zh.webp",
+            "en": "assets/showcase/zhuyin-story-1-2-dictionary-vision-zh.webp"
+          },
+          "width": {
+            "zh": 1440,
+            "en": 1440
+          },
+          "height": {
+            "zh": 810,
+            "en": 810
+          },
+          "caption": {
+            "zh": "Apple Vision Pro 閱讀器中的詞語查詢，可切換成單字。",
+            "en": "Look up a contextual word or switch to a single character on Apple Vision Pro (Traditional Chinese interface)."
+          }
+        },
+        {
+          "src": {
+            "zh": "assets/showcase/zhuyin-story-1-2-creation-vision-zh.webp",
+            "en": "assets/showcase/zhuyin-story-1-2-creation-vision-zh.webp"
+          },
+          "width": {
+            "zh": 1440,
+            "en": 1440
+          },
+          "height": {
+            "zh": 810,
+            "en": 810
+          },
+          "caption": {
+            "zh": "從生活中的聲音與感官素材開始，選擇故事方向。",
+            "en": "Start with everyday sounds and sensory prompts to choose a story direction (Traditional Chinese interface)."
+          }
+        },
+        {
+          "src": {
+            "zh": "assets/showcase/zhuyin-story-1-2-illustration-vision-zh.webp",
+            "en": "assets/showcase/zhuyin-story-1-2-illustration-vision-zh.webp"
+          },
+          "width": {
+            "zh": 1440,
+            "en": 1440
+          },
+          "height": {
+            "zh": 810,
+            "en": 810
+          },
+          "caption": {
+            "zh": "在 Apple Vision Pro 分開擺放故事與插圖；畫面顯示 2D 插圖及轉換 3D 的入口。",
+            "en": "Arrange the reader and illustration separately on Apple Vision Pro; shown in 2D with the 3D conversion control (Traditional Chinese interface)."
+          }
         }
       ],
       "category": "learning",
@@ -1374,22 +1449,33 @@
       ],
       "rank": 17,
       "pricing": "paid",
-      "storeVerified": "2026-09-05",
-      "version": "1.0",
+      "storeVerified": "2026-10-20",
+      "version": "iOS 1.2 / visionOS 1.2",
       "aliases": [
         "注音",
         "兒童閱讀",
+        "親子共讀",
         "Zhuyin Story",
-        "Bopomofo"
+        "JuYinStory",
+        "Bopomofo",
+        "離線辭典",
+        "教育部辭典",
+        "破音字",
+        "查字",
+        "offline dictionary"
       ],
       "featured": false,
       "notes": {
-        "zh": "",
-        "en": ""
+        "zh": "iOS 1.2 與 visionOS 1.2 已上架。生成故事需支援且已啟用 Apple Intelligence 的裝置與已下載模型；插圖與空間影像依系統支援提供。已儲存故事與內建辭典可離線閱讀及查詢。",
+        "en": "iOS 1.2 and visionOS 1.2 are available. Story generation requires a supported device with Apple Intelligence enabled and its model downloaded. Illustration and spatial-image features depend on system support. Saved stories and the built-in dictionary are available offline."
       },
       "categories": [
         "learning"
-      ]
+      ],
+      "releaseLabel": {
+        "zh": "雙平台 1.2 更新",
+        "en": "iOS + visionOS 1.2"
+      }
     },
     {
       "id": "english-savior",
