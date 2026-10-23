@@ -650,5 +650,59 @@
     "capture": "Actual app UI in iPhone Duo simulator, iOS 27.1; isolated sample data; foreground PNG produced by the app on a physical iPhone.",
     "photoCredit": "Cat on home.jpg by FahimHP, CC0 1.0",
     "photoSource": "https://commons.wikimedia.org/wiki/File:Cat_on_home.jpg"
+  },
+  {
+    "asset": "assets/showcase/vectrafin-1-3-statistics-zh.webp",
+    "source": "VectraFin/Docs/Releases/1.3/StoreScreenshots/Duo/zh-Hant/01-open-statistics.jpg",
+    "kind": "project-app-store-screenshot",
+    "version": "1.3",
+    "build": "3",
+    "sourceSha256": "ae4aa6896a9798c320b25cd388111c0d0e83be0e6f90eec9c0cfd892c08d01fd",
+    "capture": "Native iPhone Duo simulator capture of the isolated built-in Demo. English build 2 screenshots retained for unchanged UI in the build 3 release."
+  },
+  {
+    "asset": "assets/showcase/vectrafin-1-3-statistics-en.webp",
+    "source": "VectraFin/Docs/Releases/1.3/StoreScreenshots/Duo/en-US/01-open-statistics.jpg",
+    "kind": "project-app-store-screenshot",
+    "version": "1.3",
+    "build": "2",
+    "sourceSha256": "2c80c943d969bec9c9edc70b45a01291b9f17dc5dff406882064b8d78fe7fb48",
+    "capture": "Native iPhone Duo simulator capture of the isolated built-in Demo. English build 2 screenshots retained for unchanged UI in the build 3 release."
+  },
+  {
+    "asset": "assets/showcase/vectrafin-1-3-ledger-zh.webp",
+    "source": "VectraFin/Docs/Releases/1.3/StoreScreenshots/Duo/zh-Hant/02-open-ledger.jpg",
+    "kind": "project-app-store-screenshot",
+    "version": "1.3",
+    "build": "3",
+    "sourceSha256": "742c1f169f74b41b36bf7ace17b675891c61b3e8d4f6ebbed30f2b4d4dc6ba5f",
+    "capture": "Native iPhone Duo simulator capture of the isolated built-in Demo. English build 2 screenshots retained for unchanged UI in the build 3 release."
+  },
+  {
+    "asset": "assets/showcase/vectrafin-1-3-ledger-en.webp",
+    "source": "VectraFin/Docs/Releases/1.3/StoreScreenshots/Duo/en-US/02-open-ledger.jpg",
+    "kind": "project-app-store-screenshot",
+    "version": "1.3",
+    "build": "2",
+    "sourceSha256": "3b728f56ce564887d0bb2434ebd4cbddcf26ba194bdafea6a148d1d789a1a9a1",
+    "capture": "Native iPhone Duo simulator capture of the isolated built-in Demo. English build 2 screenshots retained for unchanged UI in the build 3 release."
+  },
+  {
+    "asset": "assets/showcase/vectrafin-1-3-compact-zh.webp",
+    "source": "VectraFin/Docs/Releases/1.3/StoreScreenshots/Duo/zh-Hant/03-closed-statistics.jpg",
+    "kind": "project-app-store-screenshot",
+    "version": "1.3",
+    "build": "3",
+    "sourceSha256": "afb20d3826dd6300b2dc1c7ffadb3e4e975f0f1e1d69f8eb4f72030b3ebfbdf9",
+    "capture": "Native iPhone Duo simulator capture of the isolated built-in Demo. English build 2 screenshots retained for unchanged UI in the build 3 release."
+  },
+  {
+    "asset": "assets/showcase/vectrafin-1-3-compact-en.webp",
+    "source": "VectraFin/Docs/Releases/1.3/StoreScreenshots/Duo/en-US/03-closed-statistics.jpg",
+    "kind": "project-app-store-screenshot",
+    "version": "1.3",
+    "build": "2",
+    "sourceSha256": "9101cc499625a33c6cfbe6ae60bb8f5976e9f4e51340d1d0c20c1c54bdd8142d",
+    "capture": "Native iPhone Duo simulator capture of the isolated built-in Demo. English build 2 screenshots retained for unchanged UI in the build 3 release."
   }
 ]

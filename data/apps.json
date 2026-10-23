@@ -7,26 +7,68 @@
         "en": "VectraFin"
       },
       "summary": {
-        "zh": "用自己的分類方式記帳，整理資產與負債，回看收支變化。",
-        "en": "Track spending your way, organise assets and debts, and follow changes over time."
+        "zh": "以自己的標籤記帳，搜尋完整歷史，從收支、資產與負債回看財務變化。",
+        "en": "Organise money with your own tags, search your full history, and explore income, spending, assets, and debts."
       },
       "page": "apps/vectrafin.html",
       "icon": "assets/apps/thumbs/vectrafin-icon.png",
-      "store": "https://apps.apple.com/tw/app/%E5%90%91%E9%87%8F%E8%B2%A1%E7%AE%A1/id6765916287?l=en-GB",
-      "updated": "2026-05-06",
+      "store": "https://apps.apple.com/tw/app/vectrafin/id6765916287?l=en-GB",
+      "updated": "2026-10-22",
       "media": [
         {
           "src": {
-            "zh": "assets/showcase/vectrafin-1-store.webp"
+            "zh": "assets/showcase/vectrafin-1-3-statistics-zh.webp",
+            "en": "assets/showcase/vectrafin-1-3-statistics-en.webp"
           },
           "width": {
-            "zh": 1079
+            "zh": 1440,
+            "en": 1440
           },
           "height": {
-            "zh": 1440
+            "zh": 1013,
+            "en": 1013
           },
-          "caption": {},
-          "shared": true
+          "caption": {
+            "zh": "展開統計畫面，依日期與標籤查看正項、負項與淨額。",
+            "en": "Review positive and negative entries, net amounts, dates, and tags on the expanded display."
+          },
+          "existing": true
+        },
+        {
+          "src": {
+            "zh": "assets/showcase/vectrafin-1-3-ledger-zh.webp",
+            "en": "assets/showcase/vectrafin-1-3-ledger-en.webp"
+          },
+          "width": {
+            "zh": 1440,
+            "en": 1440
+          },
+          "height": {
+            "zh": 1013,
+            "en": 1013
+          },
+          "caption": {
+            "zh": "從正負方向、日期與標籤建立帳目，也能設定週期帳。",
+            "en": "Create entries with a direction, date, and tags, including recurring entries."
+          }
+        },
+        {
+          "src": {
+            "zh": "assets/showcase/vectrafin-1-3-compact-zh.webp",
+            "en": "assets/showcase/vectrafin-1-3-compact-en.webp"
+          },
+          "width": {
+            "zh": 990,
+            "en": 990
+          },
+          "height": {
+            "zh": 1440,
+            "en": 1440
+          },
+          "caption": {
+            "zh": "收合後以單欄閱讀統計，切換實際資料與含預測的查詢。",
+            "en": "Read statistics in a compact layout and switch between actual data and queries with forecasts."
+          }
         }
       ],
       "category": "tools",
@@ -36,17 +78,29 @@
       ],
       "rank": 23,
       "pricing": "paid",
-      "storeVerified": "2026-09-05",
-      "version": "1.0",
-      "aliases": [],
+      "storeVerified": "2026-10-23",
+      "version": "1.3",
+      "aliases": [
+        "VectraFin",
+        "向量財管",
+        "記帳",
+        "資產",
+        "負債",
+        "Hashtag",
+        "備份"
+      ],
       "featured": false,
       "notes": {
-        "zh": "",
-        "en": ""
+        "zh": "iPhone／iPad 1.3，需要 iOS／iPadOS 26.4 或以上。資料預設留在裝置上，無須註冊；可選擇使用自己的 iCloud 帳號進行快照備份及同步。",
+        "en": "Version 1.3 for iPhone and iPad requires iOS/iPadOS 26.4 or later. Data stays on your device by default, with no registration. Optional snapshots and sync use your own iCloud account."
       },
       "categories": [
         "tools"
-      ]
+      ],
+      "releaseLabel": {
+        "zh": "1.3 新版上架",
+        "en": "Version 1.3"
+      }
     },
     {
       "id": "knowmenote",
