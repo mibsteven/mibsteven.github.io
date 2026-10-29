@@ -704,5 +704,53 @@
     "build": "2",
     "sourceSha256": "9101cc499625a33c6cfbe6ae60bb8f5976e9f4e51340d1d0c20c1c54bdd8142d",
     "capture": "Native iPhone Duo simulator capture of the isolated built-in Demo. English build 2 screenshots retained for unchanged UI in the build 3 release."
+  },
+  {
+    "asset": "assets/showcase/tealog-1-3-courses-zh.webp",
+    "source": "TeaLog/Docs/Release-1.3/screenshots/zh-Hant/duo/01-courses.png",
+    "kind": "project-app-store-screenshot",
+    "version": "1.3",
+    "sourceSha256": "b141ce5080ae79ac0b381ee32b0f65e7bddc7429c7b107d4989578dcefc6fffa",
+    "capture": "Simulator screenshot from the 1.3 App Store set; fictional demonstration courses and students."
+  },
+  {
+    "asset": "assets/showcase/tealog-1-3-courses-en.webp",
+    "source": "TeaLog/Docs/Release-1.3/screenshots/en/duo/01-courses.png",
+    "kind": "project-app-store-screenshot",
+    "version": "1.3",
+    "sourceSha256": "eec1157d837981e112153baae66d4d1ead7686dadf64cf2f207c42038175d0eb",
+    "capture": "Simulator screenshot from the 1.3 App Store set; fictional demonstration courses and students."
+  },
+  {
+    "asset": "assets/showcase/tealog-1-3-attendance-zh.webp",
+    "source": "TeaLog/Docs/Release-1.3/screenshots/zh-Hant/phone/02-attendance.png",
+    "kind": "project-app-store-screenshot",
+    "version": "1.3",
+    "sourceSha256": "1d36080c5b0320f5886b11c99ac13390502d525cd08266c6facf9d7e66cadaed",
+    "capture": "Simulator screenshot from the 1.3 App Store set; fictional demonstration courses and students."
+  },
+  {
+    "asset": "assets/showcase/tealog-1-3-attendance-en.webp",
+    "source": "TeaLog/Docs/Release-1.3/screenshots/en/phone/02-attendance.png",
+    "kind": "project-app-store-screenshot",
+    "version": "1.3",
+    "sourceSha256": "c070fc8c26b014e80aaa917a0cf08b1df9da3b98d1f8ed6b45a67df12d65c637",
+    "capture": "Simulator screenshot from the 1.3 App Store set; fictional demonstration courses and students."
+  },
+  {
+    "asset": "assets/showcase/tealog-1-3-roster-zh.webp",
+    "source": "TeaLog/Docs/Release-1.3/screenshots/zh-Hant/ipad/03-roster.png",
+    "kind": "project-app-store-screenshot",
+    "version": "1.3",
+    "sourceSha256": "cc288b6768a09c2d01630be4c2753917ef8a53e030ec1a47f0236483d0ccd4e1",
+    "capture": "Simulator screenshot from the 1.3 App Store set; fictional demonstration courses and students."
+  },
+  {
+    "asset": "assets/showcase/tealog-1-3-roster-en.webp",
+    "source": "TeaLog/Docs/Release-1.3/screenshots/en/ipad/03-roster.png",
+    "kind": "project-app-store-screenshot",
+    "version": "1.3",
+    "sourceSha256": "e2a10d19a05d39a6a8d02dd1a421bb4395043dc22956736a000cf6b9be902a4f",
+    "capture": "Simulator screenshot from the 1.3 App Store set; fictional demonstration courses and students."
   }
 ]

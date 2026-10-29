@@ -1792,30 +1792,72 @@
     {
       "id": "shiji",
       "name": {
-        "zh": "師記",
-        "en": "Shiji"
+        "zh": "師記 TeaLog",
+        "en": "TeaLog"
       },
       "summary": {
-        "zh": "整理出缺勤、課堂記錄與聯絡簿草稿，讓教學中的重要細節有處可找。",
-        "en": "Organise attendance, classroom notes, and draft family updates in one place."
+        "zh": "把排課、點名與課堂筆記放在一起，先檢閱掃描名冊，再整理給家長的訊息。",
+        "en": "Keep schedules, attendance, and lesson notes together. Review scanned rosters and prepare updates for families."
       },
       "page": "apps/shiji.html",
       "icon": "assets/apps/thumbs/shiji-icon.png",
-      "store": "https://apps.apple.com/us/app/%E5%B8%AB%E8%A8%98/id6761170711",
-      "updated": "2026-05-11",
+      "store": "https://apps.apple.com/tw/app/tealog-by-yu-hsiang-chang/id6761170711?l=en-GB",
+      "updated": "2026-10-29",
       "media": [
         {
           "src": {
-            "zh": "assets/showcase/shiji-1-store.webp"
+            "zh": "assets/showcase/tealog-1-3-courses-zh.webp",
+            "en": "assets/showcase/tealog-1-3-courses-en.webp"
           },
           "width": {
-            "zh": 1079
+            "zh": 1440,
+            "en": 1440
           },
           "height": {
-            "zh": 1440
+            "zh": 1013,
+            "en": 1013
           },
-          "caption": {},
-          "shared": true
+          "caption": {
+            "zh": "從今日課務找到下一堂課，查看進行中與已完成的課程。iPhone Duo 展開畫面。",
+            "en": "Find the next lesson and review ongoing or completed courses on the expanded iPhone Duo display."
+          },
+          "existing": true
+        },
+        {
+          "src": {
+            "zh": "assets/showcase/tealog-1-3-attendance-zh.webp",
+            "en": "assets/showcase/tealog-1-3-attendance-en.webp"
+          },
+          "width": {
+            "zh": 662,
+            "en": 662
+          },
+          "height": {
+            "zh": 1440,
+            "en": 1440
+          },
+          "caption": {
+            "zh": "依課次記錄出缺勤與學生備註，搜尋座號或姓名。iPhone 畫面。",
+            "en": "Record attendance and student notes for each lesson; search by seat number or name. iPhone view."
+          }
+        },
+        {
+          "src": {
+            "zh": "assets/showcase/tealog-1-3-roster-zh.webp",
+            "en": "assets/showcase/tealog-1-3-roster-en.webp"
+          },
+          "width": {
+            "zh": 1080,
+            "en": 1080
+          },
+          "height": {
+            "zh": 1440,
+            "en": 1440
+          },
+          "caption": {
+            "zh": "對照原圖，檢查與修正辨識出的姓名、座號及聯絡信箱，再匯入名冊。iPad 畫面。",
+            "en": "Compare the source image with recognized names, seat numbers, and contact emails before importing. iPad view."
+          }
         }
       ],
       "category": "tools",
@@ -1825,23 +1867,35 @@
       ],
       "rank": 22,
       "pricing": "free",
-      "storeVerified": "2026-09-05",
-      "version": "1.2",
+      "storeVerified": "2026-10-29",
+      "version": "1.3",
       "aliases": [
+        "師記",
+        "Shiji",
+        "TeaLog by Yu-Hsiang Chang",
         "老師",
         "教師",
         "學生",
-        "teacher"
+        "teacher",
+        "排課",
+        "點名",
+        "名冊",
+        "attendance",
+        "roster"
       ],
       "featured": false,
       "notes": {
-        "zh": "免費下載，部分功能需訂閱。",
-        "en": "Free download; some features require a subscription."
+        "zh": "免費下載；新增與編輯紀錄需有效的 TeaLog Pro 訂閱。符合資格者可於訂閱確認後免費試用 3 個月，期滿自動續訂，除非取消。訂閱結束後仍可閱讀與匯出既有資料。",
+        "en": "Free download; creating and editing records requires an active TeaLog Pro subscription. Eligible new subscribers can confirm a plan with a 3-month free trial, followed by automatic renewal unless canceled. Existing records remain readable and exportable after the subscription ends."
       },
       "categories": [
         "tools",
         "learning"
-      ]
+      ],
+      "releaseLabel": {
+        "zh": "1.3 新版上架",
+        "en": "Version 1.3"
+      }
     },
     {
       "id": "melody-journal",
